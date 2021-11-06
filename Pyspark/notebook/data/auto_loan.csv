@@ -1,0 +1,1001 @@
+application_id,customer_id,car_price,car_model,customer_location,request_date,loan_status
+A_bfc8_5f2c1076521e,C_85542,6436,luxury cars,california,2020-01-14,approved
+A_98fd_619878723d1f,C_18419,6731,sedan,hawaii,2019-07-18,approved
+A_ac1b_6f65291e17e2,C_34019,6424,luxury cars,west virginia,2020-03-02,approved
+A_94c9_90aa7db883c9,C_8997,9827,crossover,north carolin,2019-07-08,approved
+A_8940_33963cb94682,C_46424,8385,limousine,south dakota,2020-01-08,approved
+A_b604_c1ffe6add5ea,C_80457,9200,estate cars,west virginia,2020-02-25,approved
+A_8898_6157cef0d372,C_38534,9337,estate cars,alabama,2019-05-05,approved
+A_a506_722250b347f1,C_7346,1548,coupe,idaho,2019-05-07,approved
+A_bb62_df925a2afc6a,C_93917,1113,modified cars,illinois,2019-04-24,approved
+A_90ec_1ec8d2f165da,C_61239,1718,limousine,california,2020-02-14,approved
+A_937a_b2b6f3e219e8,C_35010,1127,modified cars,michigan,2020-02-08,approved
+A_a377_be2f7d9a5b99,C_11778,8071,hybrid cars,north dakota,2019-10-14,approved
+A_9d1d_9a77ff5c2180,C_47931,7655,convertibles,virginia,2020-02-03,rejected
+A_8f3b_c98f2a59d1c5,C_597,4421,convertibles,wisconsin,2019-07-24,approved
+A_8256_b83b9483e20f,C_83432,9734,modified cars,new hampshire,2019-12-29,approved
+A_a5f0_9fcd74bbb0c3,C_34037,2947,limousine,oklahoma,2019-12-06,approved
+A_a5b5_f4d890468707,C_74564,6935,crossover,new jersey,2019-06-15,approved
+A_b90d_5ba3e210dafb,C_31438,6009,modified cars,maine,2019-09-24,approved
+A_912a_c41b5e64005d,C_41853,7139,pickup,ohio,2019-09-20,approved
+A_b123_57d5fd0770df,C_72871,8012,estate cars,florida,2020-01-09,approved
+A_93f6_5188f64427c1,C_13394,909,suvs,louisiana,2020-01-19,approved
+A_b8fb_fdd166979d4a,C_20255,4838,hybrid cars,utah,2020-02-28,approved
+A_b745_8b4963045780,C_21236,9687,economy hatchback,new hampshire,2020-03-14,approved
+A_a506_0a39fc215531,C_10341,3891,limousine,north carolin,2020-03-14,approved
+A_9459_fc0ab6f85f33,C_6279,6958,limousine,delaware,2019-06-30,approved
+A_9caa_e3e3cde7ab12,C_68520,8052,suvs,vermont,2019-08-24,approved
+A_967a_77902e2e3124,C_32799,1293,economy hatchback,arizona,2019-08-20,approved
+A_b72f_9ce1b0db3534,C_53125,2689,economy hatchback,alaska,2019-04-04,approved
+A_bf68_fa4ec3d0160b,C_8969,7696,luxury cars,texas,2019-12-21,approved
+A_8464_54bd47dc264d,C_45681,1424,crossover,vermont,2019-07-17,approved
+A_98a5_3a1e47ffc691,C_3047,9697,crossover,wyoming,2020-02-16,approved
+A_9c75_d97d9b02dd98,C_50507,4853,suvs,wisconsin,2020-03-30,approved
+A_94e2_cba84df45d4b,C_51247,5019,suvs,oklahoma,2019-04-16,approved
+A_9827_5f68c17855d1,C_79564,4572,coupe,arizona,2020-01-31,rejected
+A_ad36_3d701fdb6949,C_63606,3467,estate cars,arizona,2019-12-18,approved
+A_9af2_a58e01dfb958,C_63564,8697,modified cars,south carolina,2020-03-24,approved
+A_ab4f_80234656ab95,C_62382,4815,sedan,texas,2019-07-31,approved
+A_996e_438e891ee99b,C_23004,8754,luxury cars,arkansas,2019-10-03,approved
+A_8a1d_c4026489fc07,C_89382,2483,crossover,new hampshire,2019-08-14,approved
+A_b7e9_995257ac9c70,C_90009,1431,modified cars,colorado,2019-05-27,approved
+A_8a6c_1c70087672c3,C_36989,7624,hybrid cars,iowa,2019-07-02,approved
+A_9896_c195c47cc43a,C_61559,1237,economy hatchback,new york,2020-03-20,approved
+A_b7c6_5a5d83ca863f,C_47895,4102,limousine,nebraska,2019-06-14,rejected
+A_9b32_e7594a6f0d1d,C_16194,4571,convertibles,north dakota,2019-05-25,approved
+A_b446_a0412e9948e5,C_22705,4991,economy hatchback,minnesota,2019-09-14,approved
+A_b880_56c39ad14c3a,C_21671,5311,modified cars,nevada,2019-05-06,approved
+A_b9e4_9cb53d5a0765,C_99701,3330,microcar,texas,2019-11-17,rejected
+A_bbd6_d9911597e1ab,C_82640,6949,economy hatchback,ohio,2019-11-11,approved
+A_b8ac_09b0281483ce,C_42158,1856,limousine,south dakota,2019-09-07,approved
+A_96f9_5bcc1d07bfaa,C_86952,5331,economy hatchback,minnesota,2020-02-18,approved
+A_be53_200e1a37b49d,C_55089,7440,convertibles,maryland,2020-03-20,rejected
+A_b7ab_5248e84329ec,C_94786,4833,luxury cars,vermont,2019-06-27,approved
+A_8335_5fe598157862,C_31623,3288,estate cars,texas,2019-05-18,approved
+A_8992_c357d672b63b,C_94851,5764,luxury cars,michigan,2019-11-15,approved
+A_9eba_8798a268e11f,C_70088,7142,luxury cars,iowa,2019-08-16,approved
+A_a9a8_1ba61df60345,C_64251,9958,pickup,florida,2020-03-11,approved
+A_be43_b3f9e6c76c52,C_20578,8454,luxury cars,ohio,2019-05-04,approved
+A_b282_aec7b1c840c4,C_72298,6640,sports cars,delaware,2019-07-13,approved
+A_b4e5_db21d0a3f947,C_84698,3637,sports cars,georgia,2020-03-29,rejected
+A_b8da_c2dfb4938619,C_20773,1500,coupe,mississippi,2019-10-04,approved
+A_9a15_bccc84af8848,C_15,2656,sports cars,new york,2020-02-29,approved
+A_8285_b14fa06dd4b4,C_9957,6577,microcar,maryland,2019-07-09,approved
+A_802c_8edb856a61c4,C_12089,6060,estate cars,pennsylvania,2019-09-08,approved
+A_ba26_d1bd5132c437,C_6356,5377,crossover,wisconsin,2020-01-05,approved
+A_8317_c252d3531254,C_97097,3614,coupe,kentucky,2019-06-12,rejected
+A_80b1_8e6849b97dce,C_9794,8944,convertibles,new hampshire,2019-11-17,approved
+A_9294_3768b39ee068,C_68615,4894,modified cars,new mexico,2019-04-03,approved
+A_a464_fa9befa62c14,C_65286,2491,coupe,idaho,2020-01-26,approved
+A_a61b_8ec4380a65a1,C_5759,2924,suvs,california,2020-01-30,approved
+A_809b_15a1e21f6f8f,C_84756,3920,sedan,colorado,2020-02-22,approved
+A_86d2_e5f70c0357f8,C_59093,3327,sports cars,delaware,2019-07-18,approved
+A_a5c9_63a682bc9104,C_12677,2288,modified cars,texas,2019-05-01,approved
+A_bb22_2401047027a4,C_23118,6730,economy hatchback,utah,2019-10-17,approved
+A_81cc_25cfa4c356a7,C_98875,1173,sports cars,west virginia,2020-02-19,approved
+A_9c3b_5f421c368f7f,C_56583,3625,coupe,south carolina,2019-06-04,approved
+A_a598_b4506309777a,C_24279,3166,pickup,oregon,2020-02-27,rejected
+A_ad85_e29c18a948d7,C_92898,6365,pickup,new hampshire,2019-10-26,rejected
+A_bb81_63d23d96829a,C_88156,7422,hybrid cars,florida,2019-10-30,approved
+A_9e63_b6f7f0b2a713,C_14270,7507,hybrid cars,connecticut,2019-07-12,rejected
+A_a4d0_1212b7529745,C_72228,755,microcar,indiana,2019-10-05,approved
+A_a8c3_d05ae6f1ec6c,C_40065,6785,economy hatchback,mississippi,2020-01-20,approved
+A_b5d6_1754fb3d8039,C_41136,5111,pickup,arizona,2020-01-14,approved
+A_a21a_b054a0bff372,C_71119,2932,crossover,alaska,2020-01-02,approved
+A_b720_0f280a4cda0a,C_82809,8848,sedan,oregon,2019-10-14,approved
+A_82ef_a5da325d5320,C_68566,9527,pickup,alabama,2019-12-23,approved
+A_8a9e_71c07c125ce2,C_32295,8489,sedan,texas,2019-07-11,approved
+A_bc7f_e18df45246f0,C_96959,8228,modified cars,kentucky,2019-06-18,approved
+A_8b58_a510ac02bb50,C_1240,4126,convertibles,idaho,2019-08-20,approved
+A_867c_171004c4ed72,C_13257,8407,economy hatchback,nebraska,2019-11-16,approved
+A_8e32_0dd035ac4b49,C_2091,5202,microcar,wisconsin,2019-05-19,approved
+A_9b19_0d12ca2979ba,C_2662,1909,microcar,missouri,2019-05-10,approved
+A_b0eb_f16a9dc1cf69,C_2876,2442,estate cars,west virginia,2020-03-22,approved
+A_a882_0100f7a6ae80,C_95675,3709,crossover,new mexico,2019-08-21,approved
+A_881e_fc24bdf643be,C_6827,611,convertibles,new york,2019-06-22,approved
+A_921b_c72f5c7ea783,C_85076,99,sports cars,alaska,2019-08-03,approved
+A_b812_3b4a10cee7a5,C_59247,2628,hybrid cars,florida,2019-05-19,approved
+A_84af_363287106844,C_82431,1815,estate cars,mississippi,2019-08-04,approved
+A_b6c9_40c1f0a3aa1d,C_26358,5412,crossover,ohio,2019-10-13,rejected
+A_9afd_4cdfe1bf520c,C_50567,9519,economy hatchback,oregon,2020-03-27,approved
+A_8972_12ad1cffe4bb,C_88803,1316,modified cars,south carolina,2019-04-17,approved
+A_b9b4_e4bf2680f4c4,C_26717,8955,convertibles,minnesota,2019-09-15,approved
+A_adff_176e5b25ee3c,C_79294,2214,estate cars,colorado,2019-04-26,approved
+A_9945_ec2b560beb85,C_80719,4649,convertibles,connecticut,2019-12-17,approved
+A_8b23_3257f5f86661,C_34411,4026,luxury cars,arizona,2019-06-17,approved
+A_b721_782d7989f102,C_40002,7665,estate cars,tennessee,2019-09-13,approved
+A_b543_5f69b97b1f6d,C_36956,5531,modified cars,georgia,2019-05-09,approved
+A_8ea8_77b8c5eab40e,C_94102,471,economy hatchback,michigan,2019-05-15,approved
+A_a2f9_11681001dc08,C_43396,3707,economy hatchback,mississippi,2020-01-01,approved
+A_b2d4_6bbc24a9fa9c,C_53907,1499,hybrid cars,delaware,2019-06-11,approved
+A_83f0_01a3c302f57b,C_62248,1885,limousine,massachusetts,2019-09-24,approved
+A_a9b1_6f598ccc8dc1,C_11742,9065,luxury cars,pennsylvania,2019-11-25,approved
+A_a2a0_a19ff6419276,C_918,1148,sedan,maine,2019-04-28,approved
+A_b54e_576603503419,C_51244,1533,pickup,kentucky,2019-06-27,approved
+A_8938_4544672f06c8,C_87842,1474,convertibles,hawaii,2020-02-24,rejected
+A_9d88_7e43dde84ee4,C_66937,2798,luxury cars,idaho,2019-08-01,approved
+A_8240_2d59fdcd0adf,C_52608,3764,sports cars,alaska,2019-12-16,approved
+A_8695_a277090f865a,C_20610,2592,microcar,california,2020-01-10,approved
+A_b0d2_81bac6d74125,C_57269,7904,suvs,kansas,2020-01-16,approved
+A_bee4_000785b1c534,C_8414,1850,luxury cars,louisiana,2019-12-30,approved
+A_8a54_0a2e18c02dfc,C_7982,8546,convertibles,washington,2019-09-23,approved
+A_b650_38d28929d41f,C_2498,1870,limousine,georgia,2020-02-17,approved
+A_abca_0d591946dc2b,C_34991,4999,suvs,wyoming,2019-06-23,approved
+A_ad3c_7acf4a377a70,C_68119,9640,economy hatchback,missouri,2020-01-01,rejected
+A_bde5_baacd3e1be61,C_32118,9160,sports cars,north dakota,2019-05-13,approved
+A_a4d7_0614f78d71ce,C_34976,8769,crossover,minnesota,2020-03-09,approved
+A_8b32_99d3e6debdb6,C_71187,3313,pickup,wyoming,2019-10-01,approved
+A_be48_423a33724776,C_87071,9046,suvs,new mexico,2019-11-16,approved
+A_9a90_23d691491079,C_98176,6641,sedan,new jersey,2019-07-13,approved
+A_b091_62f166f912eb,C_71491,2695,pickup,montana,2019-05-10,approved
+A_9dac_ea3fcac76525,C_51676,4802,sedan,illinois,2019-11-09,approved
+A_8a80_4659e771f3d7,C_49234,1380,suvs,pennsylvania,2019-12-10,approved
+A_95f4_1e2e685bfea4,C_85880,9316,suvs,oklahoma,2019-04-20,approved
+A_9229_45b9a30934af,C_33352,2230,luxury cars,wisconsin,2019-06-13,approved
+A_b3ec_165676dab163,C_21233,4054,convertibles,kansas,2020-03-24,rejected
+A_b3eb_786c7358b753,C_9629,7891,coupe,california,2020-02-29,approved
+A_98cb_72b1ad359035,C_69743,308,economy hatchback,vermont,2019-11-09,approved
+A_a1cc_56b667d0a252,C_91163,1254,convertibles,maine,2019-07-05,approved
+A_bb08_e30e9d7ee4a6,C_80279,4585,sedan,maine,2020-02-14,approved
+A_b8a0_0e6d04be90f5,C_70588,3476,suvs,south dakota,2019-06-23,approved
+A_a176_c34590fcafe0,C_856,1371,limousine,illinois,2019-09-01,approved
+A_9702_29f9fb379e76,C_36112,2287,economy hatchback,illinois,2020-02-27,approved
+A_8134_d0a360b0492e,C_8717,2045,hybrid cars,tennessee,2020-03-31,approved
+A_8271_b09d3643f17a,C_56052,951,crossover,wyoming,2019-04-18,approved
+A_9176_da7a66eb9343,C_93166,2215,modified cars,minnesota,2019-10-27,rejected
+A_8ff8_d2ea117a0350,C_97115,4543,hybrid cars,alaska,2020-03-09,approved
+A_bb87_7b8389449807,C_4885,823,sedan,ohio,2019-11-21,approved
+A_9211_4d226d60f896,C_34623,9771,crossover,rhode island,2019-06-27,approved
+A_923c_2fd561a43ea5,C_74389,3957,suvs,wyoming,2020-01-15,approved
+A_975e_e6c409845f0f,C_76676,2310,estate cars,new jersey,2019-12-30,approved
+A_a5d2_0645692df2c6,C_97059,1826,limousine,west virginia,2020-03-12,approved
+A_8663_47b4821ef7ae,C_74901,6619,limousine,pennsylvania,2019-07-14,approved
+A_907c_7f03f9ebb690,C_58677,1064,economy hatchback,pennsylvania,2019-11-09,approved
+A_896e_d3cc7896c5b8,C_15312,2413,economy hatchback,north carolin,2019-06-23,approved
+A_a5b1_dae327782a99,C_92649,5202,coupe,tennessee,2019-10-23,approved
+A_b483_b2a04f720adb,C_4395,6388,hybrid cars,delaware,2019-07-19,approved
+A_a434_25cbdbf7483e,C_6641,7775,limousine,washington,2020-03-02,approved
+A_b77c_54b09ef31f22,C_88047,8006,crossover,west virginia,2019-11-27,approved
+A_b9d4_4257473e54c8,C_55347,5311,coupe,wyoming,2019-08-23,approved
+A_af07_dc057905b8f4,C_22523,2616,luxury cars,massachusetts,2020-03-08,approved
+A_9add_27692a6fb529,C_52711,2240,suvs,washington,2019-05-22,approved
+A_ac11_cdd4711e09ef,C_82601,5107,economy hatchback,vermont,2020-02-18,approved
+A_ac1d_fe23e687ce46,C_85720,8646,modified cars,iowa,2019-11-26,approved
+A_825c_89825d6a898f,C_11644,1469,coupe,rhode island,2019-12-31,approved
+A_aa5d_fd98e8bdfa7c,C_8657,3613,sedan,new york,2019-10-21,rejected
+A_9c90_b934942bd034,C_10300,577,pickup,montana,2019-06-24,rejected
+A_9482_2d59ed55900d,C_30591,8186,crossover,arizona,2019-09-12,approved
+A_ab4e_3275c8b990db,C_84909,7648,sports cars,montana,2019-04-25,approved
+A_8980_4345048696e3,C_97314,1774,economy hatchback,oregon,2019-12-06,approved
+A_981b_656e287adb54,C_51614,7030,suvs,missouri,2019-05-24,approved
+A_81e8_d9dfd062a5e9,C_94267,4728,modified cars,indiana,2019-12-04,approved
+A_b845_d180f44a1223,C_11880,36,luxury cars,florida,2019-09-16,approved
+A_a7db_9eb2f4e9f787,C_99389,7437,hybrid cars,washington,2019-12-16,approved
+A_b517_ba950af59e5f,C_29189,7622,coupe,michigan,2020-01-25,approved
+A_9908_13dd32926ddf,C_44998,4142,crossover,massachusetts,2019-04-27,approved
+A_aa11_f055109be3ef,C_46830,1887,economy hatchback,louisiana,2019-04-05,approved
+A_a337_c255f12f1e4c,C_75444,6701,microcar,wisconsin,2019-10-21,approved
+A_8e26_db2c5ae4d8e7,C_37318,5664,crossover,maine,2019-04-14,approved
+A_bdd7_ee982490ed3a,C_65231,8314,suvs,vermont,2019-10-28,approved
+A_ab04_e030a4e0dbb7,C_6847,341,crossover,south dakota,2019-05-15,approved
+A_9593_0d636cf46a76,C_40286,6545,suvs,missouri,2019-05-06,approved
+A_917d_6eae0c762607,C_7518,9983,coupe,iowa,2019-06-08,approved
+A_bfe1_b1c391c18412,C_62294,353,modified cars,maryland,2019-05-05,approved
+A_a9f8_1e25d12457ee,C_61542,1615,suvs,alabama,2019-09-01,approved
+A_8243_4718194562d9,C_3645,3592,hybrid cars,connecticut,2020-02-18,approved
+A_9501_398ffe7700e6,C_97750,5278,suvs,north dakota,2019-08-16,approved
+A_931c_e10465c32bee,C_64748,392,estate cars,north carolin,2019-04-28,approved
+A_a567_ef804dc9ddf1,C_18242,4799,sports cars,washington,2019-10-01,approved
+A_b8ea_e72dabfa32b8,C_4376,7267,sports cars,north carolin,2019-06-27,approved
+A_a2d9_d16558837829,C_57451,9223,luxury cars,virginia,2019-04-13,approved
+A_9b45_97f0f443d597,C_14564,7461,limousine,massachusetts,2019-06-07,rejected
+A_a446_bc2a6f7f74a6,C_15957,3045,estate cars,new jersey,2019-05-29,approved
+A_a46f_5be3e66cbfb5,C_50743,1186,luxury cars,idaho,2019-10-01,approved
+A_99a7_c329da847db0,C_31665,9335,pickup,idaho,2019-07-02,approved
+A_8978_fad824323030,C_26951,7188,sedan,georgia,2019-12-06,approved
+A_9707_322b14e19062,C_50017,3843,suvs,oregon,2019-07-10,approved
+A_8e79_5f09c9857ed4,C_73760,4828,pickup,minnesota,2019-09-04,rejected
+A_b3c5_2cd5f3fab5d5,C_5127,2431,economy hatchback,north dakota,2019-11-08,approved
+A_a970_e880c2600f02,C_16978,9714,limousine,nevada,2019-08-22,approved
+A_b1f8_fef66f06e97e,C_46306,7866,pickup,alabama,2019-11-28,rejected
+A_a1c9_c127241b64cb,C_93550,8073,modified cars,south dakota,2019-07-26,approved
+A_bf18_9fa373186663,C_85048,4841,microcar,florida,2019-06-26,approved
+A_9034_da94797de94b,C_29908,959,luxury cars,oregon,2020-02-02,approved
+A_911e_d5b9273fd7d6,C_7517,7650,crossover,indiana,2020-02-06,approved
+A_9069_f458cc1bb480,C_25856,2168,crossover,minnesota,2019-04-03,rejected
+A_adce_3156dc9fa992,C_84944,2284,crossover,vermont,2019-10-12,approved
+A_8225_6e41e57e728a,C_65033,1193,convertibles,montana,2019-06-07,approved
+A_a80d_5e03df7e5a48,C_23849,5220,limousine,arizona,2020-01-14,rejected
+A_aa6d_80063ef310db,C_65550,9157,microcar,illinois,2019-11-09,approved
+A_b5f0_e4387962716d,C_52034,1021,limousine,minnesota,2019-09-05,approved
+A_91d3_58f323a2c51c,C_19510,3022,limousine,idaho,2020-02-13,approved
+A_872b_d3dc4074449a,C_35555,1086,convertibles,montana,2019-10-02,approved
+A_9fae_9e64402d1d1c,C_46430,7432,modified cars,wyoming,2019-07-27,approved
+A_9405_50c3fc4e045d,C_21348,2914,crossover,idaho,2019-06-20,approved
+A_bffe_36daa6359abe,C_6711,6039,suvs,alaska,2019-12-24,approved
+A_9818_1aedf0cf3a95,C_65227,9092,estate cars,iowa,2020-02-21,approved
+A_ae1a_c1bb4f3ae5c1,C_80314,1064,suvs,washington,2019-07-05,approved
+A_953b_e5b8bfc97f10,C_694,7119,suvs,wyoming,2019-04-21,approved
+A_b2e6_6eb27d858eb6,C_89278,7327,estate cars,florida,2019-07-12,approved
+A_b2da_ed52d71f24c3,C_1379,7581,sports cars,indiana,2019-10-06,approved
+A_95b5_c0c7fd60b2c6,C_15379,8182,limousine,florida,2020-03-06,approved
+A_ade3_501b62c7bb42,C_48298,3495,luxury cars,massachusetts,2019-08-09,approved
+A_ae41_86d4f6a6c34a,C_19002,7516,coupe,north dakota,2020-02-10,approved
+A_bfc9_18b4abcf1abe,C_16631,7496,modified cars,mississippi,2019-06-02,approved
+A_847a_dcd09f05e063,C_97805,1790,hybrid cars,utah,2020-03-19,approved
+A_b4d5_6af2b2654431,C_7302,1955,crossover,iowa,2020-02-01,approved
+A_b053_a1df7c1cf821,C_89250,6099,convertibles,hawaii,2019-05-01,approved
+A_b53e_c8b86b3ac92a,C_90402,6949,sports cars,michigan,2019-05-28,approved
+A_9d12_937ddcf11c2c,C_81129,2229,modified cars,new mexico,2019-11-16,approved
+A_904d_9ed7e9412d1f,C_71056,6679,convertibles,nebraska,2019-10-18,approved
+A_b7f0_16d07df7b0a3,C_80846,4709,coupe,new jersey,2020-03-20,approved
+A_8ef8_1ee94005514e,C_84007,2626,sports cars,mississippi,2020-01-30,approved
+A_bf23_35437dd97f02,C_40779,6495,luxury cars,alabama,2019-10-20,approved
+A_ba6f_f5b49f6cd226,C_37619,2156,sedan,michigan,2019-08-15,approved
+A_a148_48e638408b5c,C_76269,8493,modified cars,louisiana,2020-03-27,approved
+A_93dd_e443ffb81d7d,C_25607,9817,hybrid cars,illinois,2019-11-21,approved
+A_8e51_61f67b579ab1,C_50476,4821,coupe,nebraska,2019-06-26,rejected
+A_910d_4cc7917a00d5,C_82146,5950,hybrid cars,maine,2019-07-26,approved
+A_a678_62cbd4df3cee,C_56285,5077,modified cars,oklahoma,2019-12-24,approved
+A_be83_b8b2e833accc,C_31724,6414,convertibles,indiana,2019-07-05,approved
+A_b281_ed89c04ea2dd,C_26168,5494,convertibles,arizona,2020-02-17,rejected
+A_b0ee_a87f7aeab25c,C_58871,6572,modified cars,north carolin,2020-03-16,approved
+A_80a2_02f35b0faf2e,C_61672,237,modified cars,vermont,2019-12-25,approved
+A_90ef_cd1f8008df9a,C_46300,5683,limousine,new york,2019-11-09,approved
+A_b2b3_08cf685ded76,C_57352,3597,pickup,north carolin,2019-11-28,approved
+A_a6a7_18c52f79b07a,C_6831,5824,convertibles,hawaii,2019-11-06,approved
+A_8337_12fa47ef4ac3,C_46243,5688,estate cars,south carolina,2019-05-13,approved
+A_888e_7ebeed80714e,C_66593,1643,convertibles,west virginia,2020-03-31,approved
+A_b7e6_db5ce56c194d,C_71419,3597,suvs,maryland,2019-11-30,approved
+A_850f_129ffa1d9427,C_39889,7982,estate cars,south dakota,2019-07-26,approved
+A_8f79_0eac5e41de43,C_114,6097,crossover,utah,2020-03-09,approved
+A_8a44_26c666f239da,C_43634,3532,modified cars,alaska,2019-10-20,approved
+A_b494_06aef16d41ed,C_41895,4750,pickup,california,2019-05-02,rejected
+A_9197_38960e04e25a,C_63810,881,sedan,louisiana,2019-05-13,approved
+A_9560_533c3f7d58ec,C_71113,2097,crossover,delaware,2019-04-27,approved
+A_a9c0_90d98daad939,C_99399,2566,suvs,montana,2019-12-30,approved
+A_a5d4_e16fe98dbc04,C_523,4492,coupe,new york,2019-08-23,rejected
+A_a5bb_47651dc218e9,C_59131,1027,hybrid cars,west virginia,2019-05-05,approved
+A_af5c_86d4713cfe34,C_28100,6542,convertibles,south dakota,2019-12-25,approved
+A_b976_801f0bc85150,C_68702,353,modified cars,vermont,2019-07-18,rejected
+A_a9f5_bdd9ddd95055,C_10649,2303,economy hatchback,missouri,2019-11-10,rejected
+A_bdb0_a1415543774b,C_54627,1891,suvs,utah,2020-02-29,approved
+A_9b10_37096480c77e,C_92792,8875,estate cars,arizona,2019-05-31,approved
+A_9099_26eaf985d4bf,C_7183,5263,estate cars,arizona,2020-03-10,approved
+A_824a_6ce4ed2a9a91,C_34904,5435,coupe,michigan,2019-05-23,approved
+A_8b0a_9a9e034a58d0,C_27385,855,pickup,new york,2019-08-29,approved
+A_bd1a_447342c0af6c,C_43128,2071,coupe,maine,2019-11-12,approved
+A_af81_5b9771b508cc,C_92092,768,luxury cars,new jersey,2020-03-12,approved
+A_a671_7347fec9b740,C_75714,5561,microcar,louisiana,2019-08-02,approved
+A_9885_10b8f31c6e94,C_86131,4110,luxury cars,nevada,2019-09-11,approved
+A_8a02_6ba06bd7499c,C_35791,1022,sedan,north carolin,2019-08-12,approved
+A_b612_89c15aa29e18,C_81321,196,modified cars,nebraska,2019-06-29,rejected
+A_a916_e9e71a574955,C_469,2127,economy hatchback,idaho,2019-06-07,approved
+A_a337_521536db7cc9,C_38918,244,hybrid cars,maryland,2019-10-05,approved
+A_b185_a25c2c30fafb,C_49748,2306,modified cars,idaho,2019-09-03,approved
+A_801c_a2603a94adb8,C_62891,1765,estate cars,hawaii,2020-02-08,approved
+A_9f75_6f9e5cbec067,C_79215,4710,economy hatchback,idaho,2019-11-18,approved
+A_a9f3_bdca28ee9a7f,C_28675,760,sports cars,kansas,2019-04-07,approved
+A_a1ed_cd6904de1800,C_18102,755,microcar,connecticut,2020-03-12,approved
+A_a074_c43905a1c984,C_98405,2662,suvs,oklahoma,2019-07-01,approved
+A_97e3_89f98e72672e,C_51400,1537,sports cars,virginia,2020-02-15,rejected
+A_b4d8_63d4ed34cc98,C_51493,298,estate cars,michigan,2020-02-16,approved
+A_a81e_148ea7ab134e,C_59694,1721,economy hatchback,arkansas,2019-04-24,approved
+A_bc0b_26ed6a7bad80,C_94096,812,coupe,arkansas,2019-11-27,approved
+A_a017_b05984ad288b,C_48612,6427,luxury cars,nebraska,2019-09-19,approved
+A_b14f_dcd85f5152b7,C_57108,8948,convertibles,iowa,2019-05-18,approved
+A_b17b_29e799f671c0,C_42492,7240,estate cars,colorado,2019-04-18,approved
+A_ba14_d3d1de9bb641,C_7646,8667,convertibles,wyoming,2019-12-13,approved
+A_858b_fb863c5e613c,C_66662,1217,microcar,kansas,2019-07-18,approved
+A_a702_9dbb4c1e4824,C_99856,9858,luxury cars,mississippi,2020-01-12,approved
+A_91fd_948de081b690,C_87408,2123,sports cars,georgia,2019-09-30,approved
+A_864a_e1f2e61650d0,C_38849,289,suvs,montana,2019-06-12,approved
+A_a7dc_d226dd451460,C_12899,8989,economy hatchback,indiana,2019-04-26,approved
+A_ab59_41a2f2ed0b25,C_95910,4128,modified cars,maine,2020-03-22,approved
+A_865b_ab7fb9bbc192,C_46854,1821,sedan,kansas,2020-01-10,approved
+A_8198_2a1dfe0f2a21,C_21871,7572,sedan,colorado,2019-07-10,approved
+A_887f_0d6b360a85f8,C_86267,4298,luxury cars,south dakota,2019-08-09,approved
+A_aed0_3cfe08dec23d,C_49900,2146,economy hatchback,minnesota,2019-08-08,approved
+A_a7a5_af0954c75775,C_10277,2253,hybrid cars,idaho,2019-06-04,approved
+A_bdc4_c80022888ccc,C_45015,4095,luxury cars,oregon,2020-02-14,approved
+A_83ab_9bb2a8ee267c,C_63702,8829,convertibles,california,2019-07-22,approved
+A_b6c7_14c1920244b4,C_32721,3042,coupe,nevada,2020-03-27,approved
+A_a0f1_beeecf02d856,C_28794,9871,crossover,michigan,2019-08-12,approved
+A_9826_3b81d193e058,C_50605,9355,coupe,new york,2019-10-06,approved
+A_8470_e94b728881f7,C_61337,3510,coupe,iowa,2019-05-31,approved
+A_a264_38c769c2e3a8,C_64097,2207,sedan,hawaii,2019-12-12,rejected
+A_8857_8d419cef837d,C_73329,7105,limousine,new jersey,2019-06-30,rejected
+A_b13f_f22eb4fc846e,C_33721,8289,estate cars,louisiana,2019-07-15,approved
+A_a849_95b85e39058a,C_59652,4164,modified cars,nevada,2019-05-17,approved
+A_98c0_695b81c95e84,C_52275,9838,luxury cars,missouri,2019-04-30,approved
+A_beda_71e0050f0a8e,C_35127,205,modified cars,texas,2019-05-07,approved
+A_b2b2_abf93185d2cf,C_82592,5901,modified cars,virginia,2019-06-13,approved
+A_9a8c_ea0bd23e632e,C_52144,2271,hybrid cars,nevada,2019-12-17,approved
+A_9f6b_25f6f7309e7b,C_39968,288,luxury cars,new hampshire,2019-12-04,approved
+A_b84a_3c56b6155f34,C_50458,5834,estate cars,north carolin,2019-08-20,approved
+A_854e_c9defce53c55,C_96174,6259,pickup,michigan,2020-01-09,approved
+A_aa09_f85ccfebafbb,C_60668,1872,modified cars,south dakota,2019-05-23,approved
+A_9f25_8e8c0a230563,C_477,8119,suvs,georgia,2020-03-09,approved
+A_8709_ed28e51c2a9d,C_81409,2100,estate cars,west virginia,2020-03-02,approved
+A_8876_a5c276d6c4f9,C_78888,3833,sedan,delaware,2019-10-08,rejected
+A_b807_bdfa807c98b4,C_59284,6395,microcar,illinois,2019-12-15,approved
+A_af98_4c9c54db5d92,C_14863,9196,economy hatchback,arkansas,2020-01-23,approved
+A_a35c_874a11706df0,C_75630,4181,microcar,nevada,2019-05-31,approved
+A_9fed_300078d11cad,C_1057,6668,economy hatchback,louisiana,2019-08-02,rejected
+A_9be1_ce2c6da15b08,C_55509,9340,hybrid cars,massachusetts,2019-08-05,approved
+A_a1ea_fa0c9a1ffc05,C_18841,6601,sedan,north carolin,2019-04-19,approved
+A_a758_b7af7616fb3d,C_29887,6516,estate cars,kansas,2019-05-19,approved
+A_937b_81065606d67e,C_25770,5188,sports cars,oklahoma,2020-03-01,approved
+A_a709_1481a53687fb,C_57439,3015,estate cars,connecticut,2019-09-06,approved
+A_9f86_cd4a1e749f69,C_80094,1130,pickup,delaware,2020-03-04,rejected
+A_9af0_b33b606a3691,C_62589,2195,convertibles,louisiana,2019-11-17,approved
+A_9a7e_5e81c270ded7,C_25397,8097,coupe,mississippi,2019-12-22,approved
+A_a4fe_d5874954b842,C_86913,7268,convertibles,georgia,2019-09-24,approved
+A_a9ac_92d90d2bd542,C_71165,5917,coupe,florida,2020-03-21,approved
+A_8538_da04356a719f,C_85295,9491,estate cars,new mexico,2019-06-09,approved
+A_8b9d_64e500c2b3d4,C_27308,9210,luxury cars,michigan,2020-01-04,approved
+A_b02e_756632a70904,C_11039,4030,limousine,nevada,2019-12-25,approved
+A_b460_d1637fbebdda,C_16645,1582,hybrid cars,missouri,2020-03-19,approved
+A_839d_dbe5d9f7ea03,C_96483,8651,suvs,oregon,2020-01-23,approved
+A_86ff_ea93018fe0e0,C_32284,1001,microcar,kentucky,2020-02-02,approved
+A_9bd7_e2c5b46faa0f,C_30380,7985,estate cars,ohio,2020-01-17,rejected
+A_99a0_6db17bebbc2b,C_35511,519,crossover,idaho,2019-11-12,approved
+A_820c_53cdb1d94317,C_97062,3833,hybrid cars,north dakota,2019-06-01,approved
+A_b25b_4b375415e32c,C_31816,3944,luxury cars,virginia,2019-06-14,rejected
+A_9cee_b269bcad540d,C_38411,1579,modified cars,oregon,2019-11-07,approved
+A_a746_86d60c988a72,C_84683,7437,sedan,missouri,2019-12-05,rejected
+A_b67b_628aceac900d,C_84829,5577,sedan,maryland,2019-05-05,rejected
+A_b4c3_9e63b5db4922,C_28298,3632,suvs,indiana,2019-10-03,approved
+A_9db1_5472439a3512,C_76994,7564,economy hatchback,wisconsin,2020-02-28,approved
+A_93b7_50549e706319,C_66840,2865,hybrid cars,massachusetts,2019-09-14,approved
+A_8f7e_0865738a4bae,C_21265,1789,limousine,colorado,2019-10-14,approved
+A_be20_7f22bbdc7cb2,C_33834,4162,luxury cars,idaho,2019-10-09,approved
+A_b7ca_579fb0f701f0,C_73863,6819,suvs,new hampshire,2019-07-23,approved
+A_9bf7_46412af2f7b5,C_12419,1319,luxury cars,tennessee,2020-01-19,approved
+A_8bcd_8374095e2099,C_8813,5564,sedan,new hampshire,2019-04-16,approved
+A_92cf_efd0ea309e1e,C_10078,5794,pickup,south carolina,2020-01-12,approved
+A_90c4_e9a9fb058567,C_35745,865,pickup,michigan,2019-09-18,approved
+A_b2c3_03f12b548a15,C_95972,667,crossover,missouri,2020-03-12,approved
+A_b37b_7c7791bc7476,C_14000,997,convertibles,kansas,2019-12-07,approved
+A_9575_d0f99bf02307,C_44688,2453,sports cars,nebraska,2019-05-22,approved
+A_b226_f020f92afe9d,C_77099,7490,limousine,illinois,2019-10-06,approved
+A_a433_d6dcf723844e,C_54081,7967,sedan,connecticut,2019-05-09,approved
+A_b314_6ab7e75099a8,C_77500,7488,hybrid cars,maine,2019-11-05,approved
+A_888e_c8d111acf2e1,C_35957,9688,estate cars,indiana,2019-12-15,approved
+A_a70f_5cf7c6f604be,C_81624,1895,economy hatchback,pennsylvania,2019-09-03,approved
+A_9ec4_7a616d3a25e3,C_50623,475,luxury cars,nebraska,2020-02-12,approved
+A_ae1d_875687bdae38,C_20168,7288,suvs,tennessee,2020-02-19,approved
+A_9a0a_890f84f4257f,C_49462,4588,convertibles,idaho,2020-03-19,approved
+A_ba2d_2dd68d989142,C_33730,4883,microcar,north dakota,2019-10-07,approved
+A_8ff7_865b50c9c78e,C_29325,5066,luxury cars,michigan,2019-08-06,rejected
+A_9ddb_e4eb127d4595,C_87198,3885,limousine,iowa,2019-10-28,approved
+A_8263_49266f8ff274,C_75288,5913,sports cars,delaware,2019-05-13,rejected
+A_b7ac_efa301baf089,C_83211,3544,crossover,oklahoma,2019-09-14,approved
+A_bd20_59e90f7a669e,C_20330,8176,economy hatchback,massachusetts,2020-03-16,approved
+A_8aa5_02b843263986,C_80282,1735,crossover,colorado,2019-06-23,approved
+A_91a2_b652585e1b89,C_86943,909,suvs,illinois,2020-03-08,approved
+A_a8b3_70597572709f,C_10993,5803,modified cars,nevada,2019-06-14,approved
+A_8a72_7a4be48a69a5,C_9601,2376,coupe,colorado,2019-04-14,approved
+A_82df_5a5d9d9ea52c,C_84917,7347,coupe,kentucky,2020-03-31,approved
+A_aa76_915310b8d995,C_76808,8282,hybrid cars,arizona,2020-02-27,approved
+A_aab9_05513fc8a780,C_355,4330,economy hatchback,montana,2020-02-15,approved
+A_9d37_a72c70ec1336,C_86041,7631,economy hatchback,oklahoma,2019-04-01,approved
+A_a449_d6065bb4686a,C_65707,35,hybrid cars,hawaii,2019-09-10,approved
+A_8f8d_891a473b3ea9,C_36352,6871,microcar,virginia,2019-05-22,approved
+A_bed4_ddb7dd65e5fe,C_27341,6286,sports cars,colorado,2019-04-03,approved
+A_9e73_08a12f55d5a6,C_1393,2325,pickup,north carolin,2019-04-13,approved
+A_b741_c1d574858852,C_46879,6451,crossover,maryland,2020-01-14,approved
+A_9e56_60fe616eb8c4,C_55904,746,pickup,rhode island,2019-11-04,approved
+A_bd32_13bf39334cb0,C_77933,9227,luxury cars,colorado,2019-09-01,approved
+A_8274_353887e3428f,C_42306,5412,hybrid cars,new jersey,2020-01-26,approved
+A_be16_e3e1f9645c03,C_85442,584,limousine,mississippi,2019-05-05,approved
+A_8de0_d1a69fccfd63,C_96680,647,pickup,maryland,2019-04-29,approved
+A_92f4_1161472942d8,C_90741,2175,limousine,washington,2019-08-04,approved
+A_8ca4_756156a49722,C_26703,8904,pickup,minnesota,2019-09-08,approved
+A_a79f_368165b4c927,C_33767,1813,suvs,north carolin,2019-08-31,rejected
+A_9c15_8ef5faff6225,C_59674,8397,convertibles,new jersey,2020-02-14,approved
+A_adc4_54812cad1a4a,C_50488,7094,convertibles,oregon,2019-06-25,approved
+A_8fbe_426f3c0559df,C_33788,3875,sedan,south carolina,2020-03-24,approved
+A_b272_74bbe5585b65,C_30810,1659,sedan,massachusetts,2019-07-09,approved
+A_9692_45517a0b7d8b,C_63132,5755,sports cars,alaska,2020-02-18,rejected
+A_9e2c_da17767c837c,C_17304,7079,pickup,minnesota,2019-07-04,approved
+A_9d43_124564e4b40a,C_96065,3793,sedan,south carolina,2020-03-27,rejected
+A_9e92_b97851577892,C_43242,5821,coupe,kansas,2019-08-31,approved
+A_980a_00139645bed3,C_40740,9569,limousine,colorado,2019-07-01,approved
+A_ada3_eb8f715358de,C_36047,5792,convertibles,pennsylvania,2020-03-11,approved
+A_aaa0_1f52d557a071,C_40681,8310,suvs,pennsylvania,2019-08-10,approved
+A_baaa_82bc7a233c63,C_41520,9035,coupe,louisiana,2019-11-30,rejected
+A_82ea_c1cbeb190d20,C_29822,4153,sports cars,north carolin,2019-11-15,approved
+A_976e_54e4befa2b40,C_94339,2430,luxury cars,north carolin,2019-04-05,approved
+A_84ba_c77a3520568b,C_19058,7240,limousine,texas,2019-05-24,approved
+A_b254_546310eda4e0,C_20509,7121,modified cars,illinois,2020-02-19,approved
+A_b297_01b81116cbe6,C_56362,7832,suvs,michigan,2019-12-14,rejected
+A_8dcf_320030e4c4f9,C_99074,3627,suvs,nevada,2019-07-18,approved
+A_8c44_33442c00040e,C_80660,7977,crossover,oklahoma,2019-08-28,approved
+A_9731_83be083b5cb4,C_35997,533,luxury cars,new mexico,2019-08-18,approved
+A_be9f_1741c5817a75,C_26998,1906,microcar,north carolin,2019-11-15,approved
+A_baa5_cfb047a82e13,C_83520,3926,luxury cars,utah,2019-12-11,approved
+A_9cd3_c0db7f493b40,C_8794,1601,suvs,new mexico,2019-11-22,approved
+A_bc18_71d9da901407,C_62218,2316,economy hatchback,pennsylvania,2020-02-24,approved
+A_a42b_e9147840a5b0,C_80387,2329,luxury cars,oklahoma,2019-04-02,approved
+A_a338_3484d5b4ab3a,C_10261,889,coupe,utah,2019-07-09,rejected
+A_bf89_ee079e96403f,C_48047,508,coupe,kentucky,2019-06-18,approved
+A_a9e3_88288d76826a,C_4699,5063,hybrid cars,alabama,2019-10-24,approved
+A_b1e7_f4fa11c814e5,C_95235,6926,pickup,arizona,2019-12-08,approved
+A_bc40_dcbb515d35b3,C_31351,348,sedan,illinois,2019-06-07,rejected
+A_a993_8dfe40e3de59,C_75121,8701,crossover,florida,2020-03-01,approved
+A_8ef6_8d85d32f2b3e,C_49352,584,crossover,maryland,2019-08-15,approved
+A_badb_ab3f53c7fba9,C_13978,520,pickup,texas,2020-01-22,approved
+A_a20a_668318b51b74,C_212,6522,economy hatchback,texas,2020-03-21,approved
+A_96f7_cc7390d03ca2,C_61801,6349,economy hatchback,texas,2020-02-15,rejected
+A_8be2_4500c4857117,C_54568,7725,convertibles,north dakota,2019-11-27,approved
+A_9b8b_ded49fee359c,C_94765,5852,coupe,georgia,2019-04-10,approved
+A_b7ec_3aa3822b2e2e,C_72095,2466,economy hatchback,new hampshire,2020-01-20,approved
+A_8ade_372cf9c29874,C_31620,3566,hybrid cars,california,2019-12-30,approved
+A_82d0_5f28a35cc457,C_83260,239,estate cars,maine,2019-12-06,approved
+A_8da3_f553568a1c97,C_40639,9049,limousine,north dakota,2019-04-02,approved
+A_baf6_aadbbee6b2a0,C_77696,5328,economy hatchback,connecticut,2019-09-18,approved
+A_b84c_8ae2deefb524,C_561,5795,suvs,montana,2019-07-13,approved
+A_98d7_0643d521757b,C_32505,6625,estate cars,west virginia,2019-11-05,approved
+A_9e1a_fdfeef57a3e5,C_12272,9582,suvs,new jersey,2019-07-10,approved
+A_8faa_77914cf476c0,C_18092,4516,pickup,north carolin,2019-09-20,approved
+A_adb9_fe91db36ba99,C_69170,3045,luxury cars,washington,2020-01-31,approved
+A_833f_4f84ad42c309,C_61981,7106,pickup,delaware,2019-09-06,approved
+A_bbd4_7d422781f916,C_21409,3164,estate cars,rhode island,2019-08-11,approved
+A_8463_febe7925baee,C_3664,429,convertibles,north carolin,2019-11-25,approved
+A_9df1_994d25b042bb,C_79806,5165,economy hatchback,new york,2019-06-29,approved
+A_8b98_e286831fdd54,C_14313,3539,estate cars,nebraska,2020-01-20,approved
+A_8f8e_f439c661dbdd,C_11233,7696,convertibles,alabama,2019-12-03,approved
+A_af66_28f4909f8fb9,C_76662,9583,limousine,arizona,2019-11-14,approved
+A_b08d_10413ef54d3e,C_89366,5341,economy hatchback,pennsylvania,2019-04-09,approved
+A_a7d4_566b8ef02050,C_28621,4962,pickup,iowa,2019-10-10,approved
+A_9878_16c1a673c510,C_57823,9798,sports cars,north carolin,2020-03-10,approved
+A_bd5a_dcf34721c783,C_77700,83,pickup,delaware,2020-02-24,approved
+A_bde5_0b0f126ba188,C_42117,2163,pickup,north carolin,2019-07-19,approved
+A_b957_979160f57a80,C_21886,5625,estate cars,texas,2019-07-25,approved
+A_bffc_238830eb25a4,C_5267,6741,luxury cars,south dakota,2020-02-06,approved
+A_8ec1_a342cdc9cf88,C_59472,233,coupe,new mexico,2019-05-20,approved
+A_8f28_dafe9d3847fd,C_36520,2860,estate cars,north carolin,2020-03-04,approved
+A_a35a_ac785acae409,C_79051,937,suvs,maine,2019-08-17,approved
+A_91ce_b39801eb6651,C_25489,1402,luxury cars,nevada,2019-07-13,approved
+A_811c_9ca1b8e30421,C_78509,5056,crossover,mississippi,2020-03-11,approved
+A_9e3f_fe0fbc24115e,C_2123,1941,suvs,maryland,2019-04-07,approved
+A_9a35_720e406eb535,C_80816,7486,hybrid cars,california,2019-06-27,approved
+A_85a1_7fa0b1fb7db2,C_75777,8693,economy hatchback,wisconsin,2019-11-23,approved
+A_9b08_35afd5b6312f,C_46951,1063,economy hatchback,delaware,2019-04-16,approved
+A_a756_1728277a92e2,C_29230,306,microcar,massachusetts,2019-10-25,approved
+A_9207_c8ce9f87199c,C_35377,1307,luxury cars,illinois,2019-06-24,approved
+A_b7ac_5c1b6190f464,C_83475,4023,modified cars,delaware,2019-05-12,approved
+A_8780_7efb87b8a00c,C_37157,3579,estate cars,nevada,2019-04-20,approved
+A_accc_820d4a20c41b,C_66776,7940,luxury cars,missouri,2019-10-22,approved
+A_949f_1dc46683fc91,C_95773,4206,suvs,north carolin,2020-02-11,approved
+A_b2e4_1937104f106c,C_68945,8476,pickup,illinois,2019-12-11,approved
+A_9040_2f7d7caca639,C_33551,8347,sedan,california,2019-08-14,approved
+A_8554_b57f933ee78d,C_32472,5224,hybrid cars,kansas,2020-02-07,approved
+A_8988_9f4d4a517c84,C_52837,8853,pickup,maryland,2019-08-17,rejected
+A_be06_9ed965cd9b78,C_38099,5163,suvs,west virginia,2020-02-24,approved
+A_b66b_c60011f37ac0,C_8906,5715,hybrid cars,arizona,2019-04-20,approved
+A_add0_c2c894a2f970,C_47620,7028,modified cars,texas,2020-02-20,approved
+A_b923_0465b660b9e2,C_4176,199,economy hatchback,new york,2019-08-24,approved
+A_b5b5_b6d839d7d174,C_5553,8797,luxury cars,arizona,2019-12-20,approved
+A_8215_b5b6ebbdede7,C_33751,3382,pickup,connecticut,2019-12-30,approved
+A_9739_601bcd3deaf4,C_55139,7026,microcar,arizona,2020-01-07,approved
+A_9ea2_48200201e5e2,C_50971,6514,luxury cars,missouri,2020-03-15,approved
+A_9649_3d3892dfa864,C_57081,6732,economy hatchback,washington,2019-09-22,approved
+A_8030_357e11737bef,C_58435,5641,economy hatchback,hawaii,2019-09-03,approved
+A_a7ad_e167e6c1daaa,C_33968,467,crossover,illinois,2019-05-08,approved
+A_b6cb_96a47a33d3b3,C_47297,5965,hybrid cars,north dakota,2019-10-20,approved
+A_bed6_5ddfcd010a89,C_15695,5785,economy hatchback,nevada,2019-06-28,approved
+A_a489_37d71c76dda3,C_86446,2849,pickup,oklahoma,2019-09-13,approved
+A_8d61_d924b0871967,C_29651,9076,pickup,vermont,2019-12-14,rejected
+A_96ac_cf12693a8d64,C_99744,5110,crossover,illinois,2020-01-19,approved
+A_8b94_f4d982db5d83,C_73989,3153,convertibles,oklahoma,2019-07-09,approved
+A_a3a9_01ca624de6e2,C_37895,7312,modified cars,north dakota,2019-08-15,approved
+A_82e1_42af2f5d9806,C_79732,9526,modified cars,maryland,2019-10-16,approved
+A_b4aa_0418fdb20bee,C_49132,7356,limousine,delaware,2019-04-10,approved
+A_9b61_b4cf782e7692,C_22566,6981,sedan,south dakota,2019-06-16,rejected
+A_b591_ba4e0440e341,C_66847,7837,convertibles,illinois,2019-11-25,approved
+A_b779_0996d7d79eca,C_14826,7295,coupe,alaska,2019-12-21,approved
+A_897e_14ebf4918819,C_46535,6796,limousine,colorado,2020-01-03,approved
+A_93fc_8ff83ab39bca,C_61633,9531,coupe,nebraska,2019-07-19,approved
+A_a0c0_47a0bb05d74f,C_64620,5433,pickup,alaska,2019-10-19,approved
+A_b5f4_5e7bb2248159,C_68903,4080,pickup,minnesota,2020-03-15,approved
+A_99cf_736943b71e42,C_88773,3650,modified cars,pennsylvania,2019-11-20,approved
+A_af22_ee9a693d30a0,C_20025,465,luxury cars,alabama,2019-06-12,approved
+A_ab74_4572d4c63781,C_48937,8142,convertibles,massachusetts,2020-03-06,approved
+A_91e9_1b9e5367d65d,C_96407,9278,luxury cars,iowa,2019-06-24,approved
+A_9813_fbb5f7f18615,C_88876,2377,estate cars,alaska,2020-01-28,rejected
+A_b627_61e4b0b1fc24,C_82074,4510,limousine,georgia,2019-05-31,approved
+A_9767_26e4f9fd02e7,C_62915,6505,convertibles,oklahoma,2019-04-02,approved
+A_97a0_93d32683c5fb,C_55961,4366,hybrid cars,iowa,2019-07-02,approved
+A_9b00_e415513e315b,C_98296,5384,coupe,arizona,2019-09-09,approved
+A_af98_ebabe395d4cf,C_18199,6856,crossover,new york,2019-08-16,approved
+A_a32d_9e354395523e,C_70152,291,sedan,new hampshire,2019-12-08,approved
+A_b1d7_851bcd3ce458,C_25446,1854,suvs,utah,2019-07-12,approved
+A_b9d4_02299e8de798,C_21045,1174,suvs,illinois,2019-06-23,approved
+A_b6dc_fd3a4136e240,C_43259,9055,suvs,oregon,2019-11-14,approved
+A_9db1_7182bf2c6dc8,C_36000,8121,luxury cars,vermont,2019-12-17,approved
+A_90dd_15537c814f71,C_22755,7283,luxury cars,michigan,2020-01-10,rejected
+A_a31c_f866b441bf79,C_87805,4339,microcar,oregon,2020-01-22,approved
+A_bd23_a74b52b013d0,C_83401,8993,economy hatchback,alaska,2019-07-27,approved
+A_9580_f4325b0e9a21,C_58687,9683,estate cars,nevada,2019-08-11,approved
+A_990c_9414577bdc6b,C_89619,744,hybrid cars,new mexico,2019-10-09,approved
+A_a761_2d7e590f1c32,C_53318,8621,convertibles,maine,2020-01-20,rejected
+A_96e2_d9f73dbb044b,C_3868,7031,coupe,georgia,2019-11-22,approved
+A_8358_76e5eeca5b7c,C_51851,8107,luxury cars,tennessee,2019-05-31,approved
+A_b36c_80ae41a1baf6,C_77432,4533,sports cars,connecticut,2019-08-25,approved
+A_b282_d3441b428112,C_48162,9351,limousine,tennessee,2019-12-12,approved
+A_9361_d53842897107,C_92496,4477,convertibles,montana,2019-12-04,approved
+A_b73b_c5df1cfee767,C_71705,7690,hybrid cars,pennsylvania,2019-11-10,approved
+A_8fbc_4cb3e055839f,C_61130,2110,limousine,hawaii,2019-06-10,approved
+A_bb11_e686475b4d63,C_53282,3089,pickup,washington,2019-11-28,rejected
+A_b08c_b64096ad770f,C_4253,5107,convertibles,connecticut,2019-10-30,approved
+A_9173_ebf48b4761d8,C_42989,9894,convertibles,oklahoma,2019-09-30,approved
+A_a6db_463dd39b1151,C_33217,7189,crossover,tennessee,2019-04-21,approved
+A_882e_a712659ce1b8,C_80342,6680,suvs,north dakota,2019-10-05,approved
+A_b4a2_644d2d07defc,C_25422,6946,hybrid cars,connecticut,2019-10-17,approved
+A_8dd2_c42def3087a6,C_26404,7542,sports cars,new york,2020-01-14,rejected
+A_a47e_778e86ed66c6,C_8835,2791,luxury cars,connecticut,2019-08-08,approved
+A_a08c_bb673516984b,C_14628,7992,crossover,wisconsin,2019-07-21,rejected
+A_802f_67b2408a5e0a,C_8080,8319,convertibles,oklahoma,2019-09-06,approved
+A_b1cb_795121ec8b4a,C_28983,1328,luxury cars,alaska,2019-04-10,approved
+A_91d4_d35d82270d1d,C_15592,1791,economy hatchback,indiana,2019-09-22,approved
+A_9fec_a56f715b238e,C_95087,5434,limousine,vermont,2019-04-07,approved
+A_851c_5968635bf1c3,C_56913,1971,microcar,hawaii,2019-08-14,approved
+A_8698_1a69ebb23d80,C_50032,2482,hybrid cars,louisiana,2019-06-01,approved
+A_9b22_e787c2492abd,C_14095,6640,sports cars,wisconsin,2019-07-14,approved
+A_9182_7d7be35f5ce2,C_53416,1788,microcar,illinois,2020-03-20,approved
+A_adf8_b60833d248c8,C_13156,8922,sedan,maryland,2020-01-10,approved
+A_8746_fc3bcae2e436,C_53054,6619,microcar,new york,2019-09-17,approved
+A_9c53_9757f221b32b,C_3415,9069,microcar,new mexico,2019-09-28,approved
+A_8f92_73ef8ee38f6b,C_50775,377,modified cars,oklahoma,2019-11-14,approved
+A_baf0_feaadeed7085,C_46702,8854,modified cars,new jersey,2019-04-24,approved
+A_a05e_8db0f3501d87,C_21636,1549,pickup,washington,2019-11-02,rejected
+A_a04e_96b15e39dbb9,C_51560,2156,coupe,minnesota,2019-05-05,approved
+A_a408_215f4fd4626a,C_2571,9392,suvs,minnesota,2019-09-06,approved
+A_ae80_43c9a614fed3,C_97757,3517,modified cars,south dakota,2019-07-18,approved
+A_af5d_cf05fc035996,C_2605,595,sedan,delaware,2019-07-10,approved
+A_83eb_ca0628d2844c,C_32653,3648,estate cars,florida,2020-02-16,approved
+A_bb5f_b6a0a3b1754d,C_51275,8406,modified cars,oklahoma,2019-12-30,approved
+A_b430_97c9bed1ff05,C_74350,7352,sports cars,minnesota,2019-07-12,approved
+A_8cce_a33f2dc50437,C_79069,4455,coupe,south carolina,2019-07-06,approved
+A_abb2_ddd62d5427af,C_31420,3142,convertibles,montana,2019-04-27,approved
+A_86d0_ae1b82d45ab1,C_2342,487,convertibles,louisiana,2020-02-13,approved
+A_aee1_5522381508df,C_33446,2248,crossover,montana,2019-04-06,approved
+A_b11d_514bc39b83dc,C_18053,4639,suvs,new york,2019-07-16,approved
+A_9795_033173c0cfb3,C_5172,5194,sports cars,minnesota,2019-05-14,approved
+A_bbc9_114f9791e555,C_38588,2679,coupe,north dakota,2019-08-18,approved
+A_8531_5084052f587f,C_51367,6646,suvs,massachusetts,2019-05-30,approved
+A_8cd6_af22f4bf5a0f,C_77019,5522,economy hatchback,connecticut,2019-08-09,approved
+A_a1ce_23caa71c8742,C_98002,4085,sedan,florida,2019-12-14,approved
+A_a0f0_184168ef0518,C_29962,7063,luxury cars,new jersey,2020-01-20,approved
+A_8d71_b0dede4f05ba,C_53973,4555,estate cars,missouri,2019-09-28,approved
+A_8ed7_a0506dc61a05,C_69559,1029,economy hatchback,michigan,2019-08-27,approved
+A_9fa0_5f39bd265514,C_16233,9852,sports cars,massachusetts,2019-10-21,approved
+A_a8a9_d9b5f5c7a4be,C_78164,7029,coupe,iowa,2019-08-30,approved
+A_b6e4_5bc5d05d6bed,C_24359,8059,economy hatchback,north carolin,2019-09-09,approved
+A_8c83_401423e9831a,C_66997,6329,hybrid cars,virginia,2019-04-30,approved
+A_9414_163729ba99cd,C_10733,9532,estate cars,north dakota,2019-09-12,approved
+A_b773_44a045623d68,C_8454,8689,pickup,new mexico,2020-01-10,approved
+A_a504_31497d4fb049,C_88030,6717,sports cars,west virginia,2019-09-08,approved
+A_8b40_052bca1febe1,C_44951,9784,hybrid cars,alabama,2019-09-16,rejected
+A_b622_d5bc67ac877d,C_63502,8245,hybrid cars,texas,2019-07-29,approved
+A_99f8_d8efb954c7cc,C_12004,9896,sports cars,mississippi,2019-10-21,approved
+A_9c66_705fbfff1d48,C_36447,6006,modified cars,west virginia,2020-03-25,approved
+A_b309_da83fdf6caab,C_64509,2578,estate cars,mississippi,2020-01-20,approved
+A_894d_5916f87e9fc0,C_49880,1897,sedan,nebraska,2019-10-10,approved
+A_91f3_d877fa38d9a2,C_42702,8103,estate cars,texas,2020-03-17,approved
+A_85b9_f66b365f48b6,C_32234,7183,pickup,kentucky,2020-03-31,approved
+A_a201_53266e8d76ec,C_4931,5299,crossover,kentucky,2019-10-29,approved
+A_8201_ad26751bb7c3,C_81489,5164,modified cars,florida,2020-03-10,approved
+A_93b9_afa0a43f1c24,C_41455,6024,luxury cars,california,2020-03-24,approved
+A_93d4_d3626b15c4a2,C_50373,1420,hybrid cars,michigan,2019-05-21,approved
+A_969e_84f05c3a0784,C_99463,1452,microcar,texas,2019-08-06,approved
+A_a9ef_f344fe49db13,C_2644,8353,microcar,oklahoma,2019-12-30,approved
+A_88e9_67e4968dbc43,C_2481,6108,pickup,nebraska,2019-10-23,approved
+A_bf34_e2c71f85bf27,C_77819,9132,estate cars,alabama,2019-10-26,approved
+A_8844_6e7d1624f639,C_44592,6351,sports cars,new hampshire,2019-04-09,approved
+A_b970_b405e1f461f9,C_59715,8314,estate cars,virginia,2019-12-27,approved
+A_8576_bcb26f4170fe,C_5190,7720,crossover,new york,2019-05-26,approved
+A_98f5_b0229f2a900e,C_92438,7582,suvs,rhode island,2019-09-23,approved
+A_b2ff_0f33de49bbf4,C_53323,6553,coupe,iowa,2019-08-25,approved
+A_bc75_11d49181a0dd,C_34193,2241,sports cars,hawaii,2019-05-01,approved
+A_b6bd_f7a0506e0bef,C_83474,1593,limousine,alaska,2020-02-01,approved
+A_9c55_4281e584e28e,C_60680,3971,hybrid cars,nebraska,2020-02-26,approved
+A_b1ac_f8f1a25c2a30,C_96769,1471,limousine,delaware,2020-02-15,rejected
+A_80c2_3e673b6acdde,C_189,7157,luxury cars,delaware,2019-10-16,rejected
+A_85ea_be82741bf074,C_25664,3601,microcar,maryland,2019-05-18,approved
+A_ba26_c5d62fff3b46,C_44835,1968,crossover,california,2020-01-09,approved
+A_ad0e_4585dec3f8fa,C_53527,2820,pickup,maryland,2020-01-23,approved
+A_af31_65bbe6aa50b9,C_77047,3239,coupe,pennsylvania,2020-03-20,approved
+A_857c_90d5fd31db5f,C_61256,2716,economy hatchback,idaho,2020-03-27,approved
+A_85a1_dcd7d32adc6d,C_44439,2754,luxury cars,indiana,2019-08-09,approved
+A_a054_d6aa28fd28db,C_81977,5794,limousine,minnesota,2019-06-23,approved
+A_9d81_33d2bc942f93,C_45384,2578,hybrid cars,utah,2019-04-09,approved
+A_b15a_e7400e34b044,C_73401,8089,sports cars,north carolin,2019-12-20,approved
+A_b656_33631582c7d5,C_97063,958,luxury cars,missouri,2019-09-23,approved
+A_bf65_8576ffa79366,C_40917,3928,luxury cars,oregon,2019-05-04,approved
+A_9a6c_a6d616ad4ba2,C_16013,7882,coupe,oregon,2019-04-12,approved
+A_8b54_d78effa27943,C_16477,6581,sedan,montana,2019-12-30,approved
+A_98b3_ee0fcf6e3bf7,C_35371,5436,limousine,new hampshire,2019-08-24,approved
+A_aa8c_8b815129d858,C_10260,9854,sports cars,north carolin,2019-06-07,approved
+A_b029_a09dca487b92,C_52592,1474,microcar,oklahoma,2019-12-28,approved
+A_8e3f_e6d1845e1fcc,C_24036,1240,suvs,ohio,2020-01-07,approved
+A_91f2_e589dbe3cb07,C_79893,3247,convertibles,west virginia,2019-08-01,approved
+A_993d_668f15089964,C_63602,4869,modified cars,alabama,2019-11-01,rejected
+A_b625_40faf4146d0f,C_22147,5088,coupe,hawaii,2019-10-28,approved
+A_8581_f7c9f3056d80,C_23438,4003,modified cars,connecticut,2019-08-18,rejected
+A_8f58_313e03389161,C_16358,6098,crossover,oregon,2019-10-02,approved
+A_91fb_b71f5a3d0360,C_80358,3590,convertibles,florida,2020-03-06,approved
+A_ae9f_c73df1e265b6,C_69230,6453,coupe,florida,2020-03-14,approved
+A_ad8d_b45d2ead6aba,C_94039,8323,suvs,maryland,2019-11-26,approved
+A_9d34_827e1929c857,C_72748,4937,economy hatchback,ohio,2020-02-11,approved
+A_aebb_e414bae65ca8,C_41379,1482,hybrid cars,montana,2020-02-14,approved
+A_94c9_8f54e348284f,C_42351,2680,modified cars,oklahoma,2019-06-09,approved
+A_9efe_967f67c6bb8a,C_53905,7851,hybrid cars,washington,2019-07-16,approved
+A_8e27_573d5d3f5af5,C_97611,8140,economy hatchback,tennessee,2019-06-26,approved
+A_a235_03c69e8bb316,C_95791,1164,estate cars,pennsylvania,2020-01-15,approved
+A_bf5c_e4f439291659,C_30888,18,luxury cars,florida,2019-11-22,approved
+A_acde_13dec6f623fa,C_43554,5163,convertibles,minnesota,2019-11-25,approved
+A_8537_1867a1f49cc2,C_5641,2478,convertibles,north carolin,2019-05-16,approved
+A_bd91_030473894ad6,C_60459,9903,limousine,iowa,2020-03-14,approved
+A_be81_c0c16b46faea,C_53258,3923,microcar,new mexico,2020-02-06,approved
+A_8200_95abb2cd4aa5,C_7217,4026,sedan,oregon,2019-06-16,approved
+A_97e5_92bf2873c34c,C_20513,8182,pickup,new mexico,2019-04-14,approved
+A_be30_51ab2522a6e9,C_43819,986,economy hatchback,georgia,2019-07-01,rejected
+A_9e0c_fa9a4c712990,C_91119,972,modified cars,arizona,2019-08-31,approved
+A_8b2a_1a34e9e3f4fd,C_82801,9939,convertibles,texas,2019-04-13,approved
+A_99c6_d66cff8ff847,C_57181,469,economy hatchback,alabama,2020-02-27,approved
+A_8ba4_def12e2b09b1,C_15792,4360,hybrid cars,alaska,2019-11-08,approved
+A_ba51_9712bba76de0,C_22842,2917,limousine,tennessee,2019-05-31,approved
+A_9dd4_a3b025292842,C_47997,2808,sports cars,maryland,2019-06-17,approved
+A_a63e_811118508a1c,C_51008,2436,microcar,florida,2019-04-28,approved
+A_9ecb_08958500ff4e,C_46281,4750,luxury cars,nebraska,2020-02-17,rejected
+A_8183_e140112e9aeb,C_4450,9142,convertibles,new mexico,2020-03-16,approved
+A_bccf_e4c2e0cad752,C_15427,9755,hybrid cars,north carolin,2020-02-14,approved
+A_bb4b_5a2fd8cf698f,C_92050,9771,coupe,washington,2019-08-23,rejected
+A_ae54_ab2c980933a3,C_85690,6706,crossover,minnesota,2019-04-20,approved
+A_b7c2_6d227f96af59,C_9249,3393,pickup,louisiana,2020-03-06,approved
+A_b60a_ed18099a6d33,C_99720,4815,pickup,delaware,2019-10-03,approved
+A_8752_5d2c28a70dde,C_63150,7872,estate cars,colorado,2019-07-18,approved
+A_abc3_0b0f95ac89bf,C_68067,386,luxury cars,missouri,2019-10-27,approved
+A_b7ea_c921959571b6,C_46290,5514,crossover,washington,2020-01-28,rejected
+A_97d7_3d3a19e49b71,C_51963,2747,microcar,nevada,2020-02-17,approved
+A_9acc_ef48bafdc4b2,C_6089,2604,crossover,kentucky,2019-09-21,approved
+A_989e_e30bc3fed694,C_8966,5775,economy hatchback,new hampshire,2020-02-20,rejected
+A_a52f_4b7c6bf27a15,C_89307,2628,suvs,massachusetts,2019-07-08,approved
+A_8f9e_8c323664f1cc,C_64748,622,sports cars,wyoming,2019-05-13,approved
+A_a0f7_c07df4597ac3,C_13149,6055,coupe,vermont,2019-10-12,rejected
+A_9e73_7d5f5ffa61ba,C_76724,2762,sedan,montana,2019-11-18,approved
+A_8305_f4e282270fb8,C_41057,8846,modified cars,new mexico,2019-07-17,approved
+A_ae02_670c69280aa7,C_8326,4343,convertibles,ohio,2019-09-18,approved
+A_b400_526a0d5b14c0,C_20871,327,limousine,montana,2019-12-25,approved
+A_b510_f3c61fafd062,C_59252,7471,sedan,nevada,2020-03-21,approved
+A_96a5_c67f1ea18617,C_49250,2880,pickup,oregon,2019-04-23,approved
+A_94a3_ca8af1695f01,C_72465,1568,hybrid cars,new mexico,2019-09-16,rejected
+A_8fcd_ad2b25118ffc,C_4100,1929,microcar,louisiana,2019-06-26,approved
+A_9ec2_dedf591f4dcf,C_3203,819,microcar,minnesota,2019-09-16,approved
+A_b2bd_868be78abf75,C_28830,850,convertibles,idaho,2019-11-03,approved
+A_baa0_2894432e312b,C_99870,1167,microcar,north carolin,2019-05-20,approved
+A_b272_27bef56e1e0d,C_78140,4486,limousine,virginia,2019-12-24,rejected
+A_9633_52e848226c3b,C_98749,4050,crossover,iowa,2019-05-16,approved
+A_9c7e_d8454f69a8d2,C_36988,1283,crossover,idaho,2019-11-12,approved
+A_8cee_6b1fd80fc88e,C_63457,8054,luxury cars,iowa,2020-02-23,approved
+A_a967_01357272cf76,C_53621,6822,coupe,minnesota,2019-09-16,approved
+A_a375_8eaa5e372b43,C_63382,9905,estate cars,vermont,2020-01-10,approved
+A_9a0f_94dea1fd886f,C_66539,7655,convertibles,iowa,2019-10-31,approved
+A_b400_0ba2fd53c79c,C_25127,5247,suvs,minnesota,2020-01-22,approved
+A_a46a_f8f2df941074,C_5914,1723,pickup,connecticut,2019-04-02,approved
+A_add3_8a4d5238df41,C_73483,9728,pickup,mississippi,2019-07-20,approved
+A_ad48_2053f0d902ab,C_5992,2135,sports cars,kansas,2020-02-16,approved
+A_aa67_d033709ab490,C_96900,4210,sedan,california,2020-01-26,approved
+A_97fa_ab23f20a7c4a,C_61871,3720,economy hatchback,hawaii,2019-09-07,rejected
+A_9293_350d54d8b283,C_13188,9134,luxury cars,nebraska,2019-11-05,approved
+A_a03f_353ac2ab5ea0,C_43925,6238,pickup,oklahoma,2019-07-25,approved
+A_901e_1f2f09dbf758,C_10791,5335,sports cars,colorado,2019-06-04,approved
+A_afdb_83dac64f1957,C_76326,3593,suvs,new hampshire,2019-07-28,approved
+A_8b17_795c285329ba,C_38533,3063,hybrid cars,hawaii,2019-07-23,approved
+A_a673_3355ecaee54a,C_72501,5280,estate cars,iowa,2019-07-24,approved
+A_a5c5_15b2150a8aef,C_10816,80,crossover,arkansas,2020-03-20,approved
+A_8f3f_38d62705a556,C_21778,7568,estate cars,utah,2019-08-18,approved
+A_89b6_a07cd30260a3,C_59457,778,modified cars,minnesota,2020-01-17,approved
+A_ba05_013b521a3487,C_57496,1514,suvs,ohio,2020-03-23,rejected
+A_865f_ad540c32a8ca,C_35927,5880,limousine,michigan,2019-12-12,approved
+A_ad2b_0f5416d4f2fb,C_4030,1832,modified cars,kentucky,2019-07-24,approved
+A_8eaa_2a0f7700197a,C_53834,9647,hybrid cars,wisconsin,2020-03-28,approved
+A_994e_136487cf801c,C_1994,1473,hybrid cars,wisconsin,2019-10-07,approved
+A_a004_4200936d5cac,C_19571,9646,modified cars,west virginia,2020-02-12,approved
+A_9086_5c12dd6a88b9,C_66868,7115,hybrid cars,texas,2019-09-18,approved
+A_b429_ed18ab820ade,C_13464,7467,luxury cars,louisiana,2019-12-07,approved
+A_a836_089fb5426147,C_26892,1743,coupe,louisiana,2019-06-27,approved
+A_b13c_be05f86158ed,C_35297,2383,pickup,new hampshire,2019-12-12,approved
+A_a456_06f63e37d129,C_88394,8856,luxury cars,minnesota,2019-04-05,approved
+A_b70e_cb3d8db6cdcf,C_95599,4435,suvs,alabama,2019-12-13,approved
+A_a4ff_5a3bf01341ec,C_2361,7791,sedan,arizona,2020-01-07,rejected
+A_9503_038209f60275,C_65229,5815,crossover,tennessee,2019-04-22,approved
+A_9c42_502d8c7389c5,C_96408,5945,hybrid cars,arkansas,2019-09-09,approved
+A_804a_09e14d0b2e22,C_36844,5932,coupe,new hampshire,2019-11-08,approved
+A_8490_ef5c54129f02,C_40464,7083,economy hatchback,alaska,2020-03-30,approved
+A_bbfc_ab9207b903a4,C_40715,9157,coupe,south carolina,2019-11-17,rejected
+A_8379_10785c1461dc,C_72903,682,limousine,idaho,2019-05-22,approved
+A_820a_fe401986ae15,C_51250,2860,pickup,hawaii,2019-09-23,approved
+A_8aea_c61f567d1733,C_16237,2974,estate cars,north dakota,2019-09-03,approved
+A_ae43_ea6f7c00a5a9,C_19493,3471,economy hatchback,oklahoma,2019-08-04,approved
+A_98cb_5aeaa018660b,C_34967,6348,economy hatchback,new york,2019-08-22,approved
+A_8596_a740cfd7b479,C_40868,2126,economy hatchback,washington,2019-07-05,approved
+A_8ff4_117c65344ac4,C_90986,9330,estate cars,new jersey,2019-07-21,rejected
+A_9627_4661b934264e,C_42464,444,economy hatchback,kansas,2019-08-23,rejected
+A_8a87_8466989f1d6a,C_8087,440,sports cars,new hampshire,2019-10-20,approved
+A_b801_1236e870ff69,C_82322,2220,microcar,new jersey,2019-04-19,approved
+A_8007_9854edd8697b,C_97397,6359,economy hatchback,north dakota,2019-12-09,approved
+A_a124_6045e97f0a89,C_4035,4446,limousine,utah,2019-06-28,approved
+A_91af_2fc20aab1470,C_49199,2021,coupe,montana,2019-07-09,approved
+A_8c3e_57e15ad18832,C_25232,7713,convertibles,iowa,2020-03-22,approved
+A_b4ae_aa25d9ee7d00,C_6057,9338,microcar,massachusetts,2019-12-27,approved
+A_8e80_6ed58dd4c487,C_18074,9948,crossover,south carolina,2019-12-04,approved
+A_9f3a_a12d864f691d,C_36889,1514,pickup,alabama,2019-08-04,approved
+A_8366_92211e78269f,C_68169,9203,modified cars,oklahoma,2020-01-14,approved
+A_8d9c_900ece00a0c6,C_53814,2247,limousine,south carolina,2019-12-03,approved
+A_bed5_be4180c856a0,C_94353,8550,sports cars,south dakota,2020-03-15,approved
+A_9dbb_5345e21e5b3b,C_81934,8637,pickup,arizona,2019-07-09,approved
+A_b3e2_eefb3f6fc6f3,C_72385,1700,hybrid cars,oregon,2019-06-09,approved
+A_a2c7_8de1eef72350,C_33414,5960,sedan,missouri,2019-11-27,approved
+A_b943_ec83530fd387,C_30861,8268,limousine,louisiana,2019-09-17,approved
+A_b781_6d9cdc1239d4,C_52312,9904,modified cars,south dakota,2019-08-20,approved
+A_970a_4f44faad5e02,C_21929,9003,sports cars,arizona,2020-02-17,approved
+A_9187_c79542aa0506,C_15290,7316,crossover,nebraska,2019-06-19,approved
+A_952e_b57ccc4fe131,C_81436,6138,estate cars,oklahoma,2019-11-14,approved
+A_9393_763d678834db,C_43367,5745,hybrid cars,new york,2019-07-01,approved
+A_93f2_ad8975e32a45,C_79369,5928,economy hatchback,idaho,2019-04-28,approved
+A_b6a2_dac7197002c5,C_35201,9864,microcar,arizona,2019-06-03,rejected
+A_9cef_c0ed02044255,C_56215,801,economy hatchback,louisiana,2019-08-10,approved
+A_8c34_4aee426a9fc6,C_20785,9813,economy hatchback,indiana,2019-10-04,approved
+A_bcab_96abc8c2ab97,C_45429,1980,pickup,illinois,2019-04-21,approved
+A_a72b_415a8cc579a5,C_68259,4018,limousine,illinois,2019-09-28,approved
+A_ae27_83509a29f45d,C_73764,8772,modified cars,massachusetts,2020-03-04,approved
+A_8a6f_a8380a9d4ac6,C_90848,5762,microcar,tennessee,2019-08-14,approved
+A_a53b_8fccb686611a,C_17031,6572,microcar,delaware,2019-09-10,approved
+A_b0db_fb942875c626,C_65339,369,modified cars,maine,2019-10-16,approved
+A_8405_e7ded80803d9,C_12336,5684,hybrid cars,kentucky,2019-10-05,approved
+A_8a71_655de6a8b2be,C_43094,3940,economy hatchback,minnesota,2019-07-22,rejected
+A_a6d7_d0629c435dba,C_6870,582,estate cars,idaho,2019-09-19,approved
+A_9c4b_3f7b6f754fbe,C_93200,9427,economy hatchback,texas,2019-12-23,approved
+A_972d_fcb1edea332f,C_83018,1610,pickup,missouri,2019-06-26,approved
+A_b4e6_8d957747c9e0,C_3464,1380,microcar,arkansas,2019-04-04,approved
+A_b05e_2cea0c733e3c,C_11385,1653,luxury cars,california,2019-08-10,approved
+A_816e_c81725da5e2d,C_30184,5129,convertibles,north carolin,2019-07-22,approved
+A_98f5_68823368c395,C_89975,179,pickup,arizona,2019-11-23,rejected
+A_a49b_09dca9f94c21,C_20184,4416,sedan,new hampshire,2019-06-30,approved
+A_b4ca_a91443e1d44e,C_51427,2010,suvs,indiana,2020-01-20,approved
+A_8265_980e67ade0d7,C_53014,9765,crossover,georgia,2019-11-04,approved
+A_8cbd_6a242639fc85,C_8385,3770,limousine,vermont,2020-02-16,approved
+A_8d19_143f50cf5c1a,C_64339,8434,coupe,nevada,2019-10-08,approved
+A_affa_ce6a651840ce,C_29466,7387,suvs,maine,2019-04-13,approved
+A_8454_0bb51538d7e0,C_66183,8864,modified cars,south carolina,2019-08-12,approved
+A_98f0_bda3b2b9a088,C_36031,1549,limousine,utah,2019-11-13,approved
+A_b155_4c4ba5ad27f0,C_62746,8774,suvs,nevada,2019-04-26,approved
+A_a2e6_15449b1ddd1f,C_73887,8687,modified cars,nevada,2019-10-07,approved
+A_9260_1c4be5120105,C_70674,4197,pickup,missouri,2019-12-07,approved
+A_9e2e_af975637da11,C_10516,3133,economy hatchback,wyoming,2019-11-25,approved
+A_9ad8_a124fa843e38,C_70373,5795,suvs,wisconsin,2019-09-21,approved
+A_9d96_8853a99f0ac0,C_39787,8700,luxury cars,arkansas,2019-12-16,approved
+A_a361_e3697b128425,C_75679,9101,estate cars,massachusetts,2019-06-07,approved
+A_a73c_3e2ffb346223,C_44966,7220,luxury cars,rhode island,2019-07-15,rejected
+A_84b2_46237527930f,C_81944,6738,modified cars,wyoming,2019-05-01,approved
+A_a48b_0423ab0f433e,C_91313,3987,limousine,washington,2020-01-19,approved
+A_a10e_d63504462de5,C_91916,8486,coupe,hawaii,2019-07-12,approved
+A_a90e_d8e25ee3ff05,C_98540,4348,economy hatchback,idaho,2020-03-22,rejected
+A_9a66_d8ad80f39b85,C_18536,4142,suvs,south carolina,2019-07-24,approved
+A_8529_cd0dc6d0ab1d,C_82822,4612,modified cars,north carolin,2020-02-17,approved
+A_b5dc_370ed6756c42,C_930,7002,limousine,pennsylvania,2019-07-11,approved
+A_bd5f_8625516d4610,C_40485,983,estate cars,vermont,2019-05-08,approved
+A_bcf2_0849010c9b99,C_31036,5033,luxury cars,vermont,2020-02-19,approved
+A_8dab_940b4761f0dd,C_8426,5991,luxury cars,wyoming,2020-03-14,approved
+A_85aa_109a3f0b2e05,C_50472,3725,luxury cars,idaho,2019-08-22,approved
+A_a650_3fb698dc785e,C_71604,5777,pickup,tennessee,2019-09-10,approved
+A_8402_e733bbe7cef2,C_78883,4874,estate cars,massachusetts,2019-11-14,approved
+A_ad88_0d4b463a99db,C_10532,5030,modified cars,colorado,2019-11-21,approved
+A_ac16_d796e7f57bc7,C_89944,8158,hybrid cars,ohio,2019-09-04,approved
+A_ad69_fdcc2fe1be39,C_37662,9852,luxury cars,north dakota,2019-08-12,rejected
+A_914b_3add53efb6dc,C_58104,8926,luxury cars,oklahoma,2019-11-14,approved
+A_9ea3_f9ae1dd54116,C_32559,5142,sedan,nebraska,2019-12-28,approved
+A_a65a_9061b22d070c,C_43909,5634,sports cars,new mexico,2019-04-27,approved
+A_998e_50481a245246,C_65628,8318,economy hatchback,missouri,2020-02-22,approved
+A_8256_fb87e7ca487c,C_76013,3618,suvs,illinois,2019-07-19,approved
+A_a73a_68f0ba05a354,C_81873,3178,microcar,mississippi,2019-08-16,approved
+A_8b3f_0cb44023ff4a,C_71639,1876,limousine,washington,2019-06-14,approved
+A_98dd_9fab8911b9de,C_72263,4932,sports cars,utah,2019-07-13,approved
+A_86a5_08dd59d15b49,C_35004,6715,coupe,west virginia,2019-06-03,approved
+A_9249_4509021b55c5,C_66490,4523,limousine,florida,2019-12-20,rejected
+A_b75b_38232949b7ca,C_56003,5156,convertibles,south dakota,2020-02-04,approved
+A_a1f6_3b11acabfaa8,C_6262,552,modified cars,vermont,2019-10-23,approved
+A_aa95_bc59110ac25e,C_36212,452,coupe,florida,2020-02-11,approved
+A_bfc1_2487c7f1eb6c,C_10957,5726,coupe,montana,2019-05-19,approved
+A_90fc_4b6fbf99d7fd,C_80106,8518,limousine,georgia,2019-12-26,approved
+A_980c_f22719878042,C_10055,8242,microcar,michigan,2019-08-01,approved
+A_8b82_882933179430,C_13746,3502,economy hatchback,new york,2019-08-18,approved
+A_a5bc_b2cd4be89b58,C_64127,8050,crossover,indiana,2019-08-04,approved
+A_9086_8a669e04d479,C_57025,4001,limousine,illinois,2019-06-29,approved
+A_888a_61390c1039e0,C_2660,2137,economy hatchback,california,2019-04-24,approved
+A_bbbe_5b0824f5d611,C_7958,1275,modified cars,new hampshire,2019-06-30,approved
+A_a35a_4af2261336ef,C_4611,7465,modified cars,virginia,2019-12-06,approved
+A_9487_f7606a4de10e,C_9661,6893,sports cars,nevada,2020-01-24,approved
+A_af64_9d4b031ded22,C_23643,7366,sports cars,alaska,2019-07-20,approved
+A_b98e_3320972de4e6,C_22977,9331,convertibles,rhode island,2019-11-19,approved
+A_971a_56a23cb8eba8,C_79654,1581,crossover,colorado,2020-01-06,rejected
+A_a96d_c12aa443d610,C_947,2892,microcar,oklahoma,2020-01-30,approved
+A_b1df_664f9241109a,C_93607,7348,modified cars,washington,2019-12-29,approved
+A_934e_d157bf414610,C_11084,2176,microcar,washington,2019-04-21,approved
+A_bae8_068cc2fe08b3,C_92130,3195,pickup,colorado,2020-02-03,approved
+A_8544_7302aa0f383d,C_17397,8847,luxury cars,wisconsin,2019-04-04,approved
+A_830b_a525208211b8,C_17147,2447,sedan,alabama,2020-03-31,approved
+A_aee5_3d58e695da56,C_87778,6020,limousine,wisconsin,2019-12-28,approved
+A_9b4b_66c719a1c29c,C_42243,9911,modified cars,new hampshire,2019-11-14,approved
+A_982a_b46b9e854f2c,C_84495,5968,hybrid cars,louisiana,2020-02-10,approved
+A_8f61_d0f93182d537,C_67186,4506,luxury cars,rhode island,2019-11-27,approved
+A_b47e_5c4bd859e160,C_65670,3931,crossover,texas,2019-05-31,approved
+A_91a7_e3d87bdf2e9f,C_5742,6023,limousine,minnesota,2019-07-06,rejected
+A_bb33_7ce84f06d778,C_96324,8713,convertibles,hawaii,2019-08-05,approved
+A_ac97_304684ce471a,C_11749,7801,sedan,pennsylvania,2019-09-09,approved
+A_93e7_6186e9e43a1d,C_25165,981,luxury cars,massachusetts,2019-11-06,approved
+A_a7ca_2759d15ca655,C_428,3949,sports cars,mississippi,2019-04-17,approved
+A_a37e_23abe0255d2a,C_20539,2054,economy hatchback,oklahoma,2019-07-28,approved
+A_bd8d_8ea0765414fa,C_70420,185,suvs,south carolina,2019-05-02,approved
+A_bace_a99c834191df,C_24631,9689,luxury cars,alaska,2019-11-28,approved
+A_ab74_c0cfbb2a70b8,C_76887,7722,sedan,texas,2019-12-11,rejected
+A_9332_2c433cadc6eb,C_56661,2207,hybrid cars,florida,2019-11-11,approved
+A_b4a2_c98f93a6ac63,C_3022,2022,crossover,oklahoma,2019-11-23,approved
+A_ae3e_1f0411bafc28,C_21855,6127,economy hatchback,connecticut,2019-07-09,approved
+A_927f_7aa094af1adc,C_30401,2692,modified cars,texas,2019-10-24,approved
+A_94b0_ba2f26da2410,C_5035,5790,hybrid cars,georgia,2019-05-15,approved
+A_9e10_cedb6bf260a8,C_51405,1163,luxury cars,maryland,2019-08-02,approved
+A_9ee8_b22b1b3549a4,C_59585,5690,hybrid cars,south dakota,2019-05-04,approved
+A_910f_79450117bdc6,C_6804,9650,crossover,california,2020-02-18,rejected
+A_9300_70bb1187cd55,C_73742,945,sedan,kentucky,2019-12-02,approved
+A_9db8_4c7190766d92,C_30366,5337,hybrid cars,kansas,2020-01-21,approved
+A_a6a0_3cf8786b6bbe,C_42954,2684,estate cars,south dakota,2019-10-05,rejected
+A_acac_f98b110cf8c9,C_92987,4771,limousine,indiana,2019-12-02,approved
+A_8e35_65f480580a79,C_69225,6215,economy hatchback,illinois,2019-10-03,approved
+A_916b_801fa8b33ca3,C_20683,900,hybrid cars,louisiana,2019-06-28,approved
+A_b238_bb5440a72cca,C_42857,2682,suvs,virginia,2019-07-15,approved
+A_afb2_0e1da0b4090a,C_74391,1825,economy hatchback,minnesota,2019-07-18,approved
+A_9542_005e6d02df51,C_50835,7221,modified cars,florida,2019-12-18,approved
+A_a57d_49d3c02378d6,C_74987,9019,hybrid cars,hawaii,2019-06-20,approved
+A_886a_9d8457c0fe46,C_23562,3035,pickup,new mexico,2019-08-07,rejected
+A_839a_d9bb4fcefa3f,C_87058,8659,hybrid cars,mississippi,2019-11-06,approved
+A_adb0_bdf196db0267,C_49075,4588,suvs,wyoming,2019-08-03,approved
+A_a86f_e63410b6a768,C_51419,6790,coupe,arkansas,2019-10-12,rejected
+A_b146_dc01755d4273,C_16460,7115,convertibles,oklahoma,2019-06-18,approved
+A_9f15_8ac43b66286c,C_90403,9185,estate cars,texas,2019-10-11,approved
+A_afe4_5454680f6165,C_58518,6869,crossover,south dakota,2020-03-26,approved
+A_9229_5a41ae43447b,C_93053,6226,hybrid cars,arkansas,2019-05-22,approved
+A_add7_0029ae3ccc36,C_98750,3760,limousine,virginia,2019-08-31,approved
+A_90c6_32585d8ec456,C_40078,9428,sports cars,iowa,2019-04-11,approved
+A_b2f7_ab8689a59690,C_21858,9184,microcar,virginia,2019-08-10,approved
+A_8846_8b76c4c6bf78,C_33297,5248,suvs,iowa,2020-01-07,approved
+A_bd88_b8731ba3d003,C_29494,6041,sedan,massachusetts,2019-12-25,approved
+A_8458_2e5d7475582a,C_70040,6169,economy hatchback,virginia,2019-09-13,approved
+A_9776_96bffccb1302,C_86703,1015,coupe,north carolin,2019-12-05,approved
+A_83cf_6b92133c930c,C_62207,2818,luxury cars,georgia,2019-04-05,approved
+A_bceb_2d895d077fdd,C_23906,4239,luxury cars,indiana,2019-06-15,approved
+A_93e5_f97b26b48434,C_44685,975,pickup,new jersey,2019-05-22,approved
+A_bf40_cdb848ff1eb8,C_97774,3923,crossover,oklahoma,2019-10-08,rejected
+A_8341_3436c5343f1e,C_36954,7179,limousine,nebraska,2019-10-07,approved
+A_bc64_c7eae7936f22,C_86789,601,sports cars,colorado,2019-08-11,approved
+A_8d1c_535bdbb3946f,C_302,3398,sedan,new jersey,2019-11-27,approved
+A_bbb5_67b067485da4,C_54058,1390,suvs,new york,2019-05-03,approved
+A_a51b_369577d43595,C_85296,4666,coupe,delaware,2019-04-07,approved
+A_b3e1_05ba0c715995,C_41052,7933,modified cars,florida,2019-04-22,approved
+A_8d22_67c2224b257c,C_94500,4798,modified cars,idaho,2019-11-08,approved
+A_81da_0e0d9ff5c049,C_87376,6774,hybrid cars,nebraska,2019-12-19,approved
+A_8e2f_e987cfe3487b,C_59296,2629,convertibles,alabama,2019-06-03,approved
+A_8f4c_d7b312adf383,C_7182,9917,convertibles,west virginia,2019-09-18,approved
+A_b5ae_98ada692eb70,C_89557,8698,hybrid cars,west virginia,2019-06-17,rejected
+A_b5b3_984a360ab344,C_44528,9913,modified cars,arizona,2019-12-19,approved
+A_9977_77d788252f61,C_59779,3520,estate cars,arizona,2019-09-13,approved
+A_8a85_7cf04ac681ac,C_72284,2370,convertibles,maryland,2019-11-26,rejected
+A_98f3_b55386e17333,C_43932,6537,luxury cars,pennsylvania,2019-12-20,approved
+A_8b65_c80ee9f0d274,C_24990,9112,sedan,iowa,2019-09-23,approved
+A_9ed0_36be005b4f77,C_34692,3403,crossover,missouri,2019-06-10,approved
+A_8606_8395aff5dd92,C_84702,224,sedan,iowa,2019-06-13,approved
+A_897c_30f9798115b7,C_45096,4791,modified cars,oklahoma,2019-09-01,rejected
+A_bd44_41d58affdc04,C_33491,4752,suvs,north carolin,2020-03-28,approved
+A_9e64_ca89e39164a3,C_97060,9308,economy hatchback,nevada,2019-08-15,approved
+A_9003_1a39031807ea,C_9866,5351,sports cars,alaska,2019-04-01,approved
+A_a85e_f2dbff5ae1b4,C_84965,9028,sedan,alabama,2019-05-24,approved
+A_abe9_d448b3d6d87d,C_44417,8534,estate cars,new mexico,2020-02-03,approved
+A_ab53_eb13cd79bbf8,C_66179,2165,estate cars,alabama,2019-09-05,approved
+A_81ef_90a30ae206fc,C_90817,6990,estate cars,pennsylvania,2019-08-10,approved
+A_95a5_82a5a4695716,C_44798,3715,sports cars,oklahoma,2019-09-20,approved
+A_bc02_1ac5431b498a,C_65800,5241,suvs,delaware,2020-03-02,approved
+A_955d_cd0ae922ed27,C_48095,7106,estate cars,south dakota,2019-09-18,approved
+A_b03a_96b31bcd7dc4,C_30757,2501,convertibles,west virginia,2019-05-29,approved
+A_b4ef_2b2d670d5372,C_84867,7648,luxury cars,pennsylvania,2019-08-19,approved
+A_a39a_427ec9807b4c,C_14936,9451,estate cars,pennsylvania,2019-07-16,approved
+A_aade_149987ac8314,C_89389,4780,suvs,tennessee,2019-07-12,approved
+A_815b_f36b5eca9acd,C_72028,5883,pickup,west virginia,2020-02-07,approved
+A_88d3_984160051c75,C_71813,2431,modified cars,rhode island,2019-06-04,approved
+A_8576_a009e2f49e56,C_92171,6567,sports cars,wyoming,2019-04-21,approved
+A_8bcf_d5bd712a09c2,C_59304,3423,hybrid cars,oklahoma,2019-07-02,approved
+A_a831_c3276c88028d,C_17230,1835,convertibles,south dakota,2020-02-25,approved
+A_bea3_b07df4746de1,C_84449,3824,economy hatchback,alaska,2020-01-10,approved
+A_aa9b_464bffddde97,C_45016,1870,modified cars,minnesota,2019-04-15,approved
+A_b784_1d81ea19cba2,C_41209,1863,sedan,new hampshire,2019-07-06,approved
+A_ac5f_c20006d040cf,C_22920,60,pickup,tennessee,2019-09-06,approved
+A_84c0_8ba15e38a295,C_47542,9758,microcar,maryland,2019-11-19,approved
+A_b2a6_b85e1c14bb0a,C_30325,5304,microcar,arkansas,2019-11-28,approved
+A_9788_55ce826c48b5,C_5838,9950,estate cars,pennsylvania,2019-11-11,approved
+A_b262_fbe9159d853f,C_71237,3886,pickup,michigan,2019-07-31,approved
+A_a394_e9bae75b1510,C_98859,7663,modified cars,connecticut,2019-08-24,approved
+A_8bb5_6c70228b7cfa,C_71821,1537,convertibles,pennsylvania,2019-05-18,approved
+A_a412_e4bfcadf89f4,C_96888,5485,estate cars,hawaii,2020-01-30,approved
+A_9877_75c8354b619e,C_91119,6888,limousine,hawaii,2019-08-24,rejected
+A_8b39_da263f0b4a23,C_96380,1671,hybrid cars,arkansas,2019-09-10,approved
+A_b303_fe7b4c705081,C_12325,2816,sports cars,hawaii,2019-12-09,approved
+A_9638_ea12804d69e6,C_81034,8617,modified cars,maine,2019-07-20,approved
+A_ae25_0c318980c3bd,C_41006,1424,microcar,new jersey,2019-09-16,approved
+A_b915_e8d35792ab29,C_61019,5875,microcar,rhode island,2020-03-11,approved
+A_81b6_790d3e6f1b13,C_99637,2161,luxury cars,vermont,2020-02-02,approved
+A_b4cf_5cd06049a85f,C_21120,9475,luxury cars,kansas,2019-09-19,approved
+A_ab4a_dcc120c66ade,C_73702,9013,coupe,virginia,2019-05-16,approved
+A_a33e_5e98bd4ec008,C_2247,5442,luxury cars,maryland,2020-01-01,approved
+A_a3f5_737b90cb83e8,C_73314,777,microcar,oregon,2019-10-18,approved
+A_9b6d_ddbdb627e06d,C_33998,5724,microcar,louisiana,2019-08-23,approved
+A_b1f2_db029d3b2c6e,C_99563,3160,crossover,alaska,2019-09-01,approved
+A_bb7e_16ffba29d1c0,C_39914,5889,luxury cars,maryland,2019-12-04,rejected
+A_a1e2_19668b03a0ec,C_88054,8674,modified cars,illinois,2019-05-04,approved
+A_9a3b_74ac1b32275f,C_99629,793,convertibles,california,2019-12-16,approved
+A_9917_8c8ef962611e,C_98196,3222,modified cars,vermont,2020-03-05,approved
+A_9a7d_74e4be167fc0,C_56051,3786,sports cars,pennsylvania,2019-12-23,approved
+A_af63_8cf58f783546,C_4483,5203,economy hatchback,maine,2020-03-20,approved
+A_98a3_6d86ffb1beb8,C_75110,6312,pickup,oklahoma,2019-10-12,approved
+A_8cf9_97a5c4f4c4c5,C_62117,8066,hybrid cars,new york,2019-06-13,approved
+A_bfe8_4ee080a8be51,C_13626,3902,luxury cars,vermont,2019-05-07,rejected
+A_b940_9114bbf9eb9c,C_46323,6598,sedan,washington,2020-02-23,approved
+A_bddd_90caaec1d0f0,C_58898,2655,economy hatchback,iowa,2019-09-21,approved
+A_ab33_9d475cd883a1,C_79716,5924,hybrid cars,wisconsin,2019-04-06,approved
+A_910e_5393d71a1b0d,C_21871,6174,microcar,kentucky,2019-11-03,approved
+A_b183_f1842215bc8d,C_94432,8724,crossover,north dakota,2020-03-14,rejected
+A_a069_d0985267dccc,C_60099,4488,luxury cars,alabama,2019-04-16,rejected
+A_a6b9_7c5fa8108729,C_75605,5484,pickup,oregon,2020-02-29,approved
+A_af07_8433d8cfca4b,C_83984,1467,sports cars,nevada,2019-12-22,approved
+A_b003_34cc05bcf9b0,C_91396,6211,pickup,michigan,2020-01-08,approved
+A_bc8e_962793e7ecff,C_551,3321,crossover,idaho,2019-04-29,approved
+A_85f0_3eb6104dee2e,C_19012,7091,microcar,new mexico,2019-07-09,approved
+A_9cc8_2320d1afe31d,C_24939,9579,microcar,florida,2019-04-25,rejected
+A_8c2e_e1bef6e5ba97,C_24341,656,sedan,delaware,2019-04-16,approved
+A_b7e2_367a2d502081,C_56440,4056,coupe,maryland,2020-02-03,approved
+A_a122_cf9aaccb6fc3,C_64693,7927,hybrid cars,south dakota,2020-01-27,approved
+A_afd1_40f320673c63,C_57768,8325,limousine,alaska,2020-02-05,approved
+A_929e_0d4e73d90d75,C_41325,4500,coupe,louisiana,2019-11-22,approved
+A_a0cd_4a2d5d43dccb,C_65721,2928,estate cars,wisconsin,2019-11-19,approved
+A_8020_4dbfa3910e28,C_50309,1835,luxury cars,south dakota,2019-12-11,approved
+A_9bd6_3d64db2b3ccb,C_74113,6048,hybrid cars,utah,2019-07-23,approved
+A_9d60_9b8edac35da3,C_53547,5381,luxury cars,florida,2019-10-28,approved
+A_960a_4400cd6dbfd8,C_89546,8755,limousine,indiana,2019-10-19,approved
+A_b380_235fe596014e,C_47855,3542,crossover,minnesota,2019-10-09,approved
+A_b04b_714b2321a647,C_89212,8749,luxury cars,kansas,2019-10-02,approved
+A_abe2_87ccee9b096d,C_2567,2685,limousine,alabama,2019-12-22,approved
+A_ba70_e494a4e6af4f,C_81942,2185,hybrid cars,new jersey,2020-03-16,approved
+A_81b1_03df4ffeb2cd,C_55962,9297,estate cars,nevada,2019-11-14,rejected
+A_8ead_db404103815e,C_54386,9677,microcar,maine,2020-01-27,approved
+A_8103_f02f8875f8b4,C_91227,3076,limousine,alabama,2019-08-07,approved
+A_ae15_f405da8b632b,C_73685,1115,microcar,iowa,2020-01-27,rejected
+A_b141_b2f2b5ae5e40,C_44738,2309,pickup,vermont,2019-09-17,approved
+A_ace1_281c876144d3,C_34575,6800,suvs,north carolin,2019-12-18,approved
+A_8729_a473901da4df,C_17390,3938,modified cars,west virginia,2019-08-10,approved
+A_9837_d4964496ca58,C_26606,2400,sports cars,nebraska,2019-07-28,approved
+A_8e6c_8817eed1fe13,C_27982,9312,convertibles,maryland,2019-09-13,approved
+A_8785_d64990fc8058,C_50360,6508,pickup,new hampshire,2019-11-25,approved
+A_b2ce_127d738a3e19,C_10257,4397,sedan,colorado,2019-10-12,rejected
+A_bfe7_6e59ceb55550,C_17193,1460,economy hatchback,hawaii,2019-06-22,approved
+A_b8f6_7e7e306e7dfa,C_23475,8848,suvs,maine,2019-12-21,approved
+A_b143_542016761606,C_70500,9334,economy hatchback,south carolina,2019-08-18,approved
+A_9423_34e9701781f5,C_85386,8148,coupe,vermont,2019-11-02,approved
+A_8f66_d8a25eb5c36b,C_36168,7363,modified cars,maryland,2020-01-13,rejected
+A_9ff3_10c23d28d4fb,C_4412,344,pickup,hawaii,2019-05-12,rejected
+A_9924_acbb1dfdca4b,C_98698,3024,sedan,kentucky,2019-10-03,approved
+A_8d70_79b16c214146,C_67321,8568,modified cars,north dakota,2019-08-16,approved
+A_8064_2c3754b6b788,C_68092,2724,crossover,kansas,2019-08-26,approved
+A_9cc3_565ead950bda,C_55439,2747,convertibles,indiana,2019-10-10,approved
+A_8544_fbac52a4a25c,C_74263,9551,pickup,oklahoma,2019-05-08,approved

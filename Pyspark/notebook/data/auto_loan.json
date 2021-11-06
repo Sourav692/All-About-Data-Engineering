@@ -1,0 +1,6 @@
+{
+	"input_location": "/FileStore/tables/auto_loan.csv",
+	"output_location": "/FileStore/tables/auto_loan_analysis",
+	"delimiter": ","
+}
+
