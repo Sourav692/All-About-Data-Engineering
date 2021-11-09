@@ -1,0 +1,5 @@
+SQL Queries:
+
+1. http://www.complexsql.com/complex-sql-queries-examples-with-answers/
+2. https://www.mysqltutorial.org/select-nth-highest-record-database-table-using-mysql.aspx
+3. https://www.complexsql.com/complex-sql-queries-examples-with-answers/complex-sql-for-interviews/

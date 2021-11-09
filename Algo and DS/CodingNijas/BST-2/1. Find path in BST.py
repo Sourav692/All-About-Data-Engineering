@@ -15,6 +15,17 @@ Sample Input 1:
 Sample Output 1:
 2 5 8
 
+1) root is None?
+
+2) root.data == searchData
+       Do something
+
+3) Call on left
+   if left returns None:
+        call on right
+    else:
+        append root.data to leftoutput
+
 """
 
 import queue
