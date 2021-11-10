@@ -22,13 +22,13 @@ df2 = df.withColumn("age",col("age").cast(StringType())) \
 df2.printSchema()
 df.show(truncate=False)
 
-df3 = df2.selectExpr("cast(age as int) age",
-    "cast(isGraduated as string) isGraduated",
-    "cast(jobStartDate as string) jobStartDate")
-df3.printSchema()
-df3.show(truncate=False)
+# df3 = df2.selectExpr("cast(age as int) age",
+#     "cast(isGraduated as string) isGraduated",
+#     "cast(jobStartDate as string) jobStartDate")
+# df3.printSchema()
+# df3.show(truncate=False)
 
-df3.createOrReplaceTempView("CastExample")
-df4 = spark.sql("SELECT STRING(age),BOOLEAN(isGraduated),DATE(jobStartDate) from CastExample")
-df4.printSchema()
-df4.show(truncate=False)
+# df3.createOrReplaceTempView("CastExample")
+# df4 = spark.sql("SELECT STRING(age),BOOLEAN(isGraduated),DATE(jobStartDate) from CastExample")
+# df4.printSchema()
+# df4.show(truncate=False)
