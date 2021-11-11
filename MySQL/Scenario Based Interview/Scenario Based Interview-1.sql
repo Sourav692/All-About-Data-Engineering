@@ -236,6 +236,8 @@ Inner Join Worker t on TempNew.DEPARTMENT=t.DEPARTMENT
  
  -- Q-46. Write an SQL query to fetch three max salaries from a table.
 SELECT DISTINCT SALARY FROM worker w1 where 3 >= (SELECT count(distinct(w2.salary)) from worker w2 where W2.Salary >= W1.Salary) order by w1.Salary desc;
-
+ 
+ 
+ 
 -- Q-47. Write an SQL query to fetch three min salaries from a table.
 SELECT DISTINCT SALARY FROM worker w1 where 3 >= (SELECT count(distinct(w2.salary)) from worker w2 where W2.Salary <= W1.Salary) order by w1.Salary desc;
