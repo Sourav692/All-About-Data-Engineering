@@ -8,7 +8,7 @@ SELECT CONCAT('MySQL',NULL,'CONCAT');
 
 -- To get the full names of contacts, you use the CONCAT function to concatenate first name, space, last name as the following statement:
 SELECT 
-    concat(contactFirstName,' ',contactLastName) Fullname
+    concat(contactFirstName,',',contactLastName) Fullname
 FROM
     customers;
     
@@ -34,7 +34,7 @@ SELECT
 FROM
     customers;
 
-SELECT contactLastname, contactFirstname,addressLine1,addressLine2,postalCode,city FROM customers
+SELECT contactLastname, contactFirstname,addressLine1,addressLine2,postalCode,city FROM customers;
 
 -- INSTR Keyword
 -- The INSTR function returns the position of the first occurrence of a substring in a string. If the substring is not found in the str, the INSTR function returns zero (0).
@@ -44,7 +44,7 @@ SELECT contactLastname, contactFirstname,addressLine1,addressLine2,postalCode,ci
 -- The INSTR function is not case sensitive. It means that it does not matter if you pass the lowercase, uppercase, title case, etc., the results are always the same.
 -- If you want the INSTR function to perform searches in case-sensitive manner on a non-binary string, you use the BINARY operator to cast a one the argument of the INSTR function from a non-binary string to a binary string.
 
-select INSTR('MySQL INSTR', 'MySQL');
+select INSTR('MySQL INSTR', 'SQL');
 
 -- The following statement returns the same result because the INSTR function is case-insensitive.
 
