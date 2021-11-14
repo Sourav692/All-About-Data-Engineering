@@ -10,6 +10,9 @@ __pycache__/
 .Python
 build/
 develop-eggs/
+data/products_parquet/
+data/sales_parquet/
+data/sellers_parquet/
 dist/
 downloads/
 eggs/
