@@ -1,0 +1,11 @@
+-- https://learnsql.com/course/postgresql-window-functions/over-partition-by/partition-by/partition-by
+-- https://dev.mysql.com/doc/refman/8.0/en/window-functions-named-windows.html
+-- https://learnsql.com/blog/mysql-window-functions-examples/
+-- https://learnsql.com/course/postgresql-window-functions/over-partition-by/partition-by/partition-by
+-- https://learnsql.com/blog/mysql-window-functions/
+-- https://learnsql.com/blog/why-should-i-learn-sql-window-functions/
+-- https://www.section.io/engineering-education/mysql-window-functions/#examples-of-mysql-window-functions
+-- https://medium.com/analytics-vidhya/mysql-window-functions-37e1bb222d30
+-- https://arctype.com/blog/mysql-window-functions/
+-- https://github.com/navinniish/Datasets
+-- https://github.com/Raghunandh/sql-window-functions

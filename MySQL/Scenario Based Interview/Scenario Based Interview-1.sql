@@ -74,7 +74,7 @@ Select distinct DEPARTMENT from Worker;
 Select substring(FIRST_NAME,1,3) from Worker;
 
 -- Q-5. Write an SQL query to find the position of the alphabet (‘a’) in the first name column ‘Amitabh’ from Worker table.
-SELECT INSTR(FIRST_NAME, BINARY 'a') from worker where FIRST_NAME = 'Amitabh'
+SELECT INSTR(FIRST_NAME, BINARY 'a') from worker where FIRST_NAME = 'Amitabh';
 
 -- Q-6. Write an SQL query to print the FIRST_NAME from Worker table after removing white spaces from the right side.
 SELECT  RTRIM(FIRST_NAME) from Worker;
@@ -85,7 +85,7 @@ Select LTRIM(DEPARTMENT) from Worker;
 -- Q-8. Write an SQL query that fetches the unique values of DEPARTMENT from Worker table and prints its length.
 Select distinct length(DEPARTMENT) from Worker;
 
-SELECT DISTINCT DEPARTMENT FROM WORKER
+SELECT DISTINCT DEPARTMENT FROM WORKER;
 
 -- Q-9. Write an SQL query to print the FIRST_NAME from Worker table after replacing ‘a’ with ‘A’.
 Select REPLACE(FIRST_NAME,'a','A') from Worker;
@@ -102,7 +102,7 @@ Select * from Worker order by FIRST_NAME asc,DEPARTMENT desc;
 -- Q-13. Write an SQL query to print details for Workers with the first name as “Vipul” and “Satish” from Worker table.
 Select * from Worker where FIRST_NAME in ('Vipul','Satish');
 
-SELECT * FROM worker WHERE FIRST_NAME = 'vipul' or FIRST_NAME = 'Satish'
+SELECT * FROM worker WHERE FIRST_NAME = 'vipul' or FIRST_NAME = 'Satish';
 
 -- Q-14. Write an SQL query to print details of workers excluding first names, “Vipul” and “Satish” from Worker table.
 Select * from Worker where FIRST_NAME not in ('Vipul','Satish');
@@ -113,7 +113,7 @@ Select * from Worker where DEPARTMENT like 'Admin%';
 -- Q-16. Write an SQL query to print details of the Workers whose FIRST_NAME contains ‘a’.
 Select * from Worker where FIRST_NAME like '%a%';
 
-SELECT * FROM worker where INSTR(FIRST_NAME,BINARY 'a') > 0
+SELECT * FROM worker where INSTR(FIRST_NAME,BINARY 'a') > 0;
 
 -- Q-17. Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘a’.
 Select * from Worker where FIRST_NAME like '%a';
@@ -139,7 +139,7 @@ WHERE WORKER_ID IN
 WHERE Salary BETWEEN 50000 AND 100000);
 
 SELECT CONCAT(FIRST_NAME, ' ', LAST_NAME) As Worker_Name, Salary
-FROM worker WHERE Salary BETWEEN 50000 AND 100000
+FROM worker WHERE Salary BETWEEN 50000 AND 100000;
 
 -- Q-23. Write an SQL query to fetch the no. of workers for each department in the descending order.
 SELECT DEPARTMENT, count(WORKER_ID) No_Of_Workers 
@@ -187,7 +187,7 @@ SELECT DISTINCT Salary
  ORDER BY Salary DESC LIMIT 5) e ORDER BY Salary ASC LIMIT 1;
  
  -- Write an SQL query to determine the 5th highest salary without using TOP or limit method.
- SELECT SALARY FROM worker w1 where 5 = (SELECT count(distinct(w2.salary)) from worker w2 where W2.Salary >= W1.Salary)
+ SELECT SALARY FROM worker w1 where 5 = (SELECT count(distinct(w2.salary)) from worker w2 where W2.Salary >= W1.Salary);
 
 -- Q-35. Write an SQL query to fetch the list of employees with the same salary.
 
@@ -197,7 +197,7 @@ where W.Salary = W1.Salary
 and W.WORKER_ID != W1.WORKER_ID;
 
 -- Q-36. Write an SQL query to show the second highest salary from a table.
-SELECT SALARY FROM worker w1 where 2 = (SELECT count(distinct(w2.salary)) from worker w2 where W2.Salary >= W1.Salary)
+SELECT SALARY FROM worker w1 where 2 = (SELECT count(distinct(w2.salary)) from worker w2 where W2.Salary >= W1.Salary);
 
 Select max(Salary) from Worker 
 where Salary not in (Select max(Salary) from Worker);
@@ -212,7 +212,7 @@ SELECT *
 FROM WORKER
 WHERE WORKER_ID <= (SELECT count(WORKER_ID)/2 from Worker);
 
-SELECT * FROM WORKER
+SELECT * FROM WORKER;
 
 -- Q-42. Write an SQL query to show the last record from a table.
 Select * from Worker where WORKER_ID = (SELECT max(WORKER_ID) from Worker);
