@@ -1,0 +1,1 @@
+https://www.mysqltutorial.org/mysql-self-join/
