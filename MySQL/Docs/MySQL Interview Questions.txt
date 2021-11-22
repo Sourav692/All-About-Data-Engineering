@@ -1,0 +1,747 @@
+Interview Q&A - MySQL General
+Q1. What is MySQL?
+
+Ans. MySQL is an open source database management system of relational type which was built, supported and distributed by MySQL AB. Now the MySQL has been acquired by the Oracle Corp. MySQL is available free of cost for non-commercial use.
+
+Q2. What is the difference between SQL and MySQL?
+
+Ans. MySQL is the name of an open-source relational database management system whereas SQL is the acronym for Structured Query Language, a name of the language standardized to be used to handle and manipulate data in all the relational database management systems.
+
+Q3. What is difference between Schema and Database in general and in MySQL particularly?
+
+Ans. Database is a collection of interrelated objects created in a database management system. Schema is defined as collection of objects owned (created) by a particular user. A database may contain several schemas. This is the general definition and that also makes out the difference between Schema and Database. However in MySQL these two terms are considered interchangeable. It is because even if you use the command CREATE SCHEMA <schema_name>; the new schema is listed under list of databases and also the schema can be dropped using DROP DATABASE <schema_name>; Thus MySQL treats both as one.
+
+Q4. How do you know which version of MySQL you are using?
+
+Ans. You can know it from SELECT VERSION(); command.
+
+Q5. How do you enter into a database?
+
+Ans. The command to enter into a database is – USE <database_name>; substitute the database name without <>.
+
+Q6. How to know which database the session is connected?
+
+Ans. You can use command – SELECT DATABASE(); or SELECT SCHEMA();
+
+Q7. How to list the names of the tables in a schema/database?
+
+Ans. First log on to MySQL, then enter into the schema/database and use the command – SHOW TABLES; However in the MySQL workbench the left side schema panel can show the list of the databases, the name of the database in bold to which connected and if expanded the names of the tables in that schema.
+
+Q8. How to know the session username?
+
+Ans. You can know the session username by using the command – SELECT USER(); It provides the username with the database server name to which connected. For example <user_name>@<database_name>
+
+Q9. Which default port is used to connect to MySQL?
+
+Ans. The default port to connect to the MySQL is 3306. But this setting can be changed in /etc/my.cnf configuration file.
+
+Q10. What is LAMP? Or WAMP?
+
+Ans. LAMP or WAMP are popular platforms which are used for web development which include MySQL as one of the components. It is combination of 4 technologies. LAMP is an acronym for Linux, Apache, MySQL and PHP. Similarly WAMP is Windows, Apache, MySQL and PHP.
+
+Q11. Why do you want to use MySQL as your database server?
+
+Ans. There can be couple of reasons given for preferring MySQL as database servers over others –
+
+MySQL is open foundation and available free of cost under GNU license to developers and small enterprises
+
+MySQL is backed with a tremendous user community and forums, which help in resolution of any issues very quickly
+
+MySQL has stood test of time. It has been around there since a long time and all the bugs in past were removed continuously and hence you are about to get a most matured version of MySQL, stable and high performance
+
+MySQL database server is reliable and easy to use and fast comparable to other licensed database systems available in the market
+
+Q12. What are different tables present in MySQL? Name the different database engines available in MySQL?
+
+Ans. There are 5 types of tables/engines available in the MySQL. It depends on version and the source from where you download the system, which one of the 5 will be default –
+
+1. MyISAM
+
+2. Heap
+
+3. Merge
+
+4. INNODB
+
+5. ISAM
+
+There can be more engines than the given list. You can know the available engines in your installation by using the command – SHOW ENGINES; and the one which is default is clearly shown as DEFAULT under the support column of the list displayed.
+
+Q13. What is MySQL Workbench?
+
+Ans. MySQL Workbench is unified visual database designing or GUI tool produced and supported by MySQL (now Oracle Corp.). This tool provides environment for – SQL development, data migration, admin tools for server configuration, security administration, backup and recovery etc. It is the most comprehensive tool. Creation of E-R diagrams and physical data models are also supported. Community edition of MySQL Workbench is available under GNU license, while the Standard Edition and Enterprise Editions are treated as commercial and hence available for a price.
+
+Q14. What is the order of clauses generally used in a SELECT statement?
+
+Ans. The order of clauses generally used in a SELECT statement is – SELECT, DISTINCT <column_list>, FROM <table_list>, WHERE <filter_condition>, GROUP BY <column_list>, HAVING <condition>, ORDER BY <column_list>, LIMIT <offset&count>
+
+Q15. Can you change the Engine for a table? How?
+
+Ans. Yes, the engine for a table can be changed by using ALTER TABLE statement – ALTER TABLE <table_name> ENGINE <engine_name>;
+
+Q16. What is the difference between FLOAT, DOUBLE and REAL datatypes?
+
+Ans. FLOAT can store floating point numbers with 8 place accuracy and takes 4 bytes for storage, while DOUBLE can store floating point numbers with 16 places accuracy with 8 bytes for storage. REAL is just a synonym for FLOAT for now.
+
+Q17. What is CSV?
+
+Ans. The CSV is acronym for Comma Separated Values. It is a file format used for storing the database table contents which can be used for data exchange between different databases and spreadsheets. In this format a table row is stored in one line and each data field is separated by comma.
+
+Q18. What are Federated tables in MySQL?
+
+Ans. Federated tables allow accessing remote MySQL server tables, and this can be done without any third party integration or cluster technology.
+
+Q19. What is the difference between CHAR and VARCHAR?
+
+Ans. Both are string data types. But CHAR is a fixed width data type, meaning that if the string is smaller than the defined width of CHAR, then MySQL adds blank spaces to fill the remaining width. But VARCHAR as the name suggests is variable char, you specify a maximum length of the string it can accommodate but any smaller string than full width takes only as much space as required.
+
+Q20. What is the difference between mysql_connect and mysql_pconnect?
+
+Ans. Both are used to open a new connection to the database. However mysql_connect allows to open and close the connections based on request. The mysql_pconnect allows to open persistent connection in the database.
+
+---------------
+Interview Q&A - DBMS Concepts
+Q1. Define the term data in one sentence?
+
+Ans. Data is defined as a real world fact. A fact is expressed in real world in the form of Attribute = Value pair. For example Age = 30. That value of attribute is the data. However the concept of data has widened to include binary data like images and videos and long textual objects.
+
+Q2. What DBMS stands for?
+
+Ans. DBMS is an acronym for DataBase Management System. It is a computerized system to organize the data in some meaningful way to facilitate access and manipulation of data without causing any anomalies.
+
+Q3. What type of database is MySQL? Which model is followed by MySQL?
+
+Ans. MySQL follows Relational model. So MySQL is called as Relational DataBase Management System, RDBMS for short.
+
+Q3. Are there any more Relational DBMSs in the market?
+
+Ans. There are many RDBMSs in the market apart from MySQL – Oracle, DB2 UDB, SQL Server, PostgreSQL, etc. to name a few.
+
+Q4. Explain the term Relational in RDBMS?
+
+Ans. The term Relational originates from the commonly used term Relation. The model of RDBMS is based on storing the data inside tables in the form of rows. These tables are formed based on the concept of relationship among columns and so they are called as Relations and hence the model is called Relational. A table, when in relational form, can contain the columns belonging to only one type of entity – for example all the columns of a Customer table will consist of attributes which apply to customer entity only and no other attributes. The tables or relations so formed are also observed to be related to each other by way of having common columns to emulate the relationship between entities of the real world. For example – A table of employees will have a column department number which will relate to department number column of departments table.
+
+Q5. Define the term Redundancy as related to the concept of DBMS?
+
+Ans. Redundancy is defined as unnecessary repetition of facts. For example if you are required to store a phone number of a person for multiple times in the database then it is called as redundancy. Redundancy is not repetition of value – If two persons share a common phone number then such data is not redundancy as the phone number value is though repeated, that represents two different facts – 123456 number belongs to A and another fact 123456 belongs to B also.
+
+Q6. Define the term Dependency as related to the concept of DBMS?
+
+Ans. When there are two related attributes (column in a table) A and B. And if the value of B can be uniquely determined by giving the value of A, then B is said to be dependent on A. For example – you can determine the amount of balance in a bank account by giving the value of account number. So amount of balance is said to be "functionally dependent" on account number. This is because the account number which value is supposed to be given is unique in nature, but value of balance is not.
+
+Q7. What are Super Key and Candidate Key?
+
+Ans. A combination of columns which helps to identify each row uniquely in a relation (relational table) is called as Super Key. Candidate Key is sub-set of Super Key which also helps in unique identification of each row in a relation. For example – if a table has columns A, B, C, D, E, F and their combination of values is unique in each row, then A, B, C, D, E, F in combination is Super Key. Then combination A, B, C if also unique in each row of this table then A, B, C is Candidate Key.
+
+Q8. What is a Primary Key?
+
+Ans. A smallest sub-set of Candidate Key which helps in identifying a row uniquely in a relation then it is called as Primary Key. For example – in above answer A, B, C is Candidate Key, but even just A, B happens to be unique in each row but not just A or not just B, then A, B is the minimum sub-set of Candidate Key and hence it is Primary Key, if none of A or B is also Not Null.
+
+Q9. What is the importance of Primary Key?
+
+Ans. The importance of Primary Key(PK) in a relational table is that; each of the remaining columns (non-key attributes) has functional dependency on PK. If not, then that is not a pure relation. Such relation (table) shows redundancy and anomalies, and hence not suitable for an application.
+
+Q10. Which types of dependencies can exist in a relation?
+
+Ans. There can be Functional Dependencies, which is the most desirable. The other two types, and highly undesirable are – Partial Dependencies and Transitive Dependencies.
+
+Q11. What is a Partial Dependency?
+
+Ans. When a relation has a composite Primary Key – Primary Key consisting of multiple columns, and the remaining non-key attributes have Functional Dependency on only part of Primary Key then it is called as Partial Dependency. For example – A relation has X, Y as composite PK and the other attributes say, W just has functional dependency on X but not on combination of X and Y then that is Partial Dependency. It is undesirable in the design of relational database in any of its tables.
+
+Q12. What is Transitive Dependency?
+
+Ans. When in a relation, a non-key attribute has functional dependency on another non-key attribute(s) then such dependency is called as Transitive Dependency. For example – A table has X column as Primary Key but in that table some column V show its functional dependency on W then that is called as Transitive Dependency.
+
+Q13. Give one line definition of the term Relation?
+
+Ans. A table which has a Primary Key identified with all the other non-key attributes show Functional Dependency only on the Primary Key and no other type of dependencies exist, is called as Relation. A table, fully normalized is called as Relation.
+
+Q14. What is Universal Relation? What is the significance of Universal Relation?
+
+Ans. Collection of all the attributes (data elements) about which the user wants to maintain the data in formation of one single large table is called as Universal Relation. Universal Relation is the starting point for logical design of the database.
+
+Q15. What is Normalization? Why do you do Normalization? What is importance of Normalization?
+
+Ans. Normalization is a step-by-step process of decomposing (breaking into smaller parts) the Universal Relation into formation of smaller tables (i.e. relations) in order to eliminate the redundancies and unscrupulous dependencies (dependencies other than Functional Dependencies). Normalization is important because, the SQL language can perform data manipulation operations only on the Normalized Tables (Relations) without causing any anomalies or inconsistencies in the data.
+
+Q16. What are Normal Forms?
+
+Ans. Normalization is a step-by-step process. You achieve a degree of normalization in each step and obviously that should be measurable or be given a name. Normal Form is degree of normalization achieved.
+
+Q17. What is First Normal Form? What is 1NF?
+
+Ans. 1NF is symbolic representation of First Normal Form. 1NF applies to Universal Relation which is starting point of the Normalization. A Universal Relation is said to be in First Normal Form if each of its attribute (column) stores only one single fact. For example – a column for phone number should allow storing of only one phone number and not a comma separated list of several phone numbers. Moreover there should not be any repeating groups like several columns as phone1, phone2, phone3 etc. as all of them will store phone numbers only. This property is called as Atomicity of columns.
+
+Q18. What is Second Normal Form? What is 2NF?
+
+Ans. A relation is considered to be in 2NF if it does not violate the rule of Atomicity of columns as defined in 1NF and also does not show any presence of Partial Dependency.
+
+Q19. What is Third Normal Form? What is 3NF?
+
+Ans. A relations s considered to be in 3NF if it does not violate the 1NF and 2NF with also does not show presence of Transitive Dependency.
+
+Q20. What is the general Normal Form to which the databases are normalized and why?
+
+Ans. Though theoretically there are more Normal Forms even beyond the 3NF, the maximum Normalization achieved in practice is 3NF. Normalization process involves decomposition of tables and the more normalization then more splinter relations are formed and they are required to be JOINed to produce the complete picture of data to the user. The JOIN operation is the most expensive operation from the consumption of resources point of view and hence to avoid that, Normalization is not performed beyond the 3NF in actual practice despite being ideal theoretically. The 3NF is found just enough in almost all cases of database design.
+
+Q21. What is SQL?
+
+Ans. SQL stands for Structured Query Language. This is the standardized language for accessing data in relational database management systems. It is simple English like statement form of language. For example – Get the data of employees working in department number 20 from emp table, translates into SELECT * FROM emp WHERE DeptNo = 20; in SQL.
+
+Q22. Explain the term Declarative Language in respect of SQL?
+
+Ans. In Declarative Access you use simple statement form which only specifies the desired result and not the process of getting the result. SQL has such a capability and hence it is called as Declarative Language. It is also called as Non-Procedural or Non-Programmable form of language by some authors.
+
+Q23. Why some people call SQL as SEQUEL?
+
+Ans. Actually SEQUEL stands for Simple English Query Language and that was the earlier name of this language, but due to some copyright violation the name was subsequently change to SQL – Structured Query Language.
+
+Q24. Where does SQL language emerge from? What is the theoretical base of SQL?
+
+Ans. Concept of RDBMS is based on theory of Sets. Set, which is defined as collection of certain objects. A relational table is collection of columns and so it is defined with Set of Columns. They we insert and manipulate rows, so there are Sets of rows. These Sets of rows or columns combined forms a branch of arithmetic called Tuple Relational Calculus. That is only the base from which the SQL language has emerged.
+
+Q25. What are important aspects of SQL?
+
+Ans. SQL is a declarative language. It is a standardized language to be used for handling data in Relational Databases. SQL can successfully handle the data only in normalized databases. SQL may have programmable extensions so that it may be embedded in server side block structured programs. For example Oracle has PL/SQL, SQL Server has T-SQL, and MySQL has SQL/PSM.
+
+Q26. Which types of statements can be formed in SQL?
+
+Ans. The SQL statements can be categorized as – DQL (Data Query Language), DML (Data Manipulation Language), TCL (Transaction Control Language), DDL (Data Definition Language), DCL (Data Control Language), and Admin.
+
+Q27. Why use SQL? What is the main advantage of SQL? Why SQL was recommended for database access?
+
+Ans. SQL being specifically made a result oriented language, is independent of structure and storage of data, except it requires data to be stored in a predefined schema object called Relation (table). You are not required to provide access paths. The language is extremely simple to interpret and comprehend as in many ways it resembles English statements.
+
+Q28. Who created SQL?
+
+Ans. SQL was created by Donald Chamberlin and Raymond Boyce.
+
+Q29. What is the theoretical base of Relational Database Management System?
+
+Ans.The theoretical base was provided by Dr. E F Codd in the form of 12 rules which are popularly known as Codd's Rules. The concept envisaged storage of data in normalized tables, and hence without any redundancy
+---
+Interview Q&A - Basic SELECT
+Q1. What are the basic operations performed with SQL?
+
+Ans. There are 7 basic operations performed with SQL, namely – Selection, Projection, Cartesian Product, Join, Union, Minus and Intersection
+
+Q2. Explain very basic SELECT operation?
+
+Ans. SELECT operation falls in the category of DQL i.e. Data Query Language. SELECT is the keyword with which the SELECT statement begins. It may have optionally a filter clause called WHERE and it may contain an explicit list of columns after SELECT keyword, the data of which is supposed to be displayed. All the columns are represented by *.
+
+Q3. What is a predicate?
+
+Ans. A WHERE like clause in SQL statement is technically called as Predicate. In general Predicate term is used with reference to a language for stating something about the subject. The predicates are usually in the form of different clauses in SQL – WHERE, HAVING, GROUP BY, ORDER BY, etc.
+
+Q4. What is a NULL value? What is significance of NULL value?
+
+Ans. NULL signifies a situation where a value is either not applicable or is not available. For example in a company, employees working in the position of Salesman may be eligible for commission but other employees may be not. So no value or void for them is called NULL. NULL is not 0 or black space either. It is simply absence of value. The significance of NULL is that, though it represents a real world situation of absence of value, if involved in an expression with other known values, the outcome is NULL. So as programmers we should be able to deal with such situations.
+
+Q5. What is Projection?
+
+Ans. Projection is an operation whereby you specify the columns to be displayed in the result of a SQL query. The comma-separated list of columns provided after SELECT verb in the statement is called as Projection.
+
+Q6. Why specify a Projection in a query when we can use * in place of projection?
+
+Ans. A * represents all the columns (complete row) of the table to be displayed in the query result, while projection displays only the listed columns. As far as query execution in backend server is concerned there is not much difference from the performance point of view, but in a Client/Server or Web like environment where the data is displayed to the remote user, there is considerable saving in network traffic in sending only the required data instead of complete row.
+
+Q7. Do we always require to use a table name in SELECT statement?
+
+Ans. Actually NOT! (In MySQL) When we want to evaluate a simple arithmetic expression or output a function value the input of which does not come from any particular table, there is no table name used in such SELECT statement. For example SELECT 3 + 5 AS total; is a valid statement, there is no table name. The output will be 8 and heading under which that output will be displayed will be "total".
+
+Q8. What is an alias?
+
+Ans. Alias is an optional short or some meaningful name provided to the columns in projection, or expressions in projections or tables in SQL statements. For example SELECT 3 + 5 AS total; where "total" is an alias given to the sum expression of 3 and 5. This helps refer results of expressions easily in the programs or application. The "AS" keyword is optional. Aliases may also be used for tables.
+
+Q9. What is the difference between IFNULL() function and COALESCE() function?
+
+Ans. IFNULL() and COALESCE(), both functions are designed for handling NULL values. IFNULL() function is used to substitute a value in place of NULL value. It takes two arguments, of which the first is the argument to be tested for NULL and returned if found NOT NULL, while the second argument is the suggested value to be returned as replacement of first argument if found NULL. COALESCE() takes several arguments and it returns the first NOT NULL value from the list of arguments provided. It does not substitute a value for NULL.
+
+Q10. Can we use COALESCE() function in place of IFNULL() function?
+
+Ans. Yes, we can use COALESCE() function to emulate IFNULL() function, but it can not be vice-versa(remember this). For example IFNULL(sal + comm, 0) and COALESCE(sal + comm, 0) are equivalent and hence the latter can be a substitute for former. Both will return 0 if expression sal + comm evaluates to NULL.
+
+Q11. What are properties of a NULL?
+
+Ans. NULL represents absence of value. An expression with a NULL term results into NULL and hence has to be replaced with an appropriate value while evaluation so that output should make sense in real life. NULL can not be compared, so operators =, > or < do not apply for comparison with NULL. So the special operators IS NULL or IS NOT NULL are used. Two variables, both NULL, can not be said to equal.
+
+Q12. What are properties of DISTINCT?
+
+Ans. The DISTINCT is used immediately after the SELECT. DISTINCT applies to entire projection as combination. It is not advisable to use DISTINCT in sub-queries used a part of WHERE clause. It though not illegal, it does cause sorting overheads in resolving subqueries.
+
+Q13. What is the order of precedence when combination of operators AND and OR is used?
+
+Ans. The rule of precedence is brackets, then AND and then OR. If an OR is required to be resolved first then such expression must be enclosed in a pair of brackets.
+
+Q14. What are properties of ORDER BY clause?
+
+Ans. ORDER BY clause is used to set an order to the rows displayed in the result of SELECT statement. ORDER BY clause can be used in SELECT statements only. It must be used at the end of SELECT statement except when LIMIT is used. If LIMIT is used then it will follow the ORDER BY. Order may also be specified on multiple columns individually as ASC for ascending and DESC for descending, ascending being the default. NULL values if present in the column under ORDER BY clause, are not ignored but they are gathered at lower value end.
+
+Q15. What || (double pipe) operator is used for in MySQL?
+
+Ans. The || operator is used as OR operator in MySQL. So you may use either of the two for logical OR. However this same || operator functionality can be changed in MySQL to work as concatenation operator by changing the sql_mode system variable –
+SET @@sql_mode=PIPES_AS_CONCAT;
+
+Q16. What is INTERVAL operator used for?
+
+Ans. INTERVAL is called as Temporal operator in MySQL. It is used for finding a date and/or time after a given interval specified in various units ranging from millisecond to year. The typical form of expression could be - <date> + INTERVAL <integer> <unit>
+
+Q17. What is LIKE operator used for?
+
+Ans. The LIKE operator is used for searching the rows based on some pattern of characters when full value is not known or is not supposed to be provided. We make use of two wildcards % and _. The former stands for presence of any number of characters including no characters while the latter represents one single character position.
+-----
+Interview Q&A - SubQueries and Joins
+Q1. What is a Sub-Query?
+
+Ans. Sub-Query is a technique whereby you can list the data from one query called main, driven by the data output by another query used in the predicate of the main. The sub-query hence is also called as Nested Query or Inner Query. For example SELECT…WHERE <col> = <SELECT col FROM…>; The part beyond = operator is the Sub-Query while the part before is called as Main-Query.
+
+Q2. Why we are required to use a Sub-Query?
+
+Ans. Typically Sub-Query is the technique to list the rows of data from one table by the main query driven by the values drawn from another table fetched by a nested query. We have to resort to this technique because in RDBMS the tables are normalized to contain the data for just one type of entity but in actual the tables remain related by way of having common columns, to emulate the real time parent-child relationship between the entities. For example – In EMPLOYEE and DEPARTMENT tables, the employees data will be stored in former table and department data in the later, with department id columns in both. If we need to access the employee rows by main query with reference to name of the department which is stored in department table then main (also called outer)query on employees table will need to know the department id of that particular department which will have to be fetched by a query targeted at department table, that is sub-query.
+
+Q3. What are two major categories of Sub-Queries?
+
+Ans. Two major categories of sub-queries are – Non Correlated and Correlated.
+
+· Non-Correlated sub-queries execute first and independently and provide value(s) to the predicate of main query for generating the results
+
+· Correlated sub-queries can't execute independently but have to refer to column(s) of main query to return value(s) to the predicate of main query only for generating the results
+
+Q4. Which operator typically uses correlated sub-query?
+
+Ans. The EXISTS operator typically uses correlated sub-query. EXISTS operator is used to check presence of data as per the condition tested inside the correlated sub-query. The condition typically involves a column reference to outer / main query. EXISTS operator is a binary operator – TRUE or FALSE.
+
+Q5. When do you use Set Comparison Sub-query? What is Set Comparison Sub-query?
+
+Ans. A Set Comparison Sub-query can compare multiple values as a set of values from the main (outer) query with set of values returned for the same set of attributes (columns) and in the same sequence to resolve the filter condition of the main query. For example – SELECT * FROM emp WHERE (deptno, sal) = (SELECT deptno, MAX(sal) AS mx FROM emp GROUP BY deptno). Observe the set (deptno, sal) being used for comparison. Set Comparison Sub-query emulates an AND operator.
+
+Q6. What is the difference between ALL , ANY and IN operators?
+
+Ans. All the operators ALL, ANY and IN may be used to compare a column with potentially multiple values to be returned from the sub-query or a list of given values in a bracket in the predicate of the main query. But ALL emulates AND operator between the multiple conditions to be formed and ANY emulates OR operator. Both ALL and ANY are used for explicitly provided comparison operators <, > and =. But IN has built in = comparison operator and emulates OR operator only, both of which can not be given explicitly (being built-in part of IN operator).
+
+Q7. What is the difference between IN and BETWEEN operators?
+
+Ans. IN operator is used for comparing a column with comma-separated list of multiple values for equality and emulation of OR, like C IN (V1, V2, V3, …) is equivalent to C = V1 OR C = V2 OR C = V3 OR … . The BETWEEN operator is used for comparing a column with a range of values with both limits inclusive, like C BETWEEN V1 AND V2 which is equivalent to C >= V1 AND C <= V2, where V1 must be smaller the V2 or the BETWEEN operator will not produce any result without throwing an error too. Cs and Vs are respectively columns and values in the above examples.
+
+Q8. What is JOIN operation?
+
+Ans. JOIN operation is one of the very important operations of relational algebra inherited from set algebra. JOIN operation is used to list the data from two or more tables to be named in FROM clause of the SELECT statement by specifying a join condition involving relevant columns from the named tables with comparison operator in the WHERE clause of the query. For example – SELECT emp_name, dept_name FROM employees, departments WHERE employees.dept_id = departments.dept_id;
+
+Q9. What is the difference between Sub-Query and JOIN?
+
+Ans. A sub-query can list the data from one table driven by the data/value drawn by another query from another table. So there are two queries, one nested inside the other. A JOIN operation fetches the data from two or more tables named in the FROM clause of SELECT statement with a join condition specified on relevant columns in WHERE clause of the query. JOIN does not use multiple queries but instead reference to multiple tables in FROM clause of a SELECT statement. In general it is perceived that a sub-query is more efficient to execute than a JOIN query as the latter is required to generate a Cartesian product of the rows from two tables to be joined prior to applying the join condition.
+
+Q10. What are major types of JOIN?
+
+Ans. There are two major types of JOINs – INNER JOIN and OUTER JOIN. The INNER JOIN lists only such data from two tables involved in JOIN operation all of which satisfy the join condition. OUTER JOIN is used to list additionally the nonmatching rows from the two tables involved in JOIN operation with specification of LEFT or RIGHT from which one of the tables in JOIN to list the excess data from. MySQL does not allow FULL outer join.
+
+Q11. How to perform FULL JOIN in the MySQL?
+
+Ans. There is no FULL JOIN clause available in MySQL to list the extraneous data from both the tables involved in the join operation along with the rows which has matching in two tables. But the result as FULL JOIN can be created by using UNION operator, that is, by combining the listings from two SELECT queries each respectively with LEFT and RIGHT join clause. The actual demonstration has been given in the lesson titled – MySQL-FULL JOIN simulation
+
+Q12. What is a Self-Join?
+
+Ans. Self-join involves the operation of typically joining the table to itself. The self-join can be directly performed in a table which has a column referencing to primary key column of the same table. Visit the lesson titled – MySQL-Join Table With Itself for an elaborate explanation and example
+
+===================
+Interview Q&A - Group Functions / Aggregate Functions
+Q1. When do you use only WHERE clause with group function?
+
+Ans. When it is required to find a group function value, based on single criteria for grouping the rows, then you may use WHERE clause. In such case GROUP BY clause is not used in the SELECT query. For example if you want to find average of marks stored in a particular subject from a table named result. Then you may write the query by using WHERE clause – SELECT AVG(marks) FROM result WHERE subject = 'PHYSICS';
+
+Q2. What is the difference between WHERE clause and HAVING clause?
+
+Ans. HAVING clause is used to set filter on the result to be based on group function as criteria. It is similar to WHERE clause. But, whereas the WHERE clause is used to set filter with non-group column expression, the HAVING uses a group expression in the criteria. The first important condition for using HAVING clause is that, it can be used only when GROUP BY clause is used. And second important property is that, the HAVING has to be used after the GROUP BY clause. WHERE clause may be used without GROUP BY clause and if used with it then must be used before GROUP BY clause.
+
+Q3. How do you find maximum of average in MySQL?
+
+Ans. Finding maximum or minimum of average is not straight forward in MySQL as this database system does not allow nesting of group functions such as MAX(AVG(X)), where X is name of a column over which maximum of average is required to found. So you have to nest a query which should return just AVG(sal) to a main query and find its maximum or minimum. For example – SELECT MAX(av) FROM (SELECT AVG(<column_name>) AS av FROM
+<table_name> GROUP BY <grouping_column>);
+
+Q4. What is the relationship between GROUP BY clause and HAVING clause?
+
+Ans. GROUP BY clause is used for grouping the rows over common values in a column or combination of columns for performing analytical aggregations like SUM(), AVG(), MAX(), MIN(), COUNT() operations over a numeric column of a table. HAVING allows filtering the results generated by GROUP BY clause by setting the criteria over the outputs of those aggregate functions. GROUP BY clause takes the name(s) of grouping column(s), whereas the HAVING clause takes a group function, a comparison operator and a value to be compared with. HAVING clause is not mandatory with every GROUP BY operation until results are required to be filtered on the basis of group function value. But GROUP BY clause is mandatory for use of HAVING clause. Hence HAVING has to be used after GROUP BY. For example -
+SELECT deptno, AVG(salary) FROM emp GROUP BY deptno HAVING AVG(salary) > 2000;
+
+Q5. Is the GROUP BY clause mandatory when you use a group function in SELECT statement?
+
+Ans. Actually NOT! You need to use GROUP BY clause only when you want to perform aggregation over group of rows based on common values in a column of a table. For finding overall aggregation or only for one particular group of rows then you don't need to use the GROUP BY clause. For example, finding overall maximum salary paid you simply write – SELECT MAX(salary) FROM employees; or for finding maximum salary paid in one particular department – SELECT MAX(salary) FROM employees WHERE department = 'ACCOUNTING';
+
+Q6. Can we perform a JOIN operation in SELECT statement using GROUP BY clause?
+
+Ans. Absolutely YES! When you need to use a grouping column from related Parent or Child table then you must use JOIN operation of suitable type. GROUP BY clause does not restrict use of JOIN operation in a SELECT statement. For example – SELECT department_name, SUM(salary) FROM employees e, departments d WHERE e.department_id = d.department_id GROUP BY department_name; In this query we have used JOIN because the department name has to come from departments table which is grouping column and salary from employees table, the aggregation column.
+
+Q7. Can we use group function within a sub-query?
+
+Ans. Yes, absolutely possible! When you need to compare a column value dynamically with the aggregate value then the group function will have to be used in a sub-query. For example – if you want to find the names and salaries of employees who get paid less than the average salary of their respective departments then – SELECT employee_name, salary FROM employees e1 WHERE salary < (SELECT AVG(salary) FROM employees e2 WHERE e2.department_id = e1.department_id);
+
+Q8. Can we use GROUP BY clause within a sub-query?
+
+Ans. Yes, we can use GROUP BY clause within a sub-query. It is when we require to compare a column value dynamically with a set of aggregation values based on multiple groups of rows. For example, if we want to list the names of employees along with their salaries and department numbers who are paid highest salary in their respective departments – SELECT employee_name, salary, department_id FROM employees WHERE (department_id, salary) = (SELECT department_id, MAX(salary) FROM employees GROUP BY department_id );
+
+Q9. Evaluate this statement with respect to its outcome – SELECT deptno, SUM(salary) FROM employees;
+
+Ans. This statement will result into an error for the deptno column in the projection of SELECT statement is appearing with SUM() function which is a group function. Such column or columns which appear with group function(s) in the projection of SELECT statement must be used with GROUP BY clause only. The correct form of statement will be – SELECT deptno, SUM(salary) FROM employees GROUP BY deptno;
+
+Q10. How do the group functions deal with the NULL values in the column?
+
+Ans. All the group functions ignore NULL values. While MAX(), MIN(), SUM() are not affected by this property of group functions, we have to be cautious about finding COUNT() and AVG() as those results will be calculated over the rows which have values. For example if there are 10 rows in some group but only 7 have values while 3 have NULL then AVG() will be calculated over those 7 rows only. But if the requirement even in such case is to calculate it over all the (10) rows in the group then use the expression as AVG(NULLIF(X, 0)) where X is the nullable column over which the average is required to be calculated.
+
+===============
+Interview Q&A - Datatypes, Table and Constraints
+Q1. What is the difference between CHAR and VARCHAR datatypes? When to use what?
+
+Ans. While both CHAR and VARCHAR are string datatypes and take letters, numbers and special characters, including their combination, the important difference being that CHAR is a Fixed Width datatype and VHARCHAR is variable width datatype. That means if the given string is smaller than the specified size of the CHAR type column then the remaining space will be filled by appending blank spaces to the given data, while this is not the case with VARCHAR type column. Moreover the CHAR type column can be specified with maximum width of 255 characters and if no size specified it defaults to 1. VARCHAR type column can be specified with maximum width of 65535 and there is no default. Normally, CHAR datatype should be used where it is known that the data will be of a fixed length of string always, for example product id, certain codes, bank account numbers like columns or storing gender M or F, or for storing Y or N like single character data. Everywhere else you can use VARCHAR datatype.
+
+Q2. What is UNSIGNED datatype in MySQL? When to use it?
+
+Ans. UNSIGNED is an optional attribute that can be used in declaration of numeric column. For example – X INT UNSIGNED X is column name, INT is integer datatype and UNSIGNED is the optional attribute. When used with UNSIGNED attributes, the column does not accept negative values. Moreover the range of values is doubled. For example INT has range of values from -2147483648 to 2147483647, but with UNSIGNED the range goes from 0 to 4294967295. UNSIGNED attribute is useful when we don't require to use any negative value or rather prevent inserting a negative value in the column, or want to have larger range of values on +ve side (double the normal range) or when the column is required to be declared as AUTO_INCREMENT Primary Key as Primary Key columns typically do not have to have negative values.
+
+Q3. Which one of the following is more appropriate declaration for TESTCOL column in table T and why?
+(1) CREATE TABLE t(testcol INT UNSIGNED PRIMARY KEY AUTO_INCREMENT, ……);
+(2) CREATE TABLE t(testcol INT PRIMARY KEY AUTO_INCREMENT, ……);
+
+Ans. Both the declarations for column TESTCOL are syntax wise correct, but the declaration at number (1) is more appropriate since it has been declared with UNSIGNED attribute. The TESTCOL column is declared as PRIMARY KEY AUTO_INCREMENT, so it is never going to have negative number and also with UNSIGNED attribute the range of values for the column is doubled than the default range of INT datatype.
+
+Q4. What is the difference between FLOAT and DECIMAL datatypes? Which to use when?
+
+Ans. The FLOAT size and precision specifications have been deprecated in new versions of MySQL, but if used then internally the FLOAT is treated as DECIMAL or DEC. FLOAT datatype stores the approximate precision point whereas the DECIMAL datatype stores exact precision point. This is because FLOAT datatype is single precision which means it uses 32 bit floating poing. DECIMAL on the other hand uses 128 bit floating point and hence it is accurate. Because the DECIMAL datatype provides highly correct precision, and hence can avoid rounding off approximation, it is used in financial applications. But handling of DECIMAL type data and calculations remain slow. FLOAT type is typically used in graphic libraries or scientific applications where high precision is not the criteria. As a result of FLOAT being not so accurate, it should be avoided where the search criteria is based on that column. For example SELECT * FROM t WHERE x = 2.1; statement may precisely work when column X is declared as DECIMAL rather than FLOAT.
+
+Q5. What is the difference between FLOAT and DOUBLE datatypes?
+
+Ans. The very basic difference is that FLOAT stores data with single precision while DOUBLE holds it with double the precision of FLOAT. So the accuracy of DOUBLE is better. Use DOUBLE for precise value such as value of pi which is 3.14. FLOAT takes 4 bytes for storage while DOUBLE takes 8 bytes. FLOAT has 8 places of decimal while DOUBLE has just twice as FLOAT, 16 places of decimal.
+
+Q6. How to copy a table – Just structure without data? Compare the different methods.
+
+Ans. There are two ways you can use to copy a table structure without importing any rows in the copy table. We can use statement – CREATE TABLE t_copy LIKE t_original; But in this method you can copy only the entire structure of original table into its copy and can not selectively pick columns from source table to be copied into target. For that we can use the statement – CREATE TABLE t_copy AS SELECT <column_list_to_copy | *> FROM t_original WHERE 1= 0; In this method we use a SELECT statement to pick only required columns to be copied to target with an impossible to meet condition in WHERE clause 1 = 0. If all the columns from source to target are go be copied then use * instead of list of columns to be copied.
+
+Q7. How do you add a column in a table at specific position in MySQL?
+
+Ans. There are two possibilities – you can either add column at the first position in any table or at a position after a certain existing column by specifying its name. You can add multiple columns at once – ALTER TABLE t_sample ADD COLUMN c_first VARCHAR(10) FIRST, ADD COLUMN c_new INT AFTER c_some_name; You can add column(s) while the data is present in the table but newly added column(s) will not have any data, that means NULL. Use just one ADD COLUMN statement for adding single column, obviously. The COLUMN keyword is optional and may be omitted.
+
+Q8. What will be the outcome of this given statement for adding column c_new in an existing table named t_sample and while it containing rows? [OR Spot the mistake in the given statement and make necessary correction.] – ALTER TABLE t_sample ADD c_new INT NOT NULL FIRST;
+
+Ans. The ALTER TABLE statement as given is syntax wise absolutely correct. However given that the table already contains rows, this statement will fail, because the new column c_new to be added is specified with NOT NULL constraint. The new column to be added will obviously have NULL values for all the existing rows in it as it gets created. However, the statement will work in the given form if there are no rows in the table or the table is empty. But given that the rows are present, then you will have to specify DEFAULT in the column specs for this statement to be successful – ALTER TABLE t_sample ADD c_new INT NOT NULL DEFAULT <some_default_value> FIRST;
+
+Q9. What will be the result of this given statement for dropping a column c_pk from table P if the column being dropped is primary key being reference by a foreign key constraint and table does not contain any data? What is the remedy? – ALTER TABLE p DROP c_pk;
+
+Ans. That statement will result into an error, despite the tables do not contain any data. The column designated as primary key and is in active reference from a foreign key can not be dropped. The remedy is to first the drop the referencing foreign key constraint from the child table by using command - ALTER TABLE <child_table_name> DROP CONSTRAINT <foreign_key_constraint_name>; Then you can use the given statement with success.
+
+Q10. What will be the result of this given statement for dropping a column c_pk from table P if the column being dropped is primary key being referenced by a foreign key constraint defined with ON DELETE CASCADE clause? – ALTER TABLE p DROP c_pk;
+
+Ans. That statement will result into an error, despite the referencing foreign key being defined with ON DELETE CASCADE clause. The ON DELETE CASCADE clause only allows parent row to be deleted with implicitly deleting the related child rows from child table and does not have any relevance to deletion of the PK column being referenced by foreign key. The primary key will still be not allowed to be deleted.
+
+================
+Interview Q&A - Data Manipulation
+Q1. What is ROW function?
+
+Ans. ROW is an optional function to be used in INSERT statement to insert single or multiple rows in a table – INSERT INTO <table_name> [(<column_names>)] VALUES [ROW](<values>) [,ROW (values), ….]; The [] indicate optional part.
+
+Q2. A multi-row INSERT statement is failing for duplication of primary key value in some of rows. Is there a method you can execute such INSERT statement by which at least the rows which do not violate the constraint should be inserted?
+
+Ans. Yes, we can use INSERT IGNORE statement. INSERT IGNORE statement allows inserting those rows which do not violate constraint while only giving warning for the rows which could not be inserted. INSERT IGNORE statement is also useful for situations when the data does not follow the width wise compatibility with the column. It truncates the data to the size of the column in such situation, but the statement does not fail. A warning is issued for rows in which the data was truncated. [visit lesson – INSERT IGNORE statement for demonstration]
+
+Q3. A multi-row insert operation is to be performed with the requirement that, if there are some rows with changed data from existing rows but with same primary key, while some rows are with new primary key values. How can such insert be performed?
+
+Ans. You need to use the REPLACE statement instead of INSERT statement. The syntax is same as INSERT except for the keyword, REPLACE instead of INSERT. REPLACE is actually a DELETE old with INSERT new for existing primary key values, while for those new primary key values, it is simple INSERT. But REPLACE requires that there must be a primary defined in the table, otherwise the REPLACE works as plain INSERT statement. [visit lesson – REPLACE statement for demonstration]
+
+Q4. Is there an operation in which if the given primary key value exists then the row will be updated or otherwise inserted as new row if the primary key value is new?
+
+Ans. It is possible to use REPLACE command as UPDATE. The syntax is identical as UPDATE except for the keyword – REPLACE in place of UPDATE. If the given primary key value already exists then the given columns get updated with new values, but if there is new primary key value then the row will be inserted. But such REPLACE command has certain limitations. If you do not specify a column in the update list then that value in the table will be replaced with NULL. So all such columns must also be included in the list with existing values even though they are not supposed to be updated. Moreover a column if specified with NOT NULL constraint without a DEFAULT specification, and not included in the list of columns to be updated, then it will cause error. [visit lesson – REPLACE statement to UPDATE]
+
+Q5. I have to import data from a source table into target table, both have same structure. For existing rows the data should be updated as per the source table into target table (for existing primary key values common in both tables) or simply import the rows from source into target for new rows (rows with new primary key values in the source). How will you handle this situation?
+
+Ans. This operation can be easily handled by REPLACE INTO..SELECT statement – REPLACE INTO <target_table_name> SELECT * FROM <source_table_name>; [visit lesson – REPLACE by using SELECT]
+
+This operation can also be handled by INSERT … ON DUPLICATE KEY UPDATE form of statement – INSERT INTO <target_table_name> SELECT * FROM <source_table_name> S ON DUPLICATE KEY UPDATE <column1_ of_target> = S.<matching_column_source>, ….; The S is an alias for source table. [visit lesson – INSERT .. ON DUPLICATE KEY UPDATE]
+
+Q6. I have two tables DEPT and EMP in respectively parent and child relationship, with DEPTNO column common to both. There are some employee records in EMP table without DEPTNO or DEPTNO is null. A column DNAME in DEPT table contains names of departments. One of the department names is RESEARCH. Now I want to DELETE rows of employees working in RESEARCH department with also such rows of employees who have not been assigned to any department. How to perform this operation?
+
+Ans. This operation can be performed with DELETE … LEFT JOIN statement. The statement can be – DELETE emp FROM emp LEFT JOIN dept ON emp.deptno = dept.deptno WHERE dname = 'RESEARCH' OR dname IS NULL; [visit lesson – MySQL child table DELETE with JOIN]
+
+Alternatively this operation can also be performed with sub-query – DELETE emp WHERE deptno IN (SELECT deptno FROM dept WHERE dname = 'RESEARCH') OR deptno IS NULL;
+
+Q7. I have two tables DEPT and EMP containing data about departments and employees respectively. I want to raise the salary (sal) of all managers (job) in employees table from current by 200 with also change location (loc) of RESEARCH department (dname) to 'LONDON' both at once. How to perform this operation?
+
+Ans. MySQL allows updating the data in multiple tables, irrespective of whether they are related or not in a single UPDATE operation. So this operation can be performed with a single UPDATE statement – UPDATE emp e, dept d SET e.sal = e.sal + 200, d.loc = 'LONDON' WHERE e.job = 'MANAGER' AND d.dname = 'RESEARCH'; What we have done with two tables can be done for 3, 4 or any number of tables in the same fashion. [visit lesson – Multiple Table UPDATE Operation]
+
+Q8. I have two tables DEPT and EMP in respectively parent and child relationship, with DEPTNO column common to both. I want to change the salary (sal) in EMP table with increment of 200 for employees working in RESEARCH department (dname) the name of the department in DEPT table.
+
+Ans. This operation can be done in two ways – 1. By using NATURAL JOIN & 2. By using Sub-query.
+By using NATURAL JOIN : UPDATE emp NATURAL JOIN dept SET sal = sal + 200 WHERE dname = 'RESEARCH'; [refer lesson – UPDATE operation with JOIN]
+
+By using Sub-query : UPDATE emp SET sal = sal + 200 WHERE deptno IN (SELECT deptno FROM dept WHERE dname = 'RESEARCH');
+
+Q9. I have a table T with a column X which has been declared with UNIQUE constraint. There are 100s thousands of rows in the table. Now I need to UPDATE the values in column X with adding 1 to current value, so I use this statement – UPDATE t SET x = x + 1; The operation fails on duplication of value in column X. Can this operation be not performed? How?
+
+Ans. This operation is failing on duplication of value because, the unique values in the column X are not stored in any particular order, rows are stored in the table at random. When the operation begins, it is possible that a value updated first by 1 happens to be already present in the column X somewhere down the line and hence the violation of unique constraint on X and hence the operation fails. This is because the nature of processing DML vs constraint checking in MySQL is on row per row basis. This problem does not appear in the database like Oracle where the constraint checking is deferred until all the rows are processed. But still it can be done in MySQL by using ORDER BY DESC clause in UPDATE statement. That will cause increment in highest value first to higher by one which yet does not exist, then lower to higher value by one and so on and hence no violation of UNIQUE constraint. The correct statement to handle this situation may be – UPDATE t SET x = x + 1 ORDER BY x DESC; [visit lesson – UPDATE operation with ORDER BY]
+
+Q10. I have to UPDATE a column named REFUND in a table named STUDENTS for top 50 students according to the % of marks (they scored in the examination) stored in column named PCTMARKS in the same table. Two students may have common %, but only top 50 students should get the refund to be calculated at 20% of the FEES also a column in the same table.
+
+Ans. This problem can be easily solved by using LIMIT clause, and of course coupled with ORDER BY DESC clause in the UPDATE statement – UPDATE students SET refund = fees * 20/100 ORDER BY pctmarks DESC LIMIT 50; [visit lesson – UPDATE Operation With LIMIT]
+
+Q11. I have two tables DEPT and EMP with DEPTNO column common to both, but there is no FOREIGN KEY constraint defined on table EMP. EMP table contains records of employees working in departments the data of which is stored in DEPT table. I want to DELETE a department from DEPT table given its name (DNAME) 'RESEARCH' with also the corresponding rows of employees from EMP table.
+
+Ans. The operation could have been easy if there were a foreign key constraint defined in EMP table on DEPTNO column with ON DELETE CASCADE clause. But since there is no such constraint defined as said in the problem then we have to perform this operation by using JOIN, that's it. You may use either of NATURAL JOIN or INNER JOIN on common DEPTNO columns in two tables – DELETE emp, dept FROM emp INNER JOIN dept ON emp.deptno = dept.deptno WHERE dname = ''RESEARCH"; [visit lesson – JOIN DELETE without Foreign Key].
+
+==============
+Interview Q&A - Transactions (TCL)
+Q1. Define concept of transaction? OR what is a database transaction? OR is SELECT operation a transaction?
+
+Ans. Transaction in a database actually refers to change. Any operation that induces change is roughly called as transaction, but the scientific definition of a database transaction goes as –
+A database transaction is logical unit of work, consisting of a minimal set of SQL statements, which takes the database from one consistent state to immediately next consistent state, run by a single session in isolation and once committed, the changes are guaranteed to prevail in the database perpetually, even through the cycles of failures and recovery. Thus as per the given definition SELECT operation is not a transaction, but still some people refer to it as transaction but casually.
+
+Q2. What is ACID with respect to database transaction? OR What is ACID compliance? What meant by ACID compliant database?
+
+Ans. ACID stands for four interrelated terms – Atomicity, Consistency, Isolation, and Durability. These are the four most mandatory properties of a valid transaction in database of any type. Atomicity defines the smallest unit of change based on the concept of second term consistency. Consistency represents reflection of true facts in the database or acceptability of the data in real life. Isolation means that a transaction is done in an enclosed boundary so that it is not affected by any other set of changes going elsewhere in the database. So in a way it means that a transaction should behave as if it is a lone set of changes being done in the entire of database. Durability represents the perpetuity of changes, changes to be not lost by any calamity. A database which implements these four properties of the transaction is called as ACID compliant database.
+
+Q3. What is AUTOCOMMIT? How can it affect? What is the remedy?
+
+Ans. MySQL has built-in default feature of committing the changes immediately on successful execution of a DML statement, this is called as AUTOCOMMIT. I most cases although this behavior is just fine, but in certain situations this may affect adversely when actually two or more DML statements are required to complete a transaction. In such situation, we require the COMMIT to be done explicitly. Moreover, when it is required to provide the user with the right to decide whether or not the changes made should be saved, the AUTOCOMMIT feature will have to be disabled. This can be done in two ways depending upon the situation – one way is to set the system AUTOCOMMIT parameter to zero, which by default is set to 1 : SET AUTOCOMMIT=0;
+Another way is to use statement : START TRANSACTION; or BEGIN; they are synonyms, before using DML statement(s).
+
+Q4. What is the difference between SET AUTOCOMMIT=0 and START TRANSACTION statements? Compare between statements SET AUTOCOMMIT=0 and START TRANSACTION.
+
+Ans. Both the statements disable the AUTOCOMMIT. However SET AUTOCOMMIT=0 disables the AUTOCOMMIT for an entire session or until it is enabled explicitly by setting it to 1. But START TRANSACTION statement disables AUTOCOMMIT only one next single statement. After the single statement is fired and once user has decided and used either of the COMMIT or ROLLBACK command explicitly, then AUTOCOMMIT turns back on implicitly. Hence any of these two statements have to be used according to the case and application. [visit lesson – SET AUTOCOMMIT vs START TRANSACTION]
+
+Q5. If a CREATE TABLE statement immediately follows an UPDATE statement with AUTOCOMMIT in the disabled state with SET AUTOCOMMIT statement. Then what will happen to the data updated and AUTOCOMMIT setting?
+
+Ans. CREATE TABLE is a DDL category of statement and UPDATE is DML category of statement. The nature of DDL statements is such that, they are self-committing irrespective of the AUTOCOMMIT setting. And not only they commit for themselves but actually commit any and all the pending changes preceding them. Hence the changes made by the UPDATE statement will be committed implicitly. However the AUTOCOMMIT will still stay in the disabled state, since AUTOCOMMIT disabled explicitly with SET AUTOCOMMIT remains in that state until expiry of the session or until explicitly turned to enabled state. [visit lesson – AUTOCOMMIT and DDL]
+
+Q6. There are two users A & B connected to a database. Session of user A has been set to AUTOCOMMIT in disabled state while B is default. User A changes a value in a row of table T from 1000 original to 3000 new. And he is yet to use COMMIT command to save the change. Meanwhile user B targets the same table T with a SELECT statement. What value the user B will get to see for this particular row? What is this type of read operation called?
+
+Ans. The user B will get to see the original value i.e. 1000. This type of read operation is called as read consistent operation or read consistency property of the database. The value of 3000 will reflect in the session of user B only if B uses the SELECT statement after the user A has committed the change.
+
+Q7. There are two users A & B connected to a database. Sessions of both users have been set to AUTOCOMMIT in disabled state. User A changes a value in a row of table T from 1000 original to 3000 new, and he subsequently commits the change. Meanwhile user B targets the same table T with a SELECT statement. What value the user B will get to see for this particular row?
+
+Ans. The user B will see the value of 1000. And the user B will see the new value of 3000 only after he uses the commit command. Which means that when B's session is set with AUTOCOMMIT in disabled state, the consistent read operation extends in B until B also issues COMMIT, though B had not made the change. This is another aspect of consistent non-locking reads. [visit lesson – Consistent Non-locking Reads]
+
+Q8. In a multiuser environment a user wants to insert a row in a child table, but wants to ensure that the corresponding parent row exists in the parent table until his operation is complete. How can this be done?
+
+Ans. In general when a DML is targeted at any table, the operation locks the rows concerned but only until the operation is completed. This locking is just momentary in default state when session has AUTOCOMMIT is set to enabled. But in situations where the developers want the user to exercise the franchise of choosing between ROLLBACK or COMMIT after the DML operation is done, the DML statements are preceded by statements disabling the AUTOCOMMIT. So in this given scenario, if the AUTOCOMMIT is disabled then we need to ensure that rows that are undergoing a transaction or the DML operation must not either hang or the rows exist. You can explicitly issue a locking read prior to performing a DML. In the given case we can issue a SELECT statement either with FOR UPDATE NOWAIT or FOR SHARE NOWAIT clause to request for the existence of the rows and lock them if they exist until the operation is complete. So the statement will be – SELECT * FROM <parent_table> WHERE <condition> FOR UPDATE NOWAIT; and then followed by the INSERT statement on the child table. Locks are released by explicit COMMIT or ROLLBACK command to which should follow the INSERT. [visit lesson : Locking Reads]
+
+Q9. What is a SAVEPOINT? When do you like to create a SAVEPOINT?
+
+Ans. Analogically SAVEPOINT is a bookmark which you put after reading certain pages of a book to remind you of, the part before has been read. Equally same, when a transaction involves certain numbers of DML statements to be used, then at those stages SAVEPOINT are created to just mark that changes until then were done successfully and if any subsequent statement has to fail then the user has choice to rollback only until that point instead of starting all over again from the beginning. Savepoint is created with the command SAVEPOINT – SAVEPOINT a; where 'a' is the name, which can be any of your choice. If certain specific subsequent part fails and to be done again, then you can use command – ROLLBACK TO a; where 'a' is the name of the savepoint for example. Remember that SAVEPOINT command does not commit or save any changes done until then, it is only marker point. [visit lesson – SAVEPOINT creation]
+
+==================
+Interview Q&A - Scalar Functions
+Q1. What ASCII('Diana') will return? OR What the function ASCII() will return if provided with a string instead of a single character?
+
+Ans. Scalar function ASCII is used to get the ascii value of any character for example ASCII('A'). However if a bigger string is passed to this function as an argument then the function returns the ascii value of the first letter of the given string, as in the problem ascii of D, and it will simple ignore the rest of the characters. There will not be any error.
+
+Q2. What will be the output of CHAR() function if we pass an ASCII value to it? OR If ASCII value of letter A is 65 then what will be the output of CHAR(65)?
+
+Ans. CHAR() function by default returns the binary representation string and does not return the actual character equivalent to ASCII value. You need to pass character set with USING class to get back the actual character represented by ASCII value. For example, for getting A from ASCII value of 65 you will have to use CHAR(65 USING utf8) where utf8 is the name of a valid character set.
+
+Q3. Can we pass a decimal fraction as argument to CHAR() function? If 65 represents A, then what CHAR(65.8 USING utf8) will return?
+
+Ans. Yes it is possible to pass a decimal fraction as argument to CHAR() function and there will be no error. The CHAR function will round off the passed decimal fraction to the nearest integer and return the equivalent character after rounding off. So CHAR(65.8 USING utf8) expression will return B, by rounding of 65.8 to 66 which is an obvious ASCII value of B.
+
+Q4. Is there a way to find names of employees containing LL from ENAME column of EMP table other than LIKE operator?
+
+Ans. YES. You may use the INSTR() function. This function returns the index position of the given string in the data, so to list the name of employees with LL in their names, we can write a query – SELECT ename FROM emp WHERE INSTR(ename, 'LL') != 0;
+
+Q5. What will be the output of –SELECT FORMAT(12345.6789, 2), FORMAT('12345.6789', 2), FORMAT(12345.6789, 0); will be?
+
+Ans. The output respectively will be 12,345.68, 12,345.68 and 12,346. The FORMAT() function formats the numeric values in the first argument by rounding to the correct decimal places as given in second argument also by placing separators like comma at vital places to make it easily readable. The third argument which has not been used in the example is US_EN, is locale. Even if you enclose the number in quotes, which means in the string form, it implicitly converts it into a number if the string is all numeric. The 0 second argument indicate 0 decimal places to round of the integer part is rounded to nearest and produced in the output.
+
+Q6. What will be the output of this statement – SELECT SUBSTR('abcedfghijkl', -5); Is there any other method than using SUBSTR() function for it? OR I want to extract rightmost part of any string containing 5 characters, show all different methods?
+
+Ans. The output of the given statement will be 'hijkl'. You can get the same output by using RIGHT('abcdefghijkl', 5) expression. You can get the rightmost part of any given string of particular given length by using either SUBSTR function or RIGHT function. In both functions the first argument will of course be the string from which to extract the rightmost part. SUBSTR will take the second argument of position in –ve whereas RIGHT() will take the same in +ve with number of characters to extract.
+
+Q7. What is FLOOR(-6.0000001)?
+
+Ans. The output will be -7. FLOOR returns the base integer value or largest integer not greater than given argument. -7 is the largest integer less than -6.0000001, as the argument is negative. [mind that such questions are confusing, keep cool before your answer]
+
+Q8. How can you find square root of 49? And fifth root of 243? What will be square root of -49 given by MySQL?
+
+Ans. You can use SQRT() function to find the square root. SELECT SQRT(49); MySQL does not return error for –ve argument passed to SQRT() function. It returns NULL, unlike many other database which return error. The fifth root however can be found by using POW() or POWER() function since fifth root mathematically means reciprocal power for given number. So – SELECT POWER(243, 1/5); will give the fifth root of 243 as we are raising it to the power of reciprocal of 5.
+
+Q9. What will SELECT TRUNCATE(123456, -2); Result into? What will be the output if we use ROUND() instead?
+
+Ans. The output of the TRUNCATE function will be 123400 while the output of the ROUND for the same case will be 123500. The TRUNCATE function for a negative argument curtails the fractional part if present reduces the integer part to nearest 10 for -1, nearest 100 for -2, nearest 1000 for -3, and so on. The ROUND function for a negative argument also curtails the fractional part if present but round the integer part to nearest 10 for -1, nearest 100 for -2, nearest 1000 for -3, and so on.
+
+Q10. What is 5 % 0 will be? OR What will be the result of MOD(5, 0)?
+
+Ans. The output in MySQL will be NULL particularly. But in most other database systems like Oracle the output will be the number itself, for example in this case 5. The remainder will be the same name number as there is no possibility of dividing any number with zero mathematically. But MySQL will produce NULL.
+
+Q11. What will -5 % -2 result into?
+
+Ans. The result will be -1 since mod of any –ve number with respect to any other non-zero number irrespective of its sign will always be negative.
+
+Q12. What is the difference between SYSDATE(), NOW() and CURDATE() functions?
+
+Ans. All the three functions are date functions. While SYSDATE() and NOW() are synonymous and both produce date along with time drawn from the database server, the CURDATE() only shows the date and no time.
+
+Q13. What will be the output of – SELECT DATEDIFF('2021-08-10', '2021-08-15'); The date format is yyyy-mm-dd?
+
+Ans. The output will be -5 as the difference between the two dates given is 5 days and the second date is later than the first date. If the first date is higher (later), then the output is in +ve.
+
+Q14. What is the difference between CASE and IF()?
+
+Ans. While both are used for conditional flow control in SQL statement, CASE is used when we want to deal with multiple conditions with common expression or multiple different independent conditions, called as use under search condition. IF() can deal with only one condition whether it coming TRUE or FALSE. IF() is a function which takes 3 arguments – first the condition, the second argument is an expression to be returned if condition turns out to be TRUE and third argument, again an expression to be returned if condition turns out to be FALSE. [visit lessons – Control Flow CASE operator & Control Flow IF() Function]
+
+Q15. There are two tables with similar structure T1 and T2. There is a column J common to both. I want to list such rows from table T1 which do not exist in T2. How will you perform this operation? OR How to emulate MINUS operation in MySQL explain with example?
+
+Ans. Unlike many other database systems, MySQL so far does not have MINUS operator, but the same can be emulated by using LEFT JOIN operator/ clause. You know that in LEFT JOIN, there is a row from table on the side of join clause but NULL from the table on the right side of join clause. So we can write – SELECT t1.* FROM t1 LEFT JOIN t2 ON t1.j = t2.j WHERE t2.j is NULL. [visit lesson – MINUS Operator emulation]
+
+====================
+Interview Q&A - Stored Programs
+Q1. What are stored routines and their advantages and disadvantages?
+
+Ans. A stored routine in a database is a set of SQL statements that is stored in the database and when invoked perform a series of predetermined tasks. They come in two forms – Stored Procedures and Stored Functions. Apart from centralizing the storage of routine logic, the programs also help in reducing network traffic by pushing the data processing to the database end where data resides, while also adding a security layer as all the code is placed in an enclosure. The disadvantages are ignorable and they include, consumption of additional space, higher requirement of memory space for their execution, debugging and additional maintenance.
+
+Q2. What is the difference between WHILE loop and REPEAT.. UNTIL loop?
+
+Ans. Both are iterative control statements, which repeat a certain lines of code until a condition is met FALSE or TRUE. WHILE loop terminates when the given condition in WHILE turns out to be FALSE whereas REPEAT loops through the given set of statements until the condition turns out to be TRUE. WHILE loop is entered into by the program only if the condition is TRUE, whereas in case of REPEAT, because the terminating condition is specified inside the loop as an UNTIL statement, the control has to enter into the loop at least for once to find that the condition wants to terminate the iteration. So this is a bit of disadvantage. Because the WHILE loop contains the condition in the header of the loop itself, you do not need to have UNTIL statement and the code size is reduced to a minor extent in WHILE loop. [visit lessons – WHILE statement & REPEAT statement]
+
+Q3. What is a Cursor?
+
+Ans. A cursor is a declaration of SELECT statement with an identifying name in the declaration section of the stored program. It helps in row-by-row processing fetched in the result set of the SELECT statement. Cursor can be used in all types of program units – Procedure, Function or Trigger. But normally using a cursor in Function is not considered to be a good practice, hence such use is avoided. If present in the function it restricts the use of function under certain conditions.
+
+Q4. What is meant by a cursor is non-scrollable?
+
+And. A cursor is created for traversing through the result set of a SELECT statement at the rate of one row at a time. While you move through the result set, you can only move to the next row that means it is unidirectional, neither can you selectively jump to any row or skip any rows. Hence a cursor is said to be non-scrollable.
+
+Q5. What are the advantages and disadvantages of the cursor used in MySQL?
+
+Ans. MySQL uses Asensitive cursor. Which means that it points to the actual data and not a temporary copy of it. The cursor which use temporary copy of the data are called as Insensitive cursors. The advantage of Asensitive cursors used in MySQL is that, it's performance is better than insensitive cursor at it takes less resources to use actual data than temporary copy of it. However the disadvantage of the asensitive cursor is that any changes made to the data from other connections will affect the data being used by it. The remedy over this is that while using the cursor in MySQL and need is to protect the data from being modified by the other sessions, then use the locking reads by appending the clause FOR UPDATE NOWAIT to the SELECT statement in the cursor.
+
+Q6. What will happen to a cursor if not explicitly closed with CLOSE statement in the procedure, or if the CLOSE statement fails to execute?
+
+Ans. A cursor has to be closed by using an explicit CLOSE <cursor_name> statement after it has been used / processed. The closing of the cursor releases the resources & memory acquired by the cursor under process. If no CLOSE statement is used or the CLOSE statement fails to execute for bad design of the program (CLOSE statement is bypassed) then the cursor is closed as it encounters the compound END; statement of the program. However it continues to occupy the resources until then.
+
+Q7. What are the different modes of the parameters of stored programs in MySQL?
+
+Ans. There are three modes – IN, OUT and INOUT. The IN mode parameter is used to take a value to inside the program. It can be in the form of initialized variable or a hard coded value. OUT mode parameters, mostly used in procedures to take the out of the procedure if the procedure has to return values to the calling program, for procedures can not return the value through the RETURN statement. A variable declared but not initialized in the program which has call to the given procedure can only be passed to the OUT mode parameter. OUT mode parameters are usually assigned the value in the code of the procedure. INOUT is combination of the IN and OUT. It can be a initialized variable declared in the calling program and passed with that value inside the called procedure to which is assigned a new value after some due processing to be taken out of the called procedure. The IN mode is often omitted as that is the default mode. The generic pattern of parameter declaration is <parameter_name> <parameter_mode> <datatype>.
+
+Q8. What is significance of writing DELIMITER $$ statement?
+
+Ans. DELIMITER $$ statement must precede the CREATE statement from any program, procedure, function or trigger. This statement sets the delimiter to $$ from the default of semicolon. Actually instead of $$ you can use any character(s) other than semicolon. This is required because every statement in the code of the program that you write – whether any declaration, or executable statement has to terminate in semicolon. And if that is not set to different character like $$ then it will be considered as program end by the compiler and a compilation error may be thrown. So to avoid that we use this statement and then the compounding statement END has to be followed by $$ which the compiler interprets as end of the program. After the END $$ statement we reset the delimiter back to semicolon by using DELIMITER ; statement.
+
+Q9. What is an important rule for declaration of a cursor?
+
+Ans. The rule for declaration of the cursor is that, it must be declared at the bottom of declarations, that means, after declaration of everything else we can declare the cursors, otherwise there will be compilation error.
+
+Q10. What is meant by DEFINER and INVOKER? OR A procedure P has been created by a user U1 which fetches the data from a table T. User U1 grants execute permission on procedure P to user U2. However when U2 calls the procedure P, he gets an error message with access denied to T. How come?
+
+Ans. Actually MySQL Stored Routines (procedures, functions, views, triggers & events) add a security layer to the data accessed through the stored routines. The term DEFINER indicates who the creator of the stored routine is or owner of the stored routine. INVOKER indicates the current user who is executing / calling the stored routine. If DEFINER and SQL SECURITY attributes are not defined in the stored routine, then both defaults to user who created it, for example a user U1 created the procedure then U1 is definer and invoker too by default. Hence even if a user U2 has been granted permission to execute the program, it will still execute under the privilege of the user U1. But if SQL SECURITY attribute has been specified as INVOKER then it will execute under the privilege of user U2 (or who-so-ever calls it) if he calls it, despite the DEFINER is U1. In the case given when U1 executes he is the DEFINER as well as INVOKER and has privilege on table T so it executes smoothly. But when U2 executes, then U2 may not be having privilege on T and so there is error as the INVOKER in that case becomes U2. This aspect of security with regards to stores routines is important while designing an application.
+=============
+Interview Q&A - Error Handling
+Q1. What are EXIT and CONTINUE options in error handling?
+
+Ans. You can specify two actions in an exception handler namely – EXIT or CONTINUE. Whereas the EXIT option allows you to quit the current block instantly as the error is encountered, the CONTINUE option allows to keep on executing the block from the next statement onwards after skipping the exception causing line in the program until the END of the block is encountered. The EXIT should be used in case if you think the program continuation in certain error situations is not in good interest of the application, whereas use the CONTINUE option if the operation of the error causing statement may be ignored in the entire execution of the block, while skipping the error causing step.
+
+Q2. How would you handle the exception for a particular error? Give an example.
+
+Ans. Any particular error can be handled by using an error code. For example an error code for Primary Key violation for duplication of value is 1062 so you can write a handle like -
+DECLARE EXIT HANDLER FOR 1062
+SELECT 'Duplicate xxxxx id ' AS message;
+
+Q3. Explain what is SQLSTATE? How will you handle a general user-defined error? OR identify the general user-defined error SQLSTATE?
+
+Ans. SQLSTATE is a 5 character code which identifies SQL error conditions. It may contain numbers or upper case ASCII characters. The first two characters indicate class of error and later three indicate subclass. Accordingly there can be four main classes – 00 indicate success, 01 indicates warnings class, 02 indicate Not Found class and all the other are exceptions. 000 in subclass part indicate no subclass. If not 000 then it indicates either particular error condition or group of error conditions. SQLSTATE 45000 is used for handling the general user-defined error condition.
+
+Q4. What is SQLWARNING, SQLEXCEPTION and NOT FOUND?
+
+Ans. SQLWARNING is a generic class under SQLSTATE codes beginning with 01 which cater to warnings or non-fatal errors. Similarly SQLEXCEPTION is generic class under SQLSTATE codes that may begin with anything but other than 00 or 01 or 02 and represent an exception or system / user defined error. NOT FOUND is generic class under SQLSTATE codes that begin with 02. This is relevant in context of cursors and may be used to control what happens when a cursor reaches to the end of result set. If no more rows are available then No Data condition occurs with SQLSTATE value of '02000', so you can use NOT FOUND to declare handler for such condition.
+
+Q5. How can the errors be handled with names rather than error numbers? OR How can you declare names for MySQL error numbers? OR What DECLARE … CONDITION FOR statement is used for?
+
+Ans. Just like we can declare handlers in MySQL programs with the help of specific error codes or SQLSTATE [value], it is possible to use names instead. However these names will have to declared prior to those statements using DECLARE … CONDITION FOR statements. This facility of naming makes the error handling convenient by providing easy to remember relevant names. For example error code 1062 represents an error for duplication of primary key value. The same can be conveniently named as pk_duplicate by using following statement -
+DECLARE pk_duplicate CONDITION FOR 1062;
+
+Now for declaring the handler we can use -
+DECLARE EXIT HANDLER FOR pk_duplicate
+SELECT 'Duplicate **** id ' AS message;
+
+It is also possible to declare such names for SQLSTATE [code] -
+DECLARE pk_duplicate CONDITION FOR SQLSTATE '23000';
+
+Q6. How can you deliberately terminate a program with an error? OR How do you cause a program to return an error? OR If some undesired or unpleasant value has been fed to the program by the user and we do not want to process that value, how do you do it?
+
+Ans. SIGNAL statement can be used to raise an error in a program from anywhere. Not only SIGNAL statement can raise an error but also it can provide error information to a handler, to an outer portion of the application, or to the client. SIGNAL statement at its simplest can be – SIGNAL <condition_value> in which the condition_value can be SQLSTATE value or named error that you must have declared before using it here with the statement DECLARE … CONDITION FOR SQLSTATE <5 char value>. You can use an error number, either in the SIGNAL statement or while declaring a name for an error condition. It must be done with SQLSTATE only. If we want to continue the execution after the SIGNAL statement is encountered, then just use SQLSTATE 01000 which is for warning and not an exception condition.
+
+Q7. What is the difference between RESIGNAL and SIGNAL?
+
+Ans. The important difference between RESIGNAL and SIGNAL is that unlike SIGNAL , which can be invoked from anywhere in the stored program, RESIGNAL has to be defined within DECLARE … HANDLER FOR statement. The handler may be declared for EXIT or CONTINUE action as usual. But the handler must be declared with SQLSTATE or named error condition only, and not with error code. Unlike SIGNAL the RESIGNAL does not originate an error condition, but only relays existing error condition information. So if the error in the handler has to be raised explicitly then it must be still done with the SIGNAL statement only.
+
+==============
+Interview Q&A - Stored Functions & Views
+Q1. What is a stored function in MySQL? OR What is special thing about store function as compared to other stored programs? OR What makes a stored function different from any other stored program?
+
+Ans. A stored function is a kind of stored routine (program), but with the compulsion that it must return only a single value through the RETURN statement. So presence of RETURN statement associated with an expression (Examples – RETURN 5; RETURN x; RETURN x + y;) to return, is the specialty of stored function. Other programs may also have RETURN statement (Example – RETURN;), but without an associated expression, just to end the execution of the program, but not to return value through it. Function may have multiple RETURN statements, only one of which must execute.
+
+Q2. What are important properties of Stored Function?
+
+Ans. 1. Stored Function must return a single value
+
+2. It must return the value through RETURN statement
+
+3. All the parameters default to IN mode – Not allowed to specify mode of parameter
+
+4. You must specify the datatype of the returned value in the header of the function def.
+
+5. A function may be declared as DETERMINISTIC or NOT DETERMINISTIC, the latter is default, which means that function may produce different output for same input. RAND() function is NOT DETERMINISTIC.
+
+6. Stored functions may be called in SQL statement if they do not contain SQL statements
+
+7. Functions are not called explicitly with CALL statement, but they are called as part of expression only or in SQL.
+
+Q3. I want to write two programs – (1) Program to increase the salary of employees by given amount for given department and the program should return the additional financial burden falling on the company as a result of this salary hike. (2) Program to return the earning of employees by adding salary of employees to the commission for those who are eligible for it and an allowance at the rate of 50% of salary. Which type of programs to be written for these two given situations? Justify the answers.
+
+Ans. In both the situations there are only one value to be returned from the program. But in case 1 the salary is required to be hiked and so it will have to have an UPDATE statement. As such the procedure will be the answer to tackle this situation. In case 2, we do not require any cursor to be used as salary and commission of employees can be passed to the program as arguments through the column of the table only. Rest is only the formula to calculate the earnings of the employees and only one value per row of the table to be returned and so function will be the best for this case. In general the choice of procedure and function should be based on following points –
+
+1. If the routine is to return multiple values then prefer to write a procedure
+
+2. If the routine is to use a cursor or SQL statement then write a procedure irrespective of number of values to be returned
+
+3. If the routine is to return single value and not contain a cursor or SQL statement then write a function. [visit lesson – Stored Procedure vs Stored Function]
+
+Q4. What are restrictions that should be followed while writing a function so that it can be used in SQL statement?
+
+Ans. If an function is supposed to be used in SQL statement then it must not contain a cursor or any SQL statement. Presence of cursor or an SQL statement in the function restricts its use in SQL statement. While presence of cursor or an SQL statement is not illegal in function, it presence restricts the use of function to be used only in the expression, for example SET y = F(x); where F is some function.
+
+Q5. What is the difference between stored function and stored procedure with respect to calling them?
+
+Ans. A stored function cannot be called with a CALL statement, whereas the procedure can only be called with a CALL statement. A stored function, with some reservations if it does not contain a cursor or SQL statement, can be called in SQL statement, as well as part of expression for example – SET y = F(x); A procedure can never be called in SQL or as part of expression and to be invoked only with CALL statement.
+
+Q6. What is a View?
+
+Ans. View is a SELECT statement stored in the database with a given name. When the name of the View is invoked, then the associated SELECT statement executes and generates a result set to be used as a table. View has following characteristics –
+
+1. View is just a definition – a reference name which can invoke an underlying SELECT statement
+
+2. View does not store any copy of data and so it does not consume any space – the data still remains stored in the table(s) over which the View is created
+
+3. View serves as virtual table – It can be directly referenced in SQL statement or anywhere a normal table name should go.
+
+Q7. Why do we need to create views when it does not store any data? OR What are the advantages of creating view?
+
+Ans. There are certain advantages of creating and using the views –
+
+1. Manage Complexity : If a very complex query is required to be used at multiple places in the application, then we simply can create a View with that query as part of its definition and the simply invoke the view. Thus complex query will be required to be written only for once
+
+2. Reusability: A complex logic in the form of a query will be required to be stored in the form of a View only for once and then can be referenced at several places in the application
+
+3. Security: A View masks the table and as such table, that means, the actual source of data remains hidden. Also since View is a SELECT statement, we can include only such columns in the projection and a condition in the WHERE clause of the statement the data of which should be visible to the user in the present context
+
+4. Backward Compatibility: Use of View allows easy modification to the underlying table(s), for example partitioning as the data grows as applications continue to refer to the View and hence are not required to be modified in most cases.
+
+Q8. What is a Dynamic View? OR If I have query on EMP table which fetches the hire date and salary of employee given the name (assuming name is unique) to be made part a View, but with facility for user to input the name, how can it be done?
+
+Ans. Dynamic View is a View which allows the user to provide a value dynamically at the time of invoking the View so that it can produce the result set in the present context decided by the user. It is not directly possible to create such a view, but the trick is to create function which returns a bind variable initialized outside. The function is placed at the place in the SELECT statement of the View where that value is required to be substituted. We create view – CREATE VIEW empinfo AS SELECT hiredate, salary FROM emp WHERE name = f(); which the f() is the function that returns the bind variable to be returned by the function. [visit lesson – Creating Dynamic View for an example]
+
+Q9. If I want to have a static list of 8-10 items, do I need to create a table for that? OR How to create a small & static list of items in the database to be used as drop down list in front end?
+
+Ans. A small static list of items can be created by using a view rather than creating a table. A View is advantageous over the table because a table occupies some minimum space and in any case for a small list it will occupy more space than a definition of a View will do. You can write several SELECT statements with item names with UNION clause between them. Thus you create a view without actually referencing a physical table. This View can be there as source behind drop down list to be used in the front end. [visit lesson – View Without Table]
+
+Q10. In a company database there is a table which maintains data about employees which has a column of salary. There are 3 levels of management who can update this salary column and the range to which they can update are different for example – M1 has range from 1000 – 3000, M2 has range from 3001 – 5000 and M3 has range from 5001 – 10000. How can you restrict these three levels of management to updating the salary in their respective range only? OR Explain use of WITH CHECK OPTION clause with an example.
+
+Ans. The problem can be easily solved with creating 3 Views by using different ranges as criteria and allowing the three managers to make update or insert through them respectively according to their financial capacity. For example we can create a VIEW for M1 as – CREATE VIEW M1VIEW AS SELECT * FROM employees WHERE salary BETWEEN 1000 AND 3000 WITH CHECK OPTION; now you can create similar views for M2 and M3 with respective ranges for M2 and M3 and grant privileges respectively.
+
+Q11. How can you make a View READ ONLY in MySQL? OR How can you stop a View from allowing DML operation through it for all users?
+
+Ans. MySQL does not support an explicit WITH READ ONLY clause as available with other databases like Oracle. But there is a work around this problem. You may have a user account created just for the purpose of creating the View. That user should have only SELECT privilege on the underlying table and CREATE VIEW privilege and either the user should create that view with SQL SECURITY set to DEFINER or an Admin should create the VIEW with DEFINE = <that_limited_user> with SQL SECURITY set to DEFINER. So that View thus becomes READ ONLY indirectly when any user invokes the View – for example : CREATE DEFINER = <limited_access_user> SQL SECURITY DEFINER VIEW AS <your_select_statement_should_go_here>;
