@@ -1,2 +1,5 @@
 1. D:\1. Study Materials\14. Downloaded\Mastering 4 critical SKILLS using Python
 2. 200+ Exercises - Programming in Python - from A to Z (https://www.udemy.com/course/200-exercises-programming-in-python-from-a-to-z/learn/quiz/4883530#overview)
+
+3. 100+ Exercises - Advanced Python Programming - https://www.udemy.com/course/advanced-exercises-python-programming/learn/lecture/26226990#overview
+
