@@ -1,0 +1,6 @@
+Employee_Data
+"firstname,lastname,gender,salary,flag"
+"James,Smith,M,30,true"
+"Anna,Rose,F,41,true"
+"Robert,Williams,M,62,true"
+Employee_Data_Trailer
