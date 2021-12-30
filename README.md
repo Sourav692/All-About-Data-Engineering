@@ -11,12 +11,15 @@ Below are the Data Engineering tools that would be covered as part of this repo:
 | Impala                      | To Do          |
 | Sqoop                       | To Do          |
 | Oozie                       | To Do          |
+| Core Python                 | In Progress    |
+| Core Scala                  | To Do          |
 | Spark-Scala                 | To Do          |
 | Pyspark                     | In Progress    |
 | Spark Streaming with Python | In Progress    |
 | Spark Streaming with Scala  | To Do          |
 | MySQL                       | In Progress    |
 | Airflow                     | To Do          |
+| Snowflake                   | To Do          |
 | MongoDB                     | To Do          |
 | Cassandra                   | To Do          |
 | Apache Beam                 | To Do          |
