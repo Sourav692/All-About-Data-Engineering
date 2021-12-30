@@ -1,6 +1,4 @@
-All About Data Engineering
-
-This repo consist of below menioned modules:
+# All About Data Engineering
 
 This is like a continuous repo where I will add details related to different most used Data Engineering Tools. The repo consist of all the study topics I have completed  and also different usecases I have faced/done in my tenure as big data engineering till now.
 
