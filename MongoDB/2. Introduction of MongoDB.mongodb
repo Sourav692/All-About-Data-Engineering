@@ -1,0 +1,81 @@
+// Show All Database
+
+show databases
+
+// Show Current Database
+db
+
+// Create or Switch Database
+
+use('bookdb');
+db.books.drop();
+
+/*
+Create
+To add a document to a collection, you use the insertOne() method of the collection.
+
+The following command adds a new document (or a new book) to the books collection:
+*/
+
+db.books.insertOne({
+   title: "MongoDB Tutorial",
+   published_year: 2020
+});
+
+/*
+If the command is valid, MongoDB will insert the document and return the result. In this case, it returns an object that has two keys acknowledged and insertedId.
+
+The value of the insertedId is the value of the _id field in the document.
+
+When you add a document to a collection without specifying the _id field, MongoDB automatically assigns a unique ObjectId value to the _id field and add it to the document.
+
+MongoDB uses the _id field to uniquely identify the document in the collection.
+*/
+
+// TO Select one document
+
+db.books.findOne({});
+
+db.books.find().pretty()
+
+// Update
+// To update a single document, you use the updateOne() method.
+
+// The updateOne() method takes at least two arguments:
+
+// The first argument identifies the document to update.
+// The second argument represents the updates that you want to make.
+// The following shows how to update the published_year of the document whose title is "MongoDB Tutorial":
+
+db.books.update({title: "MongoDB Tutorial"},{$set:{published_year: 2021}})
+
+db.books.find().pretty()
+
+db.books.update({title: "MongoDB Tutorial"},{$set:{published_year: 2019}})
+
+db.books.find().pretty()
+
+/*
+How it works.
+
+The first argument identifies which document to update. In this case, it will update the first document that has the title "MongoDB tutorial":
+
+{title: "MongoDB Tutorial"}
+
+The second argument is an object that specifies which fields in the document to update:
+{
+    $set: {
+        published_year: 2019
+    }
+}
+
+*/
+
+// Delete
+// To delete a document from a collection, you use the deleteOne() method. The deleteOne() method takes one argument that identifies the document that you want to delete.
+
+// The following example uses the deleteOne() method to delete a document in the books collection:
+
+db.books.deleteOne({title: "MongoDB Tutorial"});
+
+db.books.find().pretty();
