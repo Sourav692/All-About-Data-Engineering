@@ -4,8 +4,14 @@
 */
 
 /*markdown
-![picture 3](../../images/9b9ed615d29d1a38e756988be3773c515bc2af87333797aa8c98bdae6600a696.png)  
+!
 
+
+
+/*markdown
+
+[picture 3](../../images/9b9ed615d29d1a38e756988be3773c515bc2af87333797aa8c98bdae6600a696.png)  
+*/
 
 */
 
@@ -33,8 +39,10 @@ SELECT *  FROM customers where salesRepEmployeeNumber = 1002
 SELECT *  FROM customers where salesRepEmployeeNumber = 1166
 
 
+
 /*markdown
 ### 2) Using MySQL RIGHT JOIN to find unmatching rows
+
 
 */
 

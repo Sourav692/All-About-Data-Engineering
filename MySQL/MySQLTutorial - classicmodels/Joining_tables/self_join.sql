@@ -1,1 +1,1 @@
-https://www.mysqltutorial.org/mysql-self-join/
+-- https://www.mysqltutorial.org/mysql-self-join/
