@@ -1,5 +1,7 @@
 use classicmodels;
 
+
+
 CREATE TABLE tbl_Emp(Empid int NULL,EmpName varchar(250) NULL, Gender varchar(20), EmpAddress varchar(500) NULL,City varchar(250) NULL,Salary int NULL, Fk_DepId int);  
 
 CREATE TABLE tbl_Department(Depid int NULL,DepName varchar (250) NULL); 

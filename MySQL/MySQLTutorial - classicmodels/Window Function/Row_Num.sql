@@ -5,7 +5,7 @@ SELECT * FROM products;
 
 -- The PARTITION BY clause is optional. If you omit it, the entire result set is considered a partition. However, when you use the PARTITION BY clause, each partition can be also considered as a window. 
 SELECT 
-	row_number() OVER(
+	RANK() OVER(
 		ORDER BY productLine ) row_num,
 	productLine,
     msrp
@@ -18,7 +18,7 @@ order by
 SELECT 
 	productName,
     productLine,
-	row_number() OVER(
+	RANK() OVER(
 		  PARTITION BY productLine ORDER BY productName) row_num,	
     msrp
 FROM
