@@ -1,0 +1,3 @@
+1. https://github.com/wzpan/Learn-Python-The-Hard-Way
+2. https://github.com/bitsai/book-exercises/tree/master/Learn%20Python%20the%20Hard%20Way
+3. https://github.com/jsquared21/Learn-Python-The-Hard-Way

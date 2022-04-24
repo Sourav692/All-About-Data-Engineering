@@ -1,0 +1,504 @@
+============================================================17th February - 18th February=====================================================================
+GeekforGeeks:
+***************
+Functions:          
+----------
+Function Decorators  
+Python closures
+Coroutine
+Write an empty function in Python – pass statement  
+Yield instead of Return  
+Return Multiple Values   
+Precision Handling       
+*args and **kwargs      
+
+Modules in Python:   
+------------------
+Introduction of Modules
+Numeric Functions
+Logarithmic and Power Functions
+Trigonometric and Angular Functions
+Special Functions and Constants
+Inplace Operators – Set 1 Set 2
+Calendar Functions – Set 1 Set 2
+Complex Numbers – Introduction
+Complex Numbers -Important Functions and Constants
+Trigonometric and Hyperbolic Functions
+Time Functions in Python – Set 1, Set-2
+Random Numbers
+reduce() function
+struct() module
+pprint
+eval()
+fraction()
+Pyautogui – Mouse Keyboard Automation
+
+Control Flow:
+--------------
+Loops and Control Statements (continue, break and pass)
+Iterations
+Initialization and Updation of Counters
+Accessing Counters
+Iterators
+Iterator Functins – Set 1, Set 2
+Generators
+Looping using Data Structures
+Printing Pyramid shapes
+range() vs xrange()
+
+https://www.python-course.eu
+*********************************
+
+Functions
+Recursion and Recursive Functions
+Parameter Passing in Functions
+Namespaces
+Global and Local Variables
+Decorators
+Memoization with Decorators
+Lambda Operator, Filter, Reduce and Map
+List Comprehension
+Iterators and Generators
+
+------------------------------
+Modular Programming and Modules
+Packages in Python
+
+============================================================19th February - 21st February=====================================================================
+
+GeekforGeeks:
+*********************************
+
+Data Types:      
+-----------
+Introduction – Data Types – List, Tuples and Iterations
+Strings
+Strings – Set 1, Set 2
+String Methods – Set 1 , Set 2 , Set 3
+Logical Operators on String
+Split a string
+String Formatting using %
+String Template Class
+Python Docstrings
+List
+Comprehension and slicing
+List Methods in Python – Set 1 Set 2 Set 3
+Tuples
+Tuples
+Set
+Sets
+Arrays
+Array in Python – Set 1, Set 2
+Dictionary
+Dictionary Methods – Set 1, Set 2
+Get() method for dictionaries
+Handling missing keys of dictionary
+Chainmap
+orderDict()
+
+https://www.python-course.eu
+*********************************
+
+Data Types and Variables
+Operators
+Sequential Data Types: Lists and Strings
+List Manipulations
+Shallow and Deep Copy
+Dictionaries
+Sets and Frozen Sets
+ 19 - 21Feb
+Data Types and Variables
+input via the keyboard
+Conditional Statements
+Loops, while Loop
+For Loops
+Output with Print
+Formatted output with string modulo and the format method
+
+
+============================================================22nd February===============================================================================
+GeekforGeeks:
+*********************************
+Exception Handling:  
+-------------------------	
+Exception Handling in Python
+User Defined Exceptions
+Built-in Exceptions	
+Regular Expressions | Set 1 (Search, Match and Find All)
+
+Basics:
+-------
+Introduction and Writing first code
+An Informal Introduction – Python Blog
+Python 2.x vs Python 3.x
+Keywords in Python – Introduction, Set 1, Set 2	
+
+
+https://www.python-course.eu
+*********************************
+Exception Handling
+
+============================================================23rd February- 24th February===================================================================
+
+GeekforGeeks:
+*********************************
+Libraries and Functions: 
+-----------------------------
+Timit function
+Numpy- Set 1 , Set 2
+Get and Post
+Regular Expressions – Set 1, Set 2
+OS module
+Copy module – Deep vs Shallow copy
+Import module
+Reload module
+Collection module
+DeQue
+NamedTuple
+Heap
+Enum module
+Statistical Functions – Set 1, Set 2
+Bisect module
+Decimal Functions – Set 1, Set 2
+NetworkX
+getpass() and getuser()
+Reading and Generating QR codes
+fnmatch
+Unicodedata – Unicode Database
+Textwrap – Text wrapping and filling
+Generating Secure random numbers
+pickle — Python object serialization
+Understanding Python Pickling with example
+copyreg — Register pickle support functions
+Python GUI – tkinter
+
+
+https://www.python-course.eu
+*********************************
+Regular Expressions
+Regular Expressions, Advanced
+
+---------------------------------
+Read and Write Files
+
+
+============================================================25th February-26th Feb===================================================================
+GeekforGeeks:
+*********************************
+Object Oriented Concepts and Class and object:
+----------------------------------------------	
+Object Oriented Programming – Set 1
+Set 2 – Data Hiding and Object Printing
+Set 3 – Inheritance,object,issubclass and super
+Class or Static Variable
+class vs static method
+Changing Class Members
+First Class functions	
+
+Variables:    
+----------
+Variables, Expressions & Functions
+Maximum possible value of an integer
+Transpose a matrix in Single line
+Global and Local Variables
+Partial Functions
+Packing and Unpacking Arguments
+end parameter
+Type Conversion
+Byte objects vs Strings
+
+
+https://www.python-course.eu
+*********************************
+Tests, DocTests, UnitTests
+Object Oriented Programming
+Class and Instance Attributes
+Properties vs. getters and setters
+Inheritance
+Multiple Inheritance
+Magic Methods and Operator Overloading
+OOP, Inheritance Example
+Slots
+Classes and Class Creation
+Road to Metaclasses
+Metaclasses
+Metaclass Use Case: Count Function Calls
+Abstract Classes
+
+============================================================17th MARCH-24th March===================================================================
+
+Revision
+
+
+============================================================25th March-30th March===================================================================
+
+
+MISC:  
+--------
+Input multiple values from user in one line
+Command Line and Variable Arguments
+Truncate()
+Print single and multiple variables
+10 interesting facts about Python
+Generate all permutations of a list
+Swap two variables in one line
+str() vs repr()
+Command Line Interface Programming
+Check if a valid keyword of Python
+sep parameter in print
+json format
+Quine
+First non-repeating character from a stream of characters
+Permutation and Combination
+end parameter in print()
+Python Input Methods for Competitive Programming
+Amazing hacks of Python
+Short Circuiting Techniques
+Formatted text in Linux Terminal
+Optimization Tips for Python Code
+Understanding Code Reuse and Modularity
+Difference between various Implementations of Python
+NZEC error
+Program to calculate the Round Trip Time (RTT)
+Quickly convert Decimal to other bases
+Reading and Writing to text files
+Using else conditional statement with for loop
+SQL using Python
+MongoDB and Python
+Defining Clean Up Actions
+Metaprogramming with Metaclasses
+Python Virtual Environment
+Program to check if a string is palindrome or not
+Vulnerability in input() function – Python 2.x
+File objects
+XML Parsing			   
+
+**********************************************************************************************************************************************************
+**********************************************************************************************************************************************************
+                                            LEARN PYTHON IN 30 DAYS
+
+Day 1:
+----------
+Installing Python
+Open interactive interpreter
+Print Hello World using interpreter.
+learn about print() function (standard output)
+help() built-in
+
+
+Day 2–3: (using interactive interpreter)
+----------------------------------------
+Data types
+Variables
+type() built-in
+Convert numeric types
+int()
+float()
+Arithmetic operators
+
+
+Day 4: (using interactive interpreter)
+--------------------------------------
+Python strings
+String indexing
+String slicing
+built-ins
+len()
+str()
+
+Day 5:
+-----------
+About python script(.py) files
+Running Python scripts
+Hello World using python script
+
+
+Day 6–8: (using interactive interpreter)
+----------------------------------------
+Python data structures
+List
+Tuple
+Set
+Mutable and Immutable objects
+Dictionary
+
+
+Day 9–10: (using interactive interpreter)
+------------------------------------------
+List indexing and slicing
+More built-ins
+list()
+tuple()
+set()
+key()
+value()
+split() function
+join() function
+
+
+Day 11–12:
+-------------
+Boolean types
+Logical operations
+in
+and
+or
+not
+Control flow
+if
+else
+elif
+input() function (standard input)
+
+
+Day 13:
+--------------
+Python loops
+range() built-in
+
+
+Day 14:
+-----------
+More about built-ins - 2. Built-in Functions
+
+Day 15:
+----------
+About Python Package Index(PyPI)
+Installing additional package for Python. (python setup_py install)
+pip
+easy_install
+
+
+Day 16–17:
+--------------
+File manipulation
+open() function
+with statement
+Day 18:
+--------
+Exception Handling
+Day 19–20:
+---------
+Functions in Python
+def, return, function arguments in Python
+global keyword
+variable scope
+
+Day 21:
+-------
+About import statement
+Namespaces
+Using Python modules in other Python Script file
+Command line arguments using sys.argv (import sys)
+
+
+Day 22:
+----------
+List comprehension
+Tuple comprehension
+Generators
+yield modifier
+Ternary operators
+
+
+Day 23–26:
+-------------
+OOP concepts
+class
+Instance creation
+self
+__init__()
+__name__ == ‘__main__’
+
+Day 27: math and cmath module
+-------------------------------
+Day 28: os and sys module
+-------------------------------
+Day 29: threading and subprocess module
+----------------------------------------
+Day 30: Practice example programs
+
+**********************************************************************************************************************************************************
+**********************************************************************************************************************************************************
+Material to Learn Python:
+=========================
+http://www.diveintopython.net/toc/index.html  ******************
+hackerrank   ********************
+Complete Python Bootcamp Go from zero to hero in Python   *******************
+GeeksforGeeks: http://www.geeksforgeeks.org/python/   *******************
+https://docs.python.org/3/tutorial/index.html
+Books:
+------
+Python For Data Analysis: 
+Learn Python the Hard Way:
+Introduction To Computation And Programming Using Python
+Programming in Python 3
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+After all this Learn below Lib or Tools:
+1. Django - 1st Apr - 10th Apr
+2. Numpy - 10th Apr - 20th Apr
+3. Panda - 20th Apr- 30st Apr
+4. Scipy - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+	
+
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

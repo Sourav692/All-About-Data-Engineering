@@ -1,0 +1,228 @@
+***************************************************************Python Introduction******************************************************************
+
+1. Python Statement, Indentation and Comments:
+==================================================
+
+Multi-line comments:
+---------------------
+
+One way is by giving Hash function in each line.
+
+#This is a long comment
+#and it extends
+#to multiple lines
+
+Another way of doing this is to use triple quotes, either ''' or """.
+
+"""This is also a
+perfect example of
+multi-line comments"""
+
+Docstring in Python:
+---------------------
+It is a string that occurs as the first statement in a module, function, class, or method definition. We must write what a function/class does in the docstring.
+
+def double(num):
+    """Function to double the value"""
+    return 2*num
+
+2. Python Data Types:
+=======================
+
+There are several python datatypes are as below-
+1. Numbers
+2. List
+3. Tuple
+4. String
+5. Dictionary
+6. Set
+7. Conversion between data types
+
+Numbers:
+---------
+They are defined as int, float and complex class in Python.We can use the type() function to know which class a variable or a value belongs to and the isinstance() function to check if an object belongs to a particular class.
+
+Example-
+
+a = 5
+print(a, "is of type", type(a))
+a = 2.0
+print(a, "is of type", type(a))
+a = 1+2j
+print(a, "is complex number?", isinstance(1+2j,complex))
+
+Python List:
+-------------
+
+It is Mutable.It is one of the most used datatype in Python and is very flexible.All the items in a list do not need to be of the same type.
+
+a = [1, 2.2, 'python']
+
+a = [5,10,15,20,25,30,35,40]
+# a[2] = 15
+print("a[2] = ", a[2])
+a[2] =  15
+# a[0:3] = [5, 10, 15]
+print("a[0:3] = ", a[0:3])
+a[0:3] =  [5, 10, 15]
+# a[5:] = [30, 35, 40]
+print("a[5:] = ", a[5:])
+a[5:] =  [30, 35, 40]
+
+Python Tuple:
+--------------
+It is same as of List. Only difference is it is immutable.Tuples are used to write-protect data and are usually faster than list as it cannot change dynamically.
+
+t = (5,'program', 1+3j)
+
+The following statement will generate a error. As tuple are immutable.
+
+# Generates error
+# Tuples are immutable
+t[0] = 10
+
+Python Strings:
+----------------
+String is sequence of Unicode characters. We can use single quotes or double quotes to represent strings. Multi-line strings can be denoted using triple quotes, ''' or """.
+
+>>> s = "This is a string"
+>>> s = '''a multiline
+
+Python Set:
+------------
+Set is an unordered collection of unique items. Set is defined by values separated by comma inside braces { }. Items in a set are not ordered.
+
+a = {5,2,3,1,4}
+
+# printing set variable
+print("a = ", a)
+a =  {1, 2, 3, 4, 5}
+# data type of variable a
+print(type(a))
+<class 'set'>
+
+We can perform set operations like union, intersection on two sets. Set have unique values. They eliminate duplicates.
+
+>>> a = {1,2,2,3,3,3}
+>>> a
+{1, 2, 3}
+
+Since, set are unordered collection, indexing has no meaning. Hence the slicing operator [] does not work.
+>>> a = {1,2,3}
+>>> a[1]
+Traceback (most recent call last):
+  File "<string>", line 301, in runcode
+  File "<interactive input>", line 1, in <module>
+TypeError: 'set' object does not support indexing
+
+Python Dictionary:
+------------------
+Dictionary is an unordered collection of key-value pairs.
+It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
+In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.
+
+>>> d = {1:'value','key':2}
+>>> type(d)
+<class 'dict'>
+
+We use key to retrieve the respective value. But not the other way around.
+d = {1:'value','key':2}
+print(type(d))
+
+print("d[1] = ", d[1]);
+
+print("d['key'] = ", d['key']);
+
+# Generates error
+print("d[2] = ", d[2]);
+
+Conversion between data types:
+-------------------------------
+We can even convert one sequence to another.
+>>> set([1,2,3])
+{1, 2, 3}
+>>> tuple({5,6,7})
+(5, 6, 7)
+>>> list('hello')
+['h', 'e', 'l', 'l', 'o']
+
+To convert to dictionary, each element must be a pair-
+>>> dict([[1,2],[3,4]])
+{1: 2, 3: 4}
+>>> dict([(3,26),(4,44)])
+{3: 26, 4: 44}
+
+
+3. Python Input, Output and Import:
+====================================
+print:
+--------
+The general syntex for print is-
+
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+
+Here, objects is the value(s) to be printed.
+The sep separator is used between the values. It defaults into a space character.
+After all values are printed, end is printed. It defaults into a new line.
+The file is the object where the values are printed and its default value is sys.stdout (screen). Here are an example to illustrate this.
+
+print(1,2,3,4)
+# Output: 1 2 3 4
+
+print(1,2,3,4,sep='*')
+# Output: 1*2*3*4
+
+print(1,2,3,4,sep='#',end='&')
+# Output: 1#2#3#4&
+
+Output formatting:
+------------------
+Sometimes we would like to format our output to make it look attractive. This can be done by using the str.format() method. This method is visible to any string object.
+
+>>> x = 5; y = 10
+>>> print('The value of x is {} and y is {}'.format(x,y))
+The value of x is 5 and y is 10
+
+Here the curly braces {} are used as placeholders. We can specify the order in which it is printed by using numbers (tuple index).
+
+print('I love {0} and {1}'.format('bread','butter'))
+# Output: I love bread and butter
+
+print('I love {1} and {0}'.format('bread','butter'))
+# Output: I love butter and bread
+
+We can even use keyword arguments to format the string.
+
+>> print('Hello {name},{greetings}.format(greeting = 'GoodMorning',name = 'John')
+# Output: Hello John, Goodmorning
+
+>While importing a module, Python looks at several places defined in sys.path. It is a list of directory locations.
+
+>>> import sys
+>>> sys.path
+['', 
+ 'C:\\Python33\\Lib\\idlelib', 
+ 'C:\\Windows\\system32\\python33.zip', 
+ 'C:\\Python33\\DLLs', 
+ 'C:\\Python33\\lib', 
+ 'C:\\Python33', 
+ 'C:\\Python33\\lib\\site-packages']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
